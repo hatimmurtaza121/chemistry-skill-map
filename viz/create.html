@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Skill Map</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --panel: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+      --ok: #3fb950;
+      --err: #f85149;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    header {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.1rem; }
+    .back-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.85rem;
+    }
+    .back-link:hover { text-decoration: underline; }
+    main {
+      max-width: 560px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 2rem;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+    }
+    .card p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+    label {
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0.85rem 0 0.35rem;
+    }
+    label .opt {
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 0.5rem 0.65rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 0.88rem;
+    }
+    input[type="file"] { padding: 0.4rem; }
+    textarea { min-height: 72px; resize: vertical; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+    .or-divider {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin: 1rem 0 0.25rem;
+      color: var(--muted);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .or-divider::before,
+    .or-divider::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+    details {
+      margin-top: 1rem;
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+    }
+    details summary {
+      font-size: 0.78rem;
+      color: var(--muted);
+      cursor: pointer;
+      user-select: none;
+    }
+    button {
+      margin-top: 1.25rem;
+      width: 100%;
+      padding: 0.65rem 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--accent);
+      background: rgba(88,166,255,0.12);
+      color: var(--text);
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button:hover:not(:disabled) { background: rgba(88,166,255,0.22); }
+    button:disabled { opacity: 0.5; cursor: wait; }
+    .status {
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      line-height: 1.45;
+      min-height: 1.2rem;
+    }
+    .status.ok { color: var(--ok); }
+    .status.err { color: var(--err); }
+    .static-notice {
+      font-size: 0.85rem;
+      color: var(--muted);
+      background: rgba(248, 81, 73, 0.08);
+      border: 1px solid rgba(248, 81, 73, 0.35);
+      border-radius: 8px;
+      padding: 0.75rem 0.9rem;
+      margin-bottom: 1rem;
+      line-height: 1.45;
+    }
+    .status.busy { color: var(--muted); }
+    ul.tips {
+      margin-top: 1.25rem;
+      padding-left: 1.1rem;
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .hint {
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-top: 0.35rem;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Create a new skill map</h1>
+    <a class="back-link" href="index.html">← Back to maps</a>
+  </header>
+  <main>
+    <div class="card">
+      <p>Upload a Cambridge syllabus PDF or paste a direct link to one. Name, spec, level, and years are read from the cover automatically.</p>
+      <p id="static-notice" class="static-notice" hidden>
+        Map creation needs the Python server (<code>npm run serve</code> on a VPS or locally).
+        Vercel hosts the viewers only — browse existing maps from the main page.
+      </p>
+      <form id="create-form">
+        <label for="pdf">Upload PDF</label>
+        <input id="pdf" name="pdf" type="file" accept="application/pdf,.pdf" />
+
+        <div class="or-divider">or</div>
+
+        <label for="pdfUrl">PDF link</label>
+        <input
+          id="pdfUrl"
+          name="pdfUrl"
+          type="url"
+          inputmode="url"
+          placeholder="https://www.cambridgeinternational.org/Images/664563-2025-2027-syllabus.pdf"
+        />
+        <p class="hint">Must be a direct https:// link ending in .pdf (e.g. from cambridgeinternational.org).</p>
+
+        <details>
+          <summary>Optional overrides (auto-detected from PDF if left blank)</summary>
+          <label for="name">Map name <span class="opt">optional</span></label>
+          <input id="name" name="name" placeholder="Chemistry 5070 — Cambridge O Level (2026–2028)" />
+
+          <div class="row">
+            <div>
+              <label for="spec">Spec code <span class="opt">optional</span></label>
+              <input id="spec" name="spec" placeholder="5070" />
+            </div>
+            <div>
+              <label for="level">Level <span class="opt">optional</span></label>
+              <select id="level" name="level">
+                <option value="">Auto-detect</option>
+                <option>O Level</option>
+                <option>IGCSE</option>
+                <option>AS Level</option>
+                <option>A Level</option>
+                <option>AS &amp; A Level</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+
+          <label for="subject">Subject <span class="opt">optional</span></label>
+          <input id="subject" name="subject" placeholder="Chemistry" />
+
+          <label for="description">Description <span class="opt">optional</span></label>
+          <textarea id="description" name="description" placeholder="Cambridge syllabus 2026–2028"></textarea>
+        </details>
+
+        <button type="submit" id="submit-btn">Generate map</button>
+        <div class="status" id="status"></div>
+      </form>
+    </div>
+    <ul class="tips">
+      <li>Map name ends with syllabus form + level, e.g. <strong>Chemistry 5070 — Cambridge O Level (2026–2028)</strong></li>
+      <li>Works best with Cambridge PDFs using subtopics like <strong>1.1 Solids, liquids and gases</strong></li>
+      <li>Generation may take 10–30 seconds for large syllabuses</li>
+    </ul>
+  </main>
+
+  <script type="module">
+    import { probeMapApi } from './maps.js';
+
+    const form = document.getElementById('create-form');
+    const statusEl = document.getElementById('status');
+    const submitBtn = document.getElementById('submit-btn');
+    const pdfInput = document.getElementById('pdf');
+    const urlInput = document.getElementById('pdfUrl');
+    const staticNotice = document.getElementById('static-notice');
+
+    const apiOk = await probeMapApi();
+    if (!apiOk) {
+      staticNotice.hidden = false;
+      submitBtn.disabled = true;
+    }
+
+    pdfInput.addEventListener('change', () => {
+      if (pdfInput.files[0]) urlInput.value = '';
+    });
+    urlInput.addEventListener('input', () => {
+      if (urlInput.value.trim()) pdfInput.value = '';
+    });
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const pdf = pdfInput.files[0];
+      const pdfUrl = urlInput.value.trim();
+      if (!pdf && !pdfUrl) {
+        statusEl.className = 'status err';
+        statusEl.textContent = 'Upload a PDF or paste a PDF link.';
+        return;
+      }
+
+      const fd = new FormData();
+      if (pdf) {
+        fd.set('pdf', pdf);
+      } else {
+        fd.set('pdfUrl', pdfUrl);
+      }
+      for (const id of ['name', 'spec', 'subject', 'level', 'description']) {
+        const el = document.getElementById(id);
+        if (el && el.value.trim()) fd.set(id, el.value.trim());
+      }
+
+      submitBtn.disabled = true;
+      statusEl.className = 'status busy';
+      statusEl.textContent = pdfUrl
+        ? 'Downloading PDF and generating map…'
+        : 'Reading PDF and generating map…';
+
+      try {
+        const res = await fetch('/api/maps/generate', { method: 'POST', body: fd });
+        const data = await res.json();
+        if (!res.ok || !data.ok) {
+          throw new Error(data.error || 'Generation failed');
+        }
+        const c = data.counts;
+        statusEl.className = 'status ok';
+        statusEl.textContent =
+          `Created “${data.name}” — ${c.microskills} skills, ${c.dependencies} edges. Opening…`;
+        localStorage.setItem('selectedMap', data.mapId);
+        setTimeout(() => {
+          location.href = data.viewUrl || `index.html?map=${data.mapId}`;
+        }, 900);
+      } catch (err) {
+        statusEl.className = 'status err';
+        statusEl.textContent = err.message || String(err);
+        submitBtn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

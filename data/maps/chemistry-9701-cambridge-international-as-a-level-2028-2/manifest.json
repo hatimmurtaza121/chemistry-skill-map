@@ -1,0 +1,31 @@
+{
+  "mapId": "chemistry-9701-cambridge-international-as-a-level-2028-2",
+  "dataset": "Chemistry 9701 — Cambridge International AS & A Level (2028–2030) Skill Graph",
+  "taxonomyVersion": "v2-microskills",
+  "granularity": "microskills",
+  "spec": "9701",
+  "generatedAt": "2026-07-10T14:30:20.935949+00:00",
+  "source": "chemistry-9701-cambridge-international-as-a-level-2028-2.pdf",
+  "counts": {
+    "microskills": 324,
+    "subtopics": 72,
+    "dependencies": 256,
+    "objectives": 349,
+    "mainTopics": 26,
+    "entryPoint": "1.1.1"
+  },
+  "files": {
+    "topics.json": {
+      "bytes": 362546,
+      "sha256": "679ac05f289a777dc3e0474011b44e4edb603c6e770e7030fb53fd99b5a6ad31"
+    },
+    "dependencies.json": {
+      "bytes": 44778,
+      "sha256": "4e1a1d77b8c6a7634fc83b306444fdf9d163790b470c741a7da83907af430752"
+    },
+    "curriculum-standards.json": {
+      "bytes": 86141,
+      "sha256": "069dca5136523bdbc6c04c414323a2370c558a65a0eb349ba8398d0369153437"
+    }
+  }
+}

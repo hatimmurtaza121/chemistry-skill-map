@@ -1,0 +1,35 @@
+{
+  "defaultMap": "chemistry-5070-cambridge-o-level-2026-2028-5070",
+  "maps": [
+    {
+      "id": "chemistry-5070-cambridge-o-level-2026-2028-5070",
+      "name": "Chemistry 5070 — Cambridge O Level (2026–2028)",
+      "spec": "5070",
+      "subject": "Chemistry",
+      "level": "O Level",
+      "available": true,
+      "description": "Cambridge syllabus 2026–2028",
+      "dataPath": "maps/chemistry-5070-cambridge-o-level-2026-2028-5070"
+    },
+    {
+      "id": "chemistry-9701-cambridge-international-as-a-level-2025-2-3",
+      "name": "Chemistry 9701 — Cambridge International AS & A Level (2025–2027)",
+      "spec": "9701",
+      "subject": "Chemistry",
+      "level": "AS & A Level",
+      "available": true,
+      "description": "Cambridge International syllabus 2025–2027",
+      "dataPath": "maps/chemistry-9701-cambridge-international-as-a-level-2025-2-3"
+    },
+    {
+      "id": "chemistry-9701-cambridge-international-as-a-level-2028-2",
+      "name": "Chemistry 9701 — Cambridge International AS & A Level (2028–2030)",
+      "spec": "9701",
+      "subject": "Chemistry",
+      "level": "AS & A Level",
+      "available": true,
+      "description": "Cambridge International syllabus 2028–2030",
+      "dataPath": "maps/chemistry-9701-cambridge-international-as-a-level-2028-2"
+    }
+  ]
+}

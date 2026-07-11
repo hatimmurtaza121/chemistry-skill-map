@@ -1,0 +1,2108 @@
+{
+  "curriculumCount": 1,
+  "curricula": [
+    {
+      "slug": "9701",
+      "name": "Chemistry 9701 — Cambridge International AS & A Level (2028–2030)",
+      "version": "chemistry-9701-cambridge-international-as-a-level-2028-2.pdf",
+      "textIncluded": true,
+      "topicCount": 349,
+      "topics": [
+        {
+          "key": "9701:1.1.1",
+          "code": "1.1.1",
+          "subtopicCode": "1.1",
+          "text": "understand that atoms are mostly empty space surrounding a very small, dense nucleus that contains protons and neutrons; electrons are found in shells in the empty space around the nucleus"
+        },
+        {
+          "key": "9701:1.1.2",
+          "code": "1.1.2",
+          "subtopicCode": "1.1",
+          "text": "identify and describe protons, neutrons and electrons in terms of their relative charges and relative masses"
+        },
+        {
+          "key": "9701:1.1.3",
+          "code": "1.1.3",
+          "subtopicCode": "1.1",
+          "text": "understand the terms atomic and proton number, mass and nucleon number"
+        },
+        {
+          "key": "9701:1.1.4",
+          "code": "1.1.4",
+          "subtopicCode": "1.1",
+          "text": "describe the distribution of mass and charge within an atom"
+        },
+        {
+          "key": "9701:1.1.5",
+          "code": "1.1.5",
+          "subtopicCode": "1.1",
+          "text": "describe the behaviour of beams of protons, neutrons and electrons moving at the same velocity in an electric field"
+        },
+        {
+          "key": "9701:1.1.6",
+          "code": "1.1.6",
+          "subtopicCode": "1.1",
+          "text": "determine the numbers of protons, neutrons and electrons present in both atoms and ions given atomic or proton number, mass or nucleon number and charge"
+        },
+        {
+          "key": "9701:1.1.7",
+          "code": "1.1.7",
+          "subtopicCode": "1.1",
+          "text": "state and explain qualitatively the variations in atomic radius and ionic radius across a period and down a group"
+        },
+        {
+          "key": "9701:1.2.1",
+          "code": "1.2.1",
+          "subtopicCode": "1.2",
+          "text": "define the term isotope in terms of numbers of protons and neutrons"
+        },
+        {
+          "key": "9701:1.2.2",
+          "code": "1.2.2",
+          "subtopicCode": "1.2",
+          "text": "understand the notation x y A for isotopes, where x is the mass or nucleon number and y is the atomic or proton number"
+        },
+        {
+          "key": "9701:1.2.3",
+          "code": "1.2.3",
+          "subtopicCode": "1.2",
+          "text": "state that and explain why isotopes of the same element have the same chemical properties"
+        },
+        {
+          "key": "9701:1.2.4",
+          "code": "1.2.4",
+          "subtopicCode": "1.2",
+          "text": "state that and explain why isotopes of the same element have different physical properties, limited to mass and density"
+        },
+        {
+          "key": "9701:1.3.1",
+          "code": "1.3.1",
+          "subtopicCode": "1.3",
+          "text": "understand the terms: shells, sub-shells and orbitals principal quantum number (n) ground state, limited to electronic configuration"
+        },
+        {
+          "key": "9701:1.3.2",
+          "code": "1.3.2",
+          "subtopicCode": "1.3",
+          "text": "describe the number of orbitals making up s, p and d sub-shells, and the number of electrons that can fill s, p and d sub-shells"
+        },
+        {
+          "key": "9701:1.3.3",
+          "code": "1.3.3",
+          "subtopicCode": "1.3",
+          "text": "describe the order of increasing energy of the sub-shells within the first three shells and the 4s and 4p sub-shells"
+        },
+        {
+          "key": "9701:1.3.4",
+          "code": "1.3.4",
+          "subtopicCode": "1.3",
+          "text": "describe the electronic configurations to include the number of electrons in each shell, sub-shell and orbital"
+        },
+        {
+          "key": "9701:1.3.5",
+          "code": "1.3.5",
+          "subtopicCode": "1.3",
+          "text": "explain the electronic configurations in terms of energy of the electrons and inter-electron repulsion"
+        },
+        {
+          "key": "9701:1.3.6",
+          "code": "1.3.6",
+          "subtopicCode": "1.3",
+          "text": "determine the electronic configuration of atoms and ions given the atomic or proton number and charge, using either of the following conventions:"
+        },
+        {
+          "key": "9701:1.3.7",
+          "code": "1.3.7",
+          "subtopicCode": "1.3",
+          "text": "understand and use the electrons in boxes notation"
+        },
+        {
+          "key": "9701:1.3.8",
+          "code": "1.3.8",
+          "subtopicCode": "1.3",
+          "text": "describe and sketch the shapes of s and p orbitals"
+        },
+        {
+          "key": "9701:1.3.9",
+          "code": "1.3.9",
+          "subtopicCode": "1.3",
+          "text": "describe a free radical as a species with one or more unpaired electrons"
+        },
+        {
+          "key": "9701:1.4.1",
+          "code": "1.4.1",
+          "subtopicCode": "1.4",
+          "text": "define and use the term first ionisation energy, IE"
+        },
+        {
+          "key": "9701:1.4.2",
+          "code": "1.4.2",
+          "subtopicCode": "1.4",
+          "text": "construct equations to represent first, second and subsequent ionisation energies"
+        },
+        {
+          "key": "9701:1.4.3",
+          "code": "1.4.3",
+          "subtopicCode": "1.4",
+          "text": "identify and explain the trends in ionisation energies across a period and down a group of the Periodic"
+        },
+        {
+          "key": "9701:2.1.1",
+          "code": "2.1.1",
+          "subtopicCode": "2.1",
+          "text": "define the unified atomic mass unit as one twelfth of the mass of a carbon-12 atom"
+        },
+        {
+          "key": "9701:2.1.2",
+          "code": "2.1.2",
+          "subtopicCode": "2.1",
+          "text": "define relative atomic mass, Ar, relative isotopic mass, relative molecular mass and relative formula mass, both referred to as Mr, in terms of the unified atomic mass unit"
+        },
+        {
+          "key": "9701:2.2.1",
+          "code": "2.2.1",
+          "subtopicCode": "2.2",
+          "text": "define and use the term mole in terms of the Avogadro constant"
+        },
+        {
+          "key": "9701:2.3.1",
+          "code": "2.3.1",
+          "subtopicCode": "2.3",
+          "text": "write formulas of ionic compounds from ionic charges and oxidation numbers (shown by a Roman numeral), including:"
+        },
+        {
+          "key": "9701:2.4.1",
+          "code": "2.4.1",
+          "subtopicCode": "2.4",
+          "text": "(a) reacting masses (from formulas and equations) including percentage yield calculations"
+        },
+        {
+          "key": "9701:2.4.2",
+          "code": "2.4.2",
+          "subtopicCode": "2.4",
+          "text": "(b) volumes of gases (e.g. in the burning of hydrocarbons)"
+        },
+        {
+          "key": "9701:2.4.3",
+          "code": "2.4.3",
+          "subtopicCode": "2.4",
+          "text": "(c) volumes and concentrations of solutions"
+        },
+        {
+          "key": "9701:2.4.4",
+          "code": "2.4.4",
+          "subtopicCode": "2.4",
+          "text": "(d) limiting reagent and excess reagent (When performing calculations, candidates’ answers should reflect the number of significant figures given or asked for in the question. When rounding up or down, candidates should ensure that significant figures are neither lost unnecessarily nor used beyond what is justified (see also Mathematical requirements section).)"
+        },
+        {
+          "key": "9701:2.4.5",
+          "code": "2.4.5",
+          "subtopicCode": "2.4",
+          "text": "(e) deduce stoichiometric relationships from calculations such as those in 2.4.1(a)–(d)"
+        },
+        {
+          "key": "9701:3.1.1",
+          "code": "3.1.1",
+          "subtopicCode": "3.1",
+          "text": "define electronegativity as the power of an atom to attract electrons to itself"
+        },
+        {
+          "key": "9701:3.1.2",
+          "code": "3.1.2",
+          "subtopicCode": "3.1",
+          "text": "explain the factors influencing the electronegativities of the elements in terms of nuclear charge, atomic radius and shielding by inner shells and sub-shells"
+        },
+        {
+          "key": "9701:3.2.1",
+          "code": "3.2.1",
+          "subtopicCode": "3.2",
+          "text": "define ionic bonding as the electrostatic attraction between oppositely charged ions (positively charged cations and negatively charged anions)"
+        },
+        {
+          "key": "9701:3.2.2",
+          "code": "3.2.2",
+          "subtopicCode": "3.2",
+          "text": "describe ionic bonding, including the examples of sodium chloride, magnesium oxide and calcium fluoride"
+        },
+        {
+          "key": "9701:3.3.1",
+          "code": "3.3.1",
+          "subtopicCode": "3.3",
+          "text": "define metallic bonding as the electrostatic attraction between positive metal ions and delocalised electrons"
+        },
+        {
+          "key": "9701:3.4.1",
+          "code": "3.4.1",
+          "subtopicCode": "3.4",
+          "text": "define covalent bonding as the electrostatic attraction between the nuclei of two atoms and a shared pair of electrons"
+        },
+        {
+          "key": "9701:3.4.2",
+          "code": "3.4.2",
+          "subtopicCode": "3.4",
+          "text": "(a) describe covalent bonding in molecules including: hydrogen, H2 oxygen, O2 nitrogen, N2 chlorine, Cl 2 hydrogen chloride, HCl carbon dioxide, CO2 ammonia, NH3 methane, CH4 ethane, C2H6 ethene, C2H4"
+        },
+        {
+          "key": "9701:3.4.3",
+          "code": "3.4.3",
+          "subtopicCode": "3.4",
+          "text": "(b) understand that elements in period 3 can expand their octet including in the compounds sulfur dioxide, SO2, phosphorus pentachloride, PCl 5 , and sulfur hexafluoride, SF6"
+        },
+        {
+          "key": "9701:3.4.4",
+          "code": "3.4.4",
+          "subtopicCode": "3.4",
+          "text": "(c) describe coordinate (dative covalent) bonding, including in the reaction between ammonia and hydrogen chloride gases to form the ammonium ion, NH4 + , and in the Al 2Cl 6 molecule"
+        },
+        {
+          "key": "9701:3.4.5",
+          "code": "3.4.5",
+          "subtopicCode": "3.4",
+          "text": "(a) describe covalent bonds in terms of orbital overlap giving σ and π bonds: σ bonds are formed by direct overlap of orbitals between the bonding atoms π bonds are formed by the sideways overlap of adjacent p orbitals above and below the σ bond"
+        },
+        {
+          "key": "9701:3.4.6",
+          "code": "3.4.6",
+          "subtopicCode": "3.4",
+          "text": "(b) describe how the σ and π bonds form in molecules including H₂, C₂H₆, C₂H₄, HCN and N₂"
+        },
+        {
+          "key": "9701:3.4.7",
+          "code": "3.4.7",
+          "subtopicCode": "3.4",
+          "text": "(c) use the concept of hybridisation to describe sp, sp² and sp³ orbitals"
+        },
+        {
+          "key": "9701:3.4.8",
+          "code": "3.4.8",
+          "subtopicCode": "3.4",
+          "text": "(a) define the terms: bond energy as the energy required to break one mole of a particular covalent bond in the gaseous state bond length as the internuclear distance of two covalently bonded atoms"
+        },
+        {
+          "key": "9701:3.4.9",
+          "code": "3.4.9",
+          "subtopicCode": "3.4",
+          "text": "(b) use bond energy values and the concept of bond length to compare the reactivity of covalent molecules"
+        },
+        {
+          "key": "9701:3.5.1",
+          "code": "3.5.1",
+          "subtopicCode": "3.5",
+          "text": "state and explain the shapes of, and bond angles in, molecules by using VSEPR theory, including as simple examples: BF3 (trigonal planar, 120°) CO2 (linear, 180°) CH4 (tetrahedral, 109.5°) NH3 (pyramidal, 107°) H2O (non-linear, 104.5°) SF6 (octahedral, 90°) PF5 (trigonal bipyramidal, 120° and 90°)"
+        },
+        {
+          "key": "9701:3.5.2",
+          "code": "3.5.2",
+          "subtopicCode": "3.5",
+          "text": "predict the shapes of, and bond angles in, molecules and ions analogous to those specified in 3.5.1"
+        },
+        {
+          "key": "9701:3.6.1",
+          "code": "3.6.1",
+          "subtopicCode": "3.6",
+          "text": "(a) describe hydrogen bonding, limited to molecules containing N–H and O–H groups, including ammonia and water as simple examples"
+        },
+        {
+          "key": "9701:3.6.2",
+          "code": "3.6.2",
+          "subtopicCode": "3.6",
+          "text": "(b) use the concept of hydrogen bonding to explain the anomalous properties of H₂O (ice and water): its relatively high melting and boiling points its relatively high surface tension the density of solid ice compared with liquid water"
+        },
+        {
+          "key": "9701:3.6.3",
+          "code": "3.6.3",
+          "subtopicCode": "3.6",
+          "text": "use the concept of electronegativity to explain bond polarity and dipole moments of molecules"
+        },
+        {
+          "key": "9701:3.6.4",
+          "code": "3.6.4",
+          "subtopicCode": "3.6",
+          "text": "(a) describe van der Waals’ forces as the intermolecular forces between molecular entities other than those due to bond formation, and use the term van der Waals’ forces as a generic term to describe all intermolecular forces"
+        },
+        {
+          "key": "9701:3.6.5",
+          "code": "3.6.5",
+          "subtopicCode": "3.6",
+          "text": "(b) describe the types of van der Waals’ forces: instantaneous dipole–induced dipole (id-id) forces, also called London dispersion forces permanent dipole–permanent dipole (pd-pd) forces, including hydrogen bonding"
+        },
+        {
+          "key": "9701:3.6.6",
+          "code": "3.6.6",
+          "subtopicCode": "3.6",
+          "text": "(c) describe hydrogen bonding and understand that hydrogen bonding is a special case of permanent dipole–permanent dipole forces between molecules where hydrogen is bonded to a highly electronegative atom"
+        },
+        {
+          "key": "9701:3.6.7",
+          "code": "3.6.7",
+          "subtopicCode": "3.6",
+          "text": "state that, in general, ionic, covalent and metallic bonding are stronger than intermolecular forces"
+        },
+        {
+          "key": "9701:3.7.1",
+          "code": "3.7.1",
+          "subtopicCode": "3.7",
+          "text": "use dot-and-cross diagrams to illustrate ionic, covalent and coordinate bonding including the representation of any compounds stated in 3.4 and 3.5 (dot-and-cross diagrams may include species with atoms which have an expanded octet or species with an odd number of electrons)"
+        },
+        {
+          "key": "9701:4.1.1",
+          "code": "4.1.1",
+          "subtopicCode": "4.1",
+          "text": "explain the origin of pressure in a gas in terms of collisions between gas molecules and the wall of the container"
+        },
+        {
+          "key": "9701:4.1.2",
+          "code": "4.1.2",
+          "subtopicCode": "4.1",
+          "text": "understand that ideal gases have zero particle volume and no intermolecular forces of attraction"
+        },
+        {
+          "key": "9701:4.1.3",
+          "code": "4.1.3",
+          "subtopicCode": "4.1",
+          "text": "state and use the ideal gas equation pV = nRT in calculations, including in the determination of Mr"
+        },
+        {
+          "key": "9701:4.2.1",
+          "code": "4.2.1",
+          "subtopicCode": "4.2",
+          "text": "(a) giant ionic, including sodium chloride and magnesium oxide"
+        },
+        {
+          "key": "9701:4.2.2",
+          "code": "4.2.2",
+          "subtopicCode": "4.2",
+          "text": "(b) simple molecular, including iodine, buckminsterfullerene C60 and ice"
+        },
+        {
+          "key": "9701:4.2.3",
+          "code": "4.2.3",
+          "subtopicCode": "4.2",
+          "text": "(c) giant molecular, including silicon(IV) oxide, graphite and diamond"
+        },
+        {
+          "key": "9701:4.2.4",
+          "code": "4.2.4",
+          "subtopicCode": "4.2",
+          "text": "(d) giant metallic, including copper"
+        },
+        {
+          "key": "9701:5.2.1",
+          "code": "5.2.1",
+          "subtopicCode": "5.2",
+          "text": "apply Hess’s law to construct simple energy cycles"
+        },
+        {
+          "key": "9701:5.2.2",
+          "code": "5.2.2",
+          "subtopicCode": "5.2",
+          "text": "(a) determining enthalpy changes that cannot be found by direct experiment"
+        },
+        {
+          "key": "9701:5.2.3",
+          "code": "5.2.3",
+          "subtopicCode": "5.2",
+          "text": "(b) use of bond energy data"
+        },
+        {
+          "key": "9701:6.1.1",
+          "code": "6.1.1",
+          "subtopicCode": "6.1",
+          "text": "calculate oxidation numbers of elements in compounds and ions"
+        },
+        {
+          "key": "9701:6.1.2",
+          "code": "6.1.2",
+          "subtopicCode": "6.1",
+          "text": "use changes in oxidation numbers to help balance chemical equations"
+        },
+        {
+          "key": "9701:6.1.3",
+          "code": "6.1.3",
+          "subtopicCode": "6.1",
+          "text": "explain and use the terms redox, oxidation, reduction and disproportionation in terms of electron transfer and changes in oxidation number"
+        },
+        {
+          "key": "9701:6.1.4",
+          "code": "6.1.4",
+          "subtopicCode": "6.1",
+          "text": "explain and use the terms oxidising agent and reducing agent"
+        },
+        {
+          "key": "9701:6.1.5",
+          "code": "6.1.5",
+          "subtopicCode": "6.1",
+          "text": "use a Roman numeral to indicate the magnitude of the oxidation number of an element"
+        },
+        {
+          "key": "9701:7.1.1",
+          "code": "7.1.1",
+          "subtopicCode": "7.1",
+          "text": "(a) understand what is meant by a reversible reaction"
+        },
+        {
+          "key": "9701:7.1.2",
+          "code": "7.1.2",
+          "subtopicCode": "7.1",
+          "text": "(b) understand what is meant by dynamic equilibrium in terms of the rate of forward and reverse reactions being equal and the concentration of reactants and products remaining constant"
+        },
+        {
+          "key": "9701:7.1.3",
+          "code": "7.1.3",
+          "subtopicCode": "7.1",
+          "text": "(c) understand the need for a closed system in order to establish dynamic equilibrium"
+        },
+        {
+          "key": "9701:7.1.4",
+          "code": "7.1.4",
+          "subtopicCode": "7.1",
+          "text": "define Le Chatelier’s principle as: if a change is made to a system at dynamic equilibrium, the position of equilibrium moves to minimise this change"
+        },
+        {
+          "key": "9701:7.1.5",
+          "code": "7.1.5",
+          "subtopicCode": "7.1",
+          "text": "use Le Chatelier’s principle to deduce qualitatively (from appropriate information) the effects of changes in temperature, concentration, pressure or presence of a catalyst on a system at equilibrium"
+        },
+        {
+          "key": "9701:7.1.6",
+          "code": "7.1.6",
+          "subtopicCode": "7.1",
+          "text": "deduce expressions for equilibrium constants in terms of concentrations, Kc"
+        },
+        {
+          "key": "9701:7.1.7",
+          "code": "7.1.7",
+          "subtopicCode": "7.1",
+          "text": "use the terms mole fraction and partial pressure"
+        },
+        {
+          "key": "9701:7.1.8",
+          "code": "7.1.8",
+          "subtopicCode": "7.1",
+          "text": "deduce expressions for equilibrium constants in terms of partial pressures, Kp (use of the relationship between Kp and Kc is not required)"
+        },
+        {
+          "key": "9701:7.1.9",
+          "code": "7.1.9",
+          "subtopicCode": "7.1",
+          "text": "use the Kc and Kp expressions to carry out calculations (such calculations will not require the solving of quadratic equations)"
+        },
+        {
+          "key": "9701:7.1.10",
+          "code": "7.1.10",
+          "subtopicCode": "7.1",
+          "text": "calculate the quantities present at equilibrium, given appropriate data"
+        },
+        {
+          "key": "9701:7.1.11",
+          "code": "7.1.11",
+          "subtopicCode": "7.1",
+          "text": "state whether changes in temperature, concentration or pressure or the presence of a catalyst affect the value of the equilibrium constant for a reaction"
+        },
+        {
+          "key": "9701:7.1.12",
+          "code": "7.1.12",
+          "subtopicCode": "7.1",
+          "text": "describe and explain the conditions used in the Haber process and the Contact process, as examples of the importance of an understanding of dynamic equilibrium in the chemical industry and the application of Le Chatelier’s principle"
+        },
+        {
+          "key": "9701:7.2.1",
+          "code": "7.2.1",
+          "subtopicCode": "7.2",
+          "text": "state the names and formulas of the common acids, limited to hydrochloric acid, HCl, sulfuric acid, H2SO4, nitric acid, HNO3 and ethanoic acid, CH3COOH"
+        },
+        {
+          "key": "9701:7.2.2",
+          "code": "7.2.2",
+          "subtopicCode": "7.2",
+          "text": "state the names and formulas of the common alkalis, limited to sodium hydroxide, NaOH, potassium hydroxide, KOH and ammonia, NH3"
+        },
+        {
+          "key": "9701:7.2.3",
+          "code": "7.2.3",
+          "subtopicCode": "7.2",
+          "text": "describe the Brønsted–Lowry theory of acids and bases"
+        },
+        {
+          "key": "9701:7.2.4",
+          "code": "7.2.4",
+          "subtopicCode": "7.2",
+          "text": "describe strong acids and strong bases as fully dissociated in aqueous solution and weak acids and weak bases as partially dissociated in aqueous solution"
+        },
+        {
+          "key": "9701:8.1.1",
+          "code": "8.1.1",
+          "subtopicCode": "8.1",
+          "text": "explain and use the terms: rate of reaction, frequency of collisions, effective collisions and non-effective collisions"
+        },
+        {
+          "key": "9701:8.1.2",
+          "code": "8.1.2",
+          "subtopicCode": "8.1",
+          "text": "explain qualitatively, in terms of frequency of effective collisions, the effect of concentration and pressure changes on the rate of a reaction"
+        },
+        {
+          "key": "9701:8.1.3",
+          "code": "8.1.3",
+          "subtopicCode": "8.1",
+          "text": "use experimental data to calculate the rate of a reaction"
+        },
+        {
+          "key": "9701:8.2.1",
+          "code": "8.2.1",
+          "subtopicCode": "8.2",
+          "text": "define activation energy, EA, as the minimum energy required for a collision to be effective"
+        },
+        {
+          "key": "9701:8.3.1",
+          "code": "8.3.1",
+          "subtopicCode": "8.3",
+          "text": "explain and use the terms catalyst and catalysis:"
+        },
+        {
+          "key": "9701:8.3.2",
+          "code": "8.3.2",
+          "subtopicCode": "8.3",
+          "text": "(a) to explain that, in the presence of a catalyst, a reaction has a different mechanism, i.e. one of lower activation energy"
+        },
+        {
+          "key": "9701:8.3.3",
+          "code": "8.3.3",
+          "subtopicCode": "8.3",
+          "text": "(b) to explain this catalytic effect in terms of the Boltzmann distribution"
+        },
+        {
+          "key": "9701:8.3.4",
+          "code": "8.3.4",
+          "subtopicCode": "8.3",
+          "text": "(c) to construct and interpret a reaction pathway diagram for a reaction in the presence and absence of an effective catalyst"
+        },
+        {
+          "key": "9701:9.1.1",
+          "code": "9.1.1",
+          "subtopicCode": "9.1",
+          "text": "describe qualitatively (and indicate the periodicity in) the variations in atomic radius, ionic radius, melting point and electrical conductivity of the elements"
+        },
+        {
+          "key": "9701:9.1.2",
+          "code": "9.1.2",
+          "subtopicCode": "9.1",
+          "text": "explain the variation in melting point and electrical conductivity in terms of the structure and bonding of the elements"
+        },
+        {
+          "key": "9701:9.3.1",
+          "code": "9.3.1",
+          "subtopicCode": "9.3",
+          "text": "predict the characteristic properties of an element in a given group by using knowledge of chemical periodicity"
+        },
+        {
+          "key": "9701:11.1.1",
+          "code": "11.1.1",
+          "subtopicCode": "11.1",
+          "text": "describe the colours and the trend in volatility of chlorine, bromine and iodine"
+        },
+        {
+          "key": "9701:11.1.2",
+          "code": "11.1.2",
+          "subtopicCode": "11.1",
+          "text": "describe and explain the trend in the bond strength of the halogen molecules"
+        },
+        {
+          "key": "9701:11.1.3",
+          "code": "11.1.3",
+          "subtopicCode": "11.1",
+          "text": "interpret the volatility of the elements in terms of instantaneous dipole–induced dipole forces"
+        },
+        {
+          "key": "9701:11.2.1",
+          "code": "11.2.1",
+          "subtopicCode": "11.2",
+          "text": "describe the relative reactivity of the elements as oxidising agents"
+        },
+        {
+          "key": "9701:11.2.2",
+          "code": "11.2.2",
+          "subtopicCode": "11.2",
+          "text": "describe the reactions of the elements with hydrogen and explain their relative reactivity in these"
+        },
+        {
+          "key": "9701:11.3.1",
+          "code": "11.3.1",
+          "subtopicCode": "11.3",
+          "text": "describe the relative reactivity of halide ions as reducing agents"
+        },
+        {
+          "key": "9701:11.3.2",
+          "code": "11.3.2",
+          "subtopicCode": "11.3",
+          "text": "describe and explain the reactions of halide ions with:"
+        },
+        {
+          "key": "9701:11.3.3",
+          "code": "11.3.3",
+          "subtopicCode": "11.3",
+          "text": "(a) aqueous silver ions followed by aqueous ammonia (the formation and formula of the [Ag(NH3)2]+ complex is not required)"
+        },
+        {
+          "key": "9701:11.3.4",
+          "code": "11.3.4",
+          "subtopicCode": "11.3",
+          "text": "(b) concentrated sulfuric acid, to include balanced chemical equations"
+        },
+        {
+          "key": "9701:11.4.1",
+          "code": "11.4.1",
+          "subtopicCode": "11.4",
+          "text": "describe and interpret, in terms of changes in oxidation number, the reaction of chlorine with cold and with hot aqueous sodium hydroxide and recognise these as disproportionation reactions"
+        },
+        {
+          "key": "9701:12.1.1",
+          "code": "12.1.1",
+          "subtopicCode": "12.1",
+          "text": "explain the lack of reactivity of nitrogen, with reference to triple bond strength and lack of polarity"
+        },
+        {
+          "key": "9701:12.1.2",
+          "code": "12.1.2",
+          "subtopicCode": "12.1",
+          "text": "describe and explain:"
+        },
+        {
+          "key": "9701:12.1.3",
+          "code": "12.1.3",
+          "subtopicCode": "12.1",
+          "text": "(a) the basicity of ammonia, using the Brønsted–Lowry theory"
+        },
+        {
+          "key": "9701:12.1.4",
+          "code": "12.1.4",
+          "subtopicCode": "12.1",
+          "text": "(b) the structure of the ammonium ion and its formation by an acid–base reaction"
+        },
+        {
+          "key": "9701:12.1.5",
+          "code": "12.1.5",
+          "subtopicCode": "12.1",
+          "text": "(c) the displacement of ammonia from ammonium salts by an acid–base reaction"
+        },
+        {
+          "key": "9701:12.1.6",
+          "code": "12.1.6",
+          "subtopicCode": "12.1",
+          "text": "state and explain the natural and man-made occurrences of oxides of nitrogen and their catalytic removal from the exhaust gases of internal combustion engines"
+        },
+        {
+          "key": "9701:12.1.7",
+          "code": "12.1.7",
+          "subtopicCode": "12.1",
+          "text": "understand that atmospheric oxides of nitrogen (NO and NO2) can react with unburned hydrocarbons to form peroxyacetyl nitrate, PAN, which is a component of photochemical smog"
+        },
+        {
+          "key": "9701:12.1.8",
+          "code": "12.1.8",
+          "subtopicCode": "12.1",
+          "text": "describe the role of NO and NO2 in the formation of acid rain both directly and in their catalytic role in the oxidation of atmospheric sulfur dioxide"
+        },
+        {
+          "key": "9701:13.1.1",
+          "code": "13.1.1",
+          "subtopicCode": "13.1",
+          "text": "define the term hydrocarbon as a compound made up of C and H atoms only"
+        },
+        {
+          "key": "9701:13.1.2",
+          "code": "13.1.2",
+          "subtopicCode": "13.1",
+          "text": "understand that alkanes are simple hydrocarbons with no functional group"
+        },
+        {
+          "key": "9701:13.1.3",
+          "code": "13.1.3",
+          "subtopicCode": "13.1",
+          "text": "understand that the compounds in the table on pages 29 and 30 contain a functional group which dictates their physical and chemical properties"
+        },
+        {
+          "key": "9701:13.1.4",
+          "code": "13.1.4",
+          "subtopicCode": "13.1",
+          "text": "interpret and use the general, structural, displayed and skeletal formulas of the classes of compound stated in the table on pages 29 and 30"
+        },
+        {
+          "key": "9701:13.1.5",
+          "code": "13.1.5",
+          "subtopicCode": "13.1",
+          "text": "understand and use systematic nomenclature of simple aliphatic organic molecules with functional groups detailed in the table on pages 29 and 30, up to six carbon atoms (six plus six for esters, straight chains only for esters and nitriles)"
+        },
+        {
+          "key": "9701:13.1.6",
+          "code": "13.1.6",
+          "subtopicCode": "13.1",
+          "text": "deduce the molecular and/or empirical formula of a compound, given its structural, displayed or skeletal formula"
+        },
+        {
+          "key": "9701:13.2.1",
+          "code": "13.2.1",
+          "subtopicCode": "13.2",
+          "text": "interpret and use the following terminology associated with types of organic compounds and reactions:"
+        },
+        {
+          "key": "9701:13.2.2",
+          "code": "13.2.2",
+          "subtopicCode": "13.2",
+          "text": "(a) homologous series"
+        },
+        {
+          "key": "9701:13.2.3",
+          "code": "13.2.3",
+          "subtopicCode": "13.2",
+          "text": "(b) saturated and unsaturated"
+        },
+        {
+          "key": "9701:13.2.4",
+          "code": "13.2.4",
+          "subtopicCode": "13.2",
+          "text": "(c) homolytic and heterolytic fission"
+        },
+        {
+          "key": "9701:13.2.5",
+          "code": "13.2.5",
+          "subtopicCode": "13.2",
+          "text": "(d) free radical, initiation, propagation, termination"
+        },
+        {
+          "key": "9701:13.2.6",
+          "code": "13.2.6",
+          "subtopicCode": "13.2",
+          "text": "(e) nucleophile, electrophile, nucleophilic, electrophilic"
+        },
+        {
+          "key": "9701:13.2.7",
+          "code": "13.2.7",
+          "subtopicCode": "13.2",
+          "text": "(f) addition, substitution, elimination, hydrolysis, condensation"
+        },
+        {
+          "key": "9701:13.2.8",
+          "code": "13.2.8",
+          "subtopicCode": "13.2",
+          "text": "(g) oxidation and reduction (in equations for organic redox reactions, the symbol [O] can be used to represent one atom of oxygen from an oxidising agent and the symbol [H] to represent one atom of hydrogen from a reducing agent)"
+        },
+        {
+          "key": "9701:13.2.9",
+          "code": "13.2.9",
+          "subtopicCode": "13.2",
+          "text": "understand and use the following terminology associated with types of organic mechanisms:"
+        },
+        {
+          "key": "9701:13.2.10",
+          "code": "13.2.10",
+          "subtopicCode": "13.2",
+          "text": "(a) free-radical substitution"
+        },
+        {
+          "key": "9701:13.2.11",
+          "code": "13.2.11",
+          "subtopicCode": "13.2",
+          "text": "(b) electrophilic addition"
+        },
+        {
+          "key": "9701:13.2.12",
+          "code": "13.2.12",
+          "subtopicCode": "13.2",
+          "text": "(c) nucleophilic substitution"
+        },
+        {
+          "key": "9701:13.2.13",
+          "code": "13.2.13",
+          "subtopicCode": "13.2",
+          "text": "(d) nucleophilic addition (in organic reaction mechanisms, the use of curly arrows to represent movement of electron pairs is expected; the arrow should begin at a bond or a lone pair of electrons)"
+        },
+        {
+          "key": "9701:13.3.1",
+          "code": "13.3.1",
+          "subtopicCode": "13.3",
+          "text": "describe organic molecules as either straight-chained, branched or cyclic"
+        },
+        {
+          "key": "9701:13.3.2",
+          "code": "13.3.2",
+          "subtopicCode": "13.3",
+          "text": "describe and explain the shape of, and bond angles in, molecules containing sp, sp2 and sp3 hybridised"
+        },
+        {
+          "key": "9701:13.4.1",
+          "code": "13.4.1",
+          "subtopicCode": "13.4",
+          "text": "describe structural isomerism and its division into chain, positional and functional group isomerism"
+        },
+        {
+          "key": "9701:13.4.2",
+          "code": "13.4.2",
+          "subtopicCode": "13.4",
+          "text": "describe stereoisomerism and its division into geometrical (cis/trans) and optical isomerism (use of E/Z nomenclature is acceptable but is not required)"
+        },
+        {
+          "key": "9701:13.4.3",
+          "code": "13.4.3",
+          "subtopicCode": "13.4",
+          "text": "describe geometrical (cis/trans) isomerism in alkenes, and explain its origin in terms of restricted rotation due to the presence of π bonds"
+        },
+        {
+          "key": "9701:13.4.4",
+          "code": "13.4.4",
+          "subtopicCode": "13.4",
+          "text": "explain what is meant by a chiral centre and that such a centre gives rise to two optical isomers (enantiomers) (Candidates should appreciate that compounds can contain more than one chiral centre, but knowledge of meso compounds, or nomenclature such as diastereoisomers is not required.)"
+        },
+        {
+          "key": "9701:13.4.5",
+          "code": "13.4.5",
+          "subtopicCode": "13.4",
+          "text": "identify chiral centres and geometrical (cis/trans) isomerism in a molecule of given structural formula, including cyclic compounds"
+        },
+        {
+          "key": "9701:13.4.6",
+          "code": "13.4.6",
+          "subtopicCode": "13.4",
+          "text": "deduce the possible isomers for an organic molecule of known molecular formula"
+        },
+        {
+          "key": "9701:14.1.1",
+          "code": "14.1.1",
+          "subtopicCode": "14.1",
+          "text": "(a) addition of hydrogen to an alkene in a hydrogenation reaction, H2(g) and Pt/Ni catalyst and heat"
+        },
+        {
+          "key": "9701:14.1.2",
+          "code": "14.1.2",
+          "subtopicCode": "14.1",
+          "text": "(b) cracking of a longer chain alkane, heat with Al 2O3"
+        },
+        {
+          "key": "9701:14.1.3",
+          "code": "14.1.3",
+          "subtopicCode": "14.1",
+          "text": "(a) the complete and incomplete combustion of alkanes"
+        },
+        {
+          "key": "9701:14.1.4",
+          "code": "14.1.4",
+          "subtopicCode": "14.1",
+          "text": "(b) the free-radical substitution of alkanes by Cl 2 or Br2 in the presence of ultraviolet light, as exemplified by the reactions of ethane"
+        },
+        {
+          "key": "9701:14.1.5",
+          "code": "14.1.5",
+          "subtopicCode": "14.1",
+          "text": "describe the mechanism of free-radical substitution with reference to the initiation, propagation and termination steps"
+        },
+        {
+          "key": "9701:14.1.6",
+          "code": "14.1.6",
+          "subtopicCode": "14.1",
+          "text": "suggest how cracking can be used to obtain more useful alkanes and alkenes of lower Mr from heavier crude oil fractions"
+        },
+        {
+          "key": "9701:14.1.7",
+          "code": "14.1.7",
+          "subtopicCode": "14.1",
+          "text": "understand the general unreactivity of alkanes, including towards polar reagents in terms of the strength of the C–H bonds and their relative lack of polarity"
+        },
+        {
+          "key": "9701:14.1.8",
+          "code": "14.1.8",
+          "subtopicCode": "14.1",
+          "text": "recognise the environmental consequences of carbon monoxide, oxides of nitrogen and unburnt hydrocarbons arising from the combustion of alkanes in the internal combustion engine and of their catalytic removal"
+        },
+        {
+          "key": "9701:14.2.1",
+          "code": "14.2.1",
+          "subtopicCode": "14.2",
+          "text": "(a) elimination of HX from a halogenoalkane by ethanolic NaOH and heat"
+        },
+        {
+          "key": "9701:14.2.2",
+          "code": "14.2.2",
+          "subtopicCode": "14.2",
+          "text": "(b) dehydration of an alcohol, by using a heated catalyst (e.g. Al 2O3) or a concentrated acid (e.g. concentrated H2SO4)"
+        },
+        {
+          "key": "9701:14.2.3",
+          "code": "14.2.3",
+          "subtopicCode": "14.2",
+          "text": "(c) cracking of a longer chain alkane"
+        },
+        {
+          "key": "9701:14.2.4",
+          "code": "14.2.4",
+          "subtopicCode": "14.2",
+          "text": "describe the following reactions of alkenes:"
+        },
+        {
+          "key": "9701:14.2.5",
+          "code": "14.2.5",
+          "subtopicCode": "14.2",
+          "text": "(a) the electrophilic addition of"
+        },
+        {
+          "key": "9701:14.2.6",
+          "code": "14.2.6",
+          "subtopicCode": "14.2",
+          "text": "(i) hydrogen in a hydrogenation reaction, H2(g) and Pt/Ni catalyst and heat (ii) steam, H2O(g) and H3PO4 catalyst (iii) a hydrogen halide, HX(g), at room temperature (iv) a halogen, X2"
+        },
+        {
+          "key": "9701:14.2.7",
+          "code": "14.2.7",
+          "subtopicCode": "14.2",
+          "text": "(b) the oxidation by cold dilute acidified KMnO4 to form the diol"
+        },
+        {
+          "key": "9701:14.2.8",
+          "code": "14.2.8",
+          "subtopicCode": "14.2",
+          "text": "(c) the oxidation by hot concentrated acidified KMnO4 leading to the cleavage of the carbon–carbon double bond and the identities of the subsequent products to determine the position of alkene linkages in larger molecules"
+        },
+        {
+          "key": "9701:14.2.9",
+          "code": "14.2.9",
+          "subtopicCode": "14.2",
+          "text": "(d) addition polymerisation exemplified by the reactions of ethene and propene"
+        },
+        {
+          "key": "9701:14.2.10",
+          "code": "14.2.10",
+          "subtopicCode": "14.2",
+          "text": "describe the use of aqueous bromine to show the presence of a C=C bond"
+        },
+        {
+          "key": "9701:14.2.11",
+          "code": "14.2.11",
+          "subtopicCode": "14.2",
+          "text": "describe the mechanism of electrophilic addition in alkenes, using bromine/ethene and hydrogen bromide/propene as examples"
+        },
+        {
+          "key": "9701:14.2.12",
+          "code": "14.2.12",
+          "subtopicCode": "14.2",
+          "text": "describe and explain the inductive effects of alkyl groups on the stability of primary, secondary and tertiary cations formed during electrophilic addition (this should be used to explain Markovnikov addition)"
+        },
+        {
+          "key": "9701:15.1.1",
+          "code": "15.1.1",
+          "subtopicCode": "15.1",
+          "text": "(a) the free-radical substitution of alkanes by Cl 2 or Br2 in the presence of ultraviolet light, as exemplified by the reactions of ethane"
+        },
+        {
+          "key": "9701:15.1.2",
+          "code": "15.1.2",
+          "subtopicCode": "15.1",
+          "text": "(b) electrophilic addition of an alkene with a halogen, X2, or hydrogen halide, HX(g), at room temperature"
+        },
+        {
+          "key": "9701:15.1.3",
+          "code": "15.1.3",
+          "subtopicCode": "15.1",
+          "text": "(c) substitution of an alcohol, e.g. by reaction with HX(g); or with KCl and concentrated H2SO4 or concentrated H3PO4; or with PCl 3 and heat; or with PCl 5; or with SOCl 2"
+        },
+        {
+          "key": "9701:15.1.4",
+          "code": "15.1.4",
+          "subtopicCode": "15.1",
+          "text": "classify halogenoalkanes into primary, secondary and tertiary"
+        },
+        {
+          "key": "9701:15.1.5",
+          "code": "15.1.5",
+          "subtopicCode": "15.1",
+          "text": "describe the following nucleophilic substitution reactions:"
+        },
+        {
+          "key": "9701:15.1.6",
+          "code": "15.1.6",
+          "subtopicCode": "15.1",
+          "text": "(a) the reaction with NaOH(aq) and heat to produce an alcohol"
+        },
+        {
+          "key": "9701:15.1.7",
+          "code": "15.1.7",
+          "subtopicCode": "15.1",
+          "text": "(b) the reaction with KCN in ethanol and heat to produce a nitrile"
+        },
+        {
+          "key": "9701:15.1.8",
+          "code": "15.1.8",
+          "subtopicCode": "15.1",
+          "text": "(c) the reaction with NH3 in ethanol heated under pressure to produce an amine"
+        },
+        {
+          "key": "9701:15.1.9",
+          "code": "15.1.9",
+          "subtopicCode": "15.1",
+          "text": "(d) the reaction with aqueous silver nitrate in ethanol as a method of identifying the halogen present as exemplified by bromoethane"
+        },
+        {
+          "key": "9701:15.1.10",
+          "code": "15.1.10",
+          "subtopicCode": "15.1",
+          "text": "describe the elimination reaction with NaOH in ethanol and heat to produce an alkene as exemplified by bromoethane"
+        },
+        {
+          "key": "9701:15.1.11",
+          "code": "15.1.11",
+          "subtopicCode": "15.1",
+          "text": "describe the SN1 and SN2 mechanisms of nucleophilic substitution in halogenoalkanes including the inductive effects of alkyl groups the SN1 mechanism; and secondary halogenoalkanes by a mixture of the two, depending on structure"
+        },
+        {
+          "key": "9701:15.1.12",
+          "code": "15.1.12",
+          "subtopicCode": "15.1",
+          "text": "describe and explain the different reactivities of halogenoalkanes (with particular reference to the relative strengths of the C–X bonds as exemplified by the reactions of halogenoalkanes with aqueous silver nitrates)"
+        },
+        {
+          "key": "9701:16.1.1",
+          "code": "16.1.1",
+          "subtopicCode": "16.1",
+          "text": "(a) electrophilic addition of steam to an alkene, using H2O(g) and H3PO4 catalyst"
+        },
+        {
+          "key": "9701:16.1.2",
+          "code": "16.1.2",
+          "subtopicCode": "16.1",
+          "text": "(b) reaction of alkenes with cold dilute acidified potassium manganate(VII) to form a diol"
+        },
+        {
+          "key": "9701:16.1.3",
+          "code": "16.1.3",
+          "subtopicCode": "16.1",
+          "text": "(c) substitution of a halogenoalkane using NaOH(aq) and heat"
+        },
+        {
+          "key": "9701:16.1.4",
+          "code": "16.1.4",
+          "subtopicCode": "16.1",
+          "text": "(d) reduction of an aldehyde or ketone using NaBH4 or LiAl H4"
+        },
+        {
+          "key": "9701:16.1.5",
+          "code": "16.1.5",
+          "subtopicCode": "16.1",
+          "text": "(e) reduction of a carboxylic acid using LiAl H4"
+        },
+        {
+          "key": "9701:16.1.6",
+          "code": "16.1.6",
+          "subtopicCode": "16.1",
+          "text": "(f) hydrolysis of an ester using dilute acid or dilute alkali and heat"
+        },
+        {
+          "key": "9701:16.1.7",
+          "code": "16.1.7",
+          "subtopicCode": "16.1",
+          "text": "(a) the reaction with oxygen (combustion)"
+        },
+        {
+          "key": "9701:16.1.8",
+          "code": "16.1.8",
+          "subtopicCode": "16.1",
+          "text": "(b) substitution to form halogenoalkanes, e.g. by reaction with HX(g); or with KCl and concentrated H2SO4 or concentrated H3PO4; or with PCl 3 and heat; or with PCl 5; or with SOCl 2"
+        },
+        {
+          "key": "9701:16.1.9",
+          "code": "16.1.9",
+          "subtopicCode": "16.1",
+          "text": "(c) the reaction with Na(s)"
+        },
+        {
+          "key": "9701:16.1.10",
+          "code": "16.1.10",
+          "subtopicCode": "16.1",
+          "text": "(d) oxidation with acidified K2Cr2O7 or acidified KMnO4 to:"
+        },
+        {
+          "key": "9701:16.1.11",
+          "code": "16.1.11",
+          "subtopicCode": "16.1",
+          "text": "(i) carbonyl compounds by distillation (ii) carboxylic acids by refluxing (primary alcohols give aldehydes which can be further oxidised to carboxylic acids, secondary alcohols"
+        },
+        {
+          "key": "9701:16.1.12",
+          "code": "16.1.12",
+          "subtopicCode": "16.1",
+          "text": "give ketones, tertiary alcohols cannot be oxidised)"
+        },
+        {
+          "key": "9701:16.1.13",
+          "code": "16.1.13",
+          "subtopicCode": "16.1",
+          "text": "(e) dehydration to an alkene, by using a heated catalyst, e.g. Al 2O3 or a concentrated acid"
+        },
+        {
+          "key": "9701:16.1.14",
+          "code": "16.1.14",
+          "subtopicCode": "16.1",
+          "text": "(f) formation of esters by reaction with carboxylic acids and concentrated H2SO4 as catalyst as exemplified by ethanol"
+        },
+        {
+          "key": "9701:16.1.15",
+          "code": "16.1.15",
+          "subtopicCode": "16.1",
+          "text": "(a) classify alcohols as primary, secondary and tertiary alcohols, to include examples with more than one alcohol group"
+        },
+        {
+          "key": "9701:16.1.16",
+          "code": "16.1.16",
+          "subtopicCode": "16.1",
+          "text": "(b) state characteristic distinguishing reactions, e.g. mild oxidation with acidified K2Cr2O7, colour change from orange to green"
+        },
+        {
+          "key": "9701:16.1.17",
+          "code": "16.1.17",
+          "subtopicCode": "16.1",
+          "text": "deduce the presence of a CH3CH(OH)– group in an alcohol, CH3CH(OH)–R, from its reaction with alkaline I2(aq) to form a yellow precipitate of tri-iodomethane and an ion, RCO2 –"
+        },
+        {
+          "key": "9701:16.1.18",
+          "code": "16.1.18",
+          "subtopicCode": "16.1",
+          "text": "explain the acidity of alcohols compared with water"
+        },
+        {
+          "key": "9701:17.1.1",
+          "code": "17.1.1",
+          "subtopicCode": "17.1",
+          "text": "(a) the oxidation of primary alcohols using acidified K2Cr2O7 or acidified KMnO4 and distillation to produce aldehydes"
+        },
+        {
+          "key": "9701:17.1.2",
+          "code": "17.1.2",
+          "subtopicCode": "17.1",
+          "text": "(b) the oxidation of secondary alcohols using acidified K2Cr2O7 or acidified KMnO4 and distillation to produce ketones"
+        },
+        {
+          "key": "9701:17.1.3",
+          "code": "17.1.3",
+          "subtopicCode": "17.1",
+          "text": "(a) the reduction of aldehydes and ketones using NaBH4 or LiAl H4 to produce alcohols"
+        },
+        {
+          "key": "9701:17.1.4",
+          "code": "17.1.4",
+          "subtopicCode": "17.1",
+          "text": "(b) the reaction of aldehydes and ketones with HCN, KCN as catalyst, and heat to produce hydroxynitriles as exemplified by ethanal and propanone"
+        },
+        {
+          "key": "9701:17.1.5",
+          "code": "17.1.5",
+          "subtopicCode": "17.1",
+          "text": "describe the mechanism of the nucleophilic addition reactions of hydrogen cyanide with aldehydes and ketones in 17.1.2(b)"
+        },
+        {
+          "key": "9701:17.1.6",
+          "code": "17.1.6",
+          "subtopicCode": "17.1",
+          "text": "describe the use of 2,4-dinitrophenylhydrazine (2,4-DNPH reagent) to detect the presence of carbonyl"
+        },
+        {
+          "key": "9701:18.1.1",
+          "code": "18.1.1",
+          "subtopicCode": "18.1",
+          "text": "(a) oxidation of primary alcohols and aldehydes with acidified K2Cr2O7 or acidified KMnO4 and refluxing"
+        },
+        {
+          "key": "9701:18.1.2",
+          "code": "18.1.2",
+          "subtopicCode": "18.1",
+          "text": "(b) hydrolysis of nitriles with dilute acid or dilute alkali followed by acidification"
+        },
+        {
+          "key": "9701:18.1.3",
+          "code": "18.1.3",
+          "subtopicCode": "18.1",
+          "text": "(c) hydrolysis of esters with dilute acid or dilute alkali and heat followed by acidification"
+        },
+        {
+          "key": "9701:18.2.1",
+          "code": "18.2.1",
+          "subtopicCode": "18.2",
+          "text": "(a) the condensation reaction between an alcohol and a carboxylic acid with concentrated H₂SO₄ as catalyst"
+        },
+        {
+          "key": "9701:18.2.2",
+          "code": "18.2.2",
+          "subtopicCode": "18.2",
+          "text": "describe the hydrolysis of esters by dilute acid and by dilute alkali and heat"
+        },
+        {
+          "key": "9701:19.1.1",
+          "code": "19.1.1",
+          "subtopicCode": "19.1",
+          "text": "(a) reaction of a halogenoalkane with NH₃ in ethanol heated under pressure (Classification of amines will not be tested at AS Level)."
+        },
+        {
+          "key": "9701:19.2.1",
+          "code": "19.2.1",
+          "subtopicCode": "19.2",
+          "text": "(a) reaction of a halogenoalkane with KCN in ethanol and heat"
+        },
+        {
+          "key": "9701:19.2.2",
+          "code": "19.2.2",
+          "subtopicCode": "19.2",
+          "text": "(a) the reaction of aldehydes and ketones with HCN, KCN as catalyst, and heat"
+        },
+        {
+          "key": "9701:19.2.3",
+          "code": "19.2.3",
+          "subtopicCode": "19.2",
+          "text": "describe the hydrolysis of nitriles with dilute acid or dilute alkali followed by acidification to produce a carboxylic acid"
+        },
+        {
+          "key": "9701:20.1.1",
+          "code": "20.1.1",
+          "subtopicCode": "20.1",
+          "text": "describe addition polymerisation as exemplified by poly(ethene) and poly(chloroethene), PVC"
+        },
+        {
+          "key": "9701:20.1.2",
+          "code": "20.1.2",
+          "subtopicCode": "20.1",
+          "text": "deduce the repeat unit of an addition polymer obtained from a given monomer"
+        },
+        {
+          "key": "9701:20.1.3",
+          "code": "20.1.3",
+          "subtopicCode": "20.1",
+          "text": "identify the monomer(s) present in a given section of an addition polymer molecule"
+        },
+        {
+          "key": "9701:20.1.4",
+          "code": "20.1.4",
+          "subtopicCode": "20.1",
+          "text": "recognise the difficulty of the disposal of poly(alkene)s, i.e. non-biodegradability and harmful combustion products"
+        },
+        {
+          "key": "9701:21.1.1",
+          "code": "21.1.1",
+          "subtopicCode": "21.1",
+          "text": "(a) identify organic functional groups using the reactions in the syllabus"
+        },
+        {
+          "key": "9701:21.1.2",
+          "code": "21.1.2",
+          "subtopicCode": "21.1",
+          "text": "(b) predict properties and reactions"
+        },
+        {
+          "key": "9701:21.1.3",
+          "code": "21.1.3",
+          "subtopicCode": "21.1",
+          "text": "devise multi-step synthetic routes for preparing organic molecules using the reactions in the syllabus"
+        },
+        {
+          "key": "9701:21.1.4",
+          "code": "21.1.4",
+          "subtopicCode": "21.1",
+          "text": "analyse a given synthetic route in terms of type of reaction and reagents used for each step of it, and possible by-products"
+        },
+        {
+          "key": "9701:22.1.1",
+          "code": "22.1.1",
+          "subtopicCode": "22.1",
+          "text": "analyse an infrared spectrum of a simple molecule to identify functional groups (see the Data section for the functional groups required)"
+        },
+        {
+          "key": "9701:22.2.1",
+          "code": "22.2.1",
+          "subtopicCode": "22.2",
+          "text": "analyse mass spectra in terms of m/e values and isotopic abundances (knowledge of the working of the mass spectrometer is not required)"
+        },
+        {
+          "key": "9701:22.2.2",
+          "code": "22.2.2",
+          "subtopicCode": "22.2",
+          "text": "calculate the relative atomic mass of an element given the relative abundances of its isotopes, or its mass spectrum"
+        },
+        {
+          "key": "9701:22.2.3",
+          "code": "22.2.3",
+          "subtopicCode": "22.2",
+          "text": "deduce the molecular mass of an organic molecule from the molecular ion peak in a mass spectrum"
+        },
+        {
+          "key": "9701:22.2.4",
+          "code": "22.2.4",
+          "subtopicCode": "22.2",
+          "text": "suggest the identity of molecules formed by simple fragmentation in a given mass spectrum"
+        },
+        {
+          "key": "9701:22.2.5",
+          "code": "22.2.5",
+          "subtopicCode": "22.2",
+          "text": "deduce the number of carbon atoms, n, in a compound using the [M + 1]+ peak and the formula n = 100 × abundance of [M + 1]+ ion"
+        },
+        {
+          "key": "9701:22.2.6",
+          "code": "22.2.6",
+          "subtopicCode": "22.2",
+          "text": "deduce the presence of bromine and chlorine atoms in a compound using the [M + 2]+ peak"
+        },
+        {
+          "key": "9701:23.1.1",
+          "code": "23.1.1",
+          "subtopicCode": "23.1",
+          "text": "define and use the terms:"
+        },
+        {
+          "key": "9701:23.1.2",
+          "code": "23.1.2",
+          "subtopicCode": "23.1",
+          "text": "(a) enthalpy change of atomisation, ΔHat"
+        },
+        {
+          "key": "9701:23.1.3",
+          "code": "23.1.3",
+          "subtopicCode": "23.1",
+          "text": "(b) lattice energy, ΔHlatt (the change from gas phase ions to solid lattice)"
+        },
+        {
+          "key": "9701:23.1.4",
+          "code": "23.1.4",
+          "subtopicCode": "23.1",
+          "text": "(a) define and use the term first electron affinity, EA"
+        },
+        {
+          "key": "9701:23.1.5",
+          "code": "23.1.5",
+          "subtopicCode": "23.1",
+          "text": "(b) explain the factors affecting the electron affinities of elements"
+        },
+        {
+          "key": "9701:23.1.6",
+          "code": "23.1.6",
+          "subtopicCode": "23.1",
+          "text": "(c) describe and explain the trends in the electron affinities of the Group 16 and Group 17 elements"
+        },
+        {
+          "key": "9701:23.1.7",
+          "code": "23.1.7",
+          "subtopicCode": "23.1",
+          "text": "construct and use Born–Haber cycles for ionic solids (limited to +1 and +2 cations, –1 and –2 anions)"
+        },
+        {
+          "key": "9701:23.2.1",
+          "code": "23.2.1",
+          "subtopicCode": "23.2",
+          "text": "define and use the term enthalpy change with reference to hydration, ΔHhyd, and solution, ΔHsol"
+        },
+        {
+          "key": "9701:23.2.2",
+          "code": "23.2.2",
+          "subtopicCode": "23.2",
+          "text": "construct and use an energy cycle involving enthalpy change of solution, lattice energy and enthalpy change of hydration"
+        },
+        {
+          "key": "9701:23.3.1",
+          "code": "23.3.1",
+          "subtopicCode": "23.3",
+          "text": "define the term entropy, S, as the number of possible arrangements of the particles and their energy in a given system"
+        },
+        {
+          "key": "9701:23.3.2",
+          "code": "23.3.2",
+          "subtopicCode": "23.3",
+          "text": "predict and explain the sign of the entropy changes that occur:"
+        },
+        {
+          "key": "9701:23.3.3",
+          "code": "23.3.3",
+          "subtopicCode": "23.3",
+          "text": "(a) during a change in state, e.g. melting, boiling and dissolving (and their reverse)"
+        },
+        {
+          "key": "9701:23.3.4",
+          "code": "23.3.4",
+          "subtopicCode": "23.3",
+          "text": "(b) during a temperature change"
+        },
+        {
+          "key": "9701:23.3.5",
+          "code": "23.3.5",
+          "subtopicCode": "23.3",
+          "text": "(c) during a reaction in which there is a change in the number of gaseous molecules"
+        },
+        {
+          "key": "9701:23.3.6",
+          "code": "23.3.6",
+          "subtopicCode": "23.3",
+          "text": "calculate the entropy change for a reaction, ΔS, given the standard entropies, S ⦵, of the reactants and products, ΔS ⦵ = ΣS ⦵(products) – ΣS ⦵(reactants) (use of ΔS ⦵ = ΔSsurr + ΔSsys is not required)"
+        },
+        {
+          "key": "9701:23.4.1",
+          "code": "23.4.1",
+          "subtopicCode": "23.4",
+          "text": "state and use the Gibbs equation ΔG ⦵ = ΔH ⦵ – TΔS ⦵ ⦵ = ΔH ⦵ – TΔS ⦵"
+        },
+        {
+          "key": "9701:23.4.2",
+          "code": "23.4.2",
+          "subtopicCode": "23.4",
+          "text": "state whether a reaction or process will be feasible by using the sign of ΔG"
+        },
+        {
+          "key": "9701:23.4.3",
+          "code": "23.4.3",
+          "subtopicCode": "23.4",
+          "text": "predict the effect of temperature change on the feasibility of a reaction, given standard enthalpy and entropy changes"
+        },
+        {
+          "key": "9701:24.1.1",
+          "code": "24.1.1",
+          "subtopicCode": "24.1",
+          "text": "predict the identities of substances liberated during electrolysis from the state of electrolyte (molten or aqueous), position in the redox series (electrode potential) and concentration"
+        },
+        {
+          "key": "9701:24.1.2",
+          "code": "24.1.2",
+          "subtopicCode": "24.1",
+          "text": "state and apply the relationship F = Le between the Faraday constant, F, the Avogadro constant, L, and the charge on the electron, e"
+        },
+        {
+          "key": "9701:24.1.3",
+          "code": "24.1.3",
+          "subtopicCode": "24.1",
+          "text": "(a) the quantity of charge passed during electrolysis, using Q = It"
+        },
+        {
+          "key": "9701:24.1.4",
+          "code": "24.1.4",
+          "subtopicCode": "24.1",
+          "text": "(b) the mass and/or volume of substance liberated during electrolysis"
+        },
+        {
+          "key": "9701:24.1.5",
+          "code": "24.1.5",
+          "subtopicCode": "24.1",
+          "text": "describe the determination of a value of the Avogadro constant by an electrolytic method ⦵ ⦵"
+        },
+        {
+          "key": "9701:24.2.1",
+          "code": "24.2.1",
+          "subtopicCode": "24.2",
+          "text": "define the terms:"
+        },
+        {
+          "key": "9701:24.2.2",
+          "code": "24.2.2",
+          "subtopicCode": "24.2",
+          "text": "(a) standard electrode (reduction) potential"
+        },
+        {
+          "key": "9701:24.2.3",
+          "code": "24.2.3",
+          "subtopicCode": "24.2",
+          "text": "(b) standard cell potential"
+        },
+        {
+          "key": "9701:24.2.4",
+          "code": "24.2.4",
+          "subtopicCode": "24.2",
+          "text": "describe the standard hydrogen electrode"
+        },
+        {
+          "key": "9701:24.2.5",
+          "code": "24.2.5",
+          "subtopicCode": "24.2",
+          "text": "describe methods used to measure the standard electrode potentials of:"
+        },
+        {
+          "key": "9701:25.1.1",
+          "code": "25.1.1",
+          "subtopicCode": "25.1",
+          "text": "understand and use the terms conjugate acid and conjugate base"
+        },
+        {
+          "key": "9701:25.1.2",
+          "code": "25.1.2",
+          "subtopicCode": "25.1",
+          "text": "define conjugate acid–base pairs, identifying such pairs in reactions"
+        },
+        {
+          "key": "9701:25.1.3",
+          "code": "25.1.3",
+          "subtopicCode": "25.1",
+          "text": "define mathematically the terms pH, Ka, pKa and Kw and use them in calculations (Kb and the equation Kw = Ka × Kb will not be tested)"
+        },
+        {
+          "key": "9701:25.1.4",
+          "code": "25.1.4",
+          "subtopicCode": "25.1",
+          "text": "calculate [H+(aq)] and pH values for:"
+        },
+        {
+          "key": "9701:25.1.5",
+          "code": "25.1.5",
+          "subtopicCode": "25.1",
+          "text": "(a) strong acids"
+        },
+        {
+          "key": "9701:25.1.6",
+          "code": "25.1.6",
+          "subtopicCode": "25.1",
+          "text": "(b) strong alkalis"
+        },
+        {
+          "key": "9701:25.1.7",
+          "code": "25.1.7",
+          "subtopicCode": "25.1",
+          "text": "(c) weak acids"
+        },
+        {
+          "key": "9701:25.1.8",
+          "code": "25.1.8",
+          "subtopicCode": "25.1",
+          "text": "(a) define a buffer solution"
+        },
+        {
+          "key": "9701:25.1.9",
+          "code": "25.1.9",
+          "subtopicCode": "25.1",
+          "text": "(b) explain how a buffer solution can be made"
+        },
+        {
+          "key": "9701:25.1.10",
+          "code": "25.1.10",
+          "subtopicCode": "25.1",
+          "text": "(c) explain how buffer solutions control pH; use chemical equations in these explanations"
+        },
+        {
+          "key": "9701:25.1.11",
+          "code": "25.1.11",
+          "subtopicCode": "25.1",
+          "text": "(d) describe and explain the uses of buffer solutions, including the role of HCO3 – in controlling pH in blood"
+        },
+        {
+          "key": "9701:25.1.12",
+          "code": "25.1.12",
+          "subtopicCode": "25.1",
+          "text": "calculate relevant concentrations and the pH of buffer solutions, given appropriate data"
+        },
+        {
+          "key": "9701:25.1.13",
+          "code": "25.1.13",
+          "subtopicCode": "25.1",
+          "text": "understand and use the term solubility product, Ksp"
+        },
+        {
+          "key": "9701:25.1.14",
+          "code": "25.1.14",
+          "subtopicCode": "25.1",
+          "text": "write an expression for Ksp"
+        },
+        {
+          "key": "9701:25.1.15",
+          "code": "25.1.15",
+          "subtopicCode": "25.1",
+          "text": "calculate Ksp from concentrations and vice versa"
+        },
+        {
+          "key": "9701:25.1.16",
+          "code": "25.1.16",
+          "subtopicCode": "25.1",
+          "text": "(a) understand and use the common ion effect to explain the different solubility of a compound in a solution containing a common ion"
+        },
+        {
+          "key": "9701:25.1.17",
+          "code": "25.1.17",
+          "subtopicCode": "25.1",
+          "text": "(b) perform calculations using Ksp values and concentration of a common ion"
+        },
+        {
+          "key": "9701:25.2.1",
+          "code": "25.2.1",
+          "subtopicCode": "25.2",
+          "text": "state what is meant by the term partition coefficient, Kpc"
+        },
+        {
+          "key": "9701:25.2.2",
+          "code": "25.2.2",
+          "subtopicCode": "25.2",
+          "text": "calculate and use a partition coefficient for a system in which the solute is in the same physical state in the two solvents"
+        },
+        {
+          "key": "9701:25.2.3",
+          "code": "25.2.3",
+          "subtopicCode": "25.2",
+          "text": "understand the factors affecting the numerical value of a partition coefficient in terms of the polarities of the solute and the solvents used"
+        },
+        {
+          "key": "9701:26.1.1",
+          "code": "26.1.1",
+          "subtopicCode": "26.1",
+          "text": "explain and use the terms rate equation, order of reaction, overall order of reaction, rate constant, half-life, rate-determining step and intermediate"
+        },
+        {
+          "key": "9701:26.1.2",
+          "code": "26.1.2",
+          "subtopicCode": "26.1",
+          "text": "(a) understand and use rate equations of the form rate = k [A]m[B]n (for which m and n are 0, 1 or 2)"
+        },
+        {
+          "key": "9701:26.1.3",
+          "code": "26.1.3",
+          "subtopicCode": "26.1",
+          "text": "(b) deduce the order of a reaction from concentration–time graphs or from experimental data relating to the initial rates method and half-life method"
+        },
+        {
+          "key": "9701:26.1.4",
+          "code": "26.1.4",
+          "subtopicCode": "26.1",
+          "text": "(c) interpret experimental data in graphical form, including concentration–time and rate–concentration graphs"
+        },
+        {
+          "key": "9701:26.1.5",
+          "code": "26.1.5",
+          "subtopicCode": "26.1",
+          "text": "(d) calculate an initial rate using concentration data"
+        },
+        {
+          "key": "9701:26.1.6",
+          "code": "26.1.6",
+          "subtopicCode": "26.1",
+          "text": "(e) construct a rate equation"
+        },
+        {
+          "key": "9701:26.1.7",
+          "code": "26.1.7",
+          "subtopicCode": "26.1",
+          "text": "(a) show understanding that the half-life of a first-order reaction is independent of concentration"
+        },
+        {
+          "key": "9701:26.1.8",
+          "code": "26.1.8",
+          "subtopicCode": "26.1",
+          "text": "(b) use the half-life of a first-order reaction in calculations"
+        },
+        {
+          "key": "9701:26.1.9",
+          "code": "26.1.9",
+          "subtopicCode": "26.1",
+          "text": "calculate the numerical value of a rate constant, for example by:"
+        },
+        {
+          "key": "9701:26.1.10",
+          "code": "26.1.10",
+          "subtopicCode": "26.1",
+          "text": "(a) using the initial rates and the rate equation"
+        },
+        {
+          "key": "9701:26.1.11",
+          "code": "26.1.11",
+          "subtopicCode": "26.1",
+          "text": "(b) using the half-life, t"
+        },
+        {
+          "key": "9701:26.1.12",
+          "code": "26.1.12",
+          "subtopicCode": "26.1",
+          "text": "(a) suggest a reaction mechanism that is consistent with the rate equation and the equation for the overall reaction"
+        },
+        {
+          "key": "9701:26.1.13",
+          "code": "26.1.13",
+          "subtopicCode": "26.1",
+          "text": "(b) predict the order that would result from a given reaction mechanism and rate-determining step"
+        },
+        {
+          "key": "9701:26.1.14",
+          "code": "26.1.14",
+          "subtopicCode": "26.1",
+          "text": "(c) deduce a rate equation using a given reaction mechanism and rate-determining step for a given"
+        },
+        {
+          "key": "9701:26.2.1",
+          "code": "26.2.1",
+          "subtopicCode": "26.2",
+          "text": "explain that catalysts can be homogeneous or heterogeneous"
+        },
+        {
+          "key": "9701:26.2.2",
+          "code": "26.2.2",
+          "subtopicCode": "26.2",
+          "text": "describe the mode of action of a heterogeneous catalyst to include adsorption of reactants, bond weakening and desorption of products, for example:"
+        },
+        {
+          "key": "9701:26.2.3",
+          "code": "26.2.3",
+          "subtopicCode": "26.2",
+          "text": "(a) iron in the Haber process"
+        },
+        {
+          "key": "9701:26.2.4",
+          "code": "26.2.4",
+          "subtopicCode": "26.2",
+          "text": "(b) palladium, platinum and rhodium in the catalytic removal of oxides of nitrogen from the exhaust gases of car engines"
+        },
+        {
+          "key": "9701:26.2.5",
+          "code": "26.2.5",
+          "subtopicCode": "26.2",
+          "text": "describe the mode of action of a homogeneous catalyst by being used in one step and reformed in a later step, for example:"
+        },
+        {
+          "key": "9701:26.2.6",
+          "code": "26.2.6",
+          "subtopicCode": "26.2",
+          "text": "(a) atmospheric oxides of nitrogen in the oxidation of atmospheric sulfur dioxide"
+        },
+        {
+          "key": "9701:26.2.7",
+          "code": "26.2.7",
+          "subtopicCode": "26.2",
+          "text": "(b) Fe2+ or Fe3+ in the I–/S2O8 2– reaction"
+        },
+        {
+          "key": "9701:27.1.1",
+          "code": "27.1.1",
+          "subtopicCode": "27.1",
+          "text": "describe and explain qualitatively the trend in the thermal stability of the nitrates and carbonates, including the effect of ionic radius on the polarisation of the large anion"
+        },
+        {
+          "key": "9701:27.1.2",
+          "code": "27.1.2",
+          "subtopicCode": "27.1",
+          "text": "describe and explain qualitatively the variation in solubility and of enthalpy change of solution, ΔH ⦵ sol, of the hydroxides and sulfates in terms of relative magnitudes of the enthalpy change of hydration and the lattice energy"
+        },
+        {
+          "key": "9701:28.1.1",
+          "code": "28.1.1",
+          "subtopicCode": "28.1",
+          "text": "define a transition element as a d-block element which forms one or more stable ions with incomplete d orbitals"
+        },
+        {
+          "key": "9701:28.1.2",
+          "code": "28.1.2",
+          "subtopicCode": "28.1",
+          "text": "understand that transition elements have the following properties:"
+        },
+        {
+          "key": "9701:28.1.3",
+          "code": "28.1.3",
+          "subtopicCode": "28.1",
+          "text": "(a) they have variable oxidation states"
+        },
+        {
+          "key": "9701:28.1.4",
+          "code": "28.1.4",
+          "subtopicCode": "28.1",
+          "text": "(b) they behave as catalysts"
+        },
+        {
+          "key": "9701:28.1.5",
+          "code": "28.1.5",
+          "subtopicCode": "28.1",
+          "text": "(c) they form complex ions"
+        },
+        {
+          "key": "9701:28.1.6",
+          "code": "28.1.6",
+          "subtopicCode": "28.1",
+          "text": "(d) they form coloured compounds"
+        },
+        {
+          "key": "9701:28.1.7",
+          "code": "28.1.7",
+          "subtopicCode": "28.1",
+          "text": "explain why transition elements have variable oxidation states in terms of the similarity in energy of the 3d and the 4s sub-shells"
+        },
+        {
+          "key": "9701:28.1.8",
+          "code": "28.1.8",
+          "subtopicCode": "28.1",
+          "text": "explain why transition elements behave as catalysts in terms of having more than one stable oxidation state, and vacant d orbitals that are energetically accessible and can form dative bonds with ligands"
+        },
+        {
+          "key": "9701:28.1.9",
+          "code": "28.1.9",
+          "subtopicCode": "28.1",
+          "text": "explain why transition elements form complex ions in terms of vacant d orbitals that are energetically accessible"
+        },
+        {
+          "key": "9701:28.2.1",
+          "code": "28.2.1",
+          "subtopicCode": "28.2",
+          "text": "describe and explain the reactions of transition elements with ligands to form complexes, including the complexes of copper(II) and cobalt(II) ions with water and ammonia molecules and hydroxide and chloride ions"
+        },
+        {
+          "key": "9701:28.2.2",
+          "code": "28.2.2",
+          "subtopicCode": "28.2",
+          "text": "define the term ligand as a species that contains a lone pair of electrons that forms a dative covalent bond to a central metal atom / ion"
+        },
+        {
+          "key": "9701:28.2.3",
+          "code": "28.2.3",
+          "subtopicCode": "28.2",
+          "text": "understand and use the terms:"
+        },
+        {
+          "key": "9701:28.2.4",
+          "code": "28.2.4",
+          "subtopicCode": "28.2",
+          "text": "(a) monodentate ligand including as examples H2O, NH3, Cl – and CN–"
+        },
+        {
+          "key": "9701:28.2.5",
+          "code": "28.2.5",
+          "subtopicCode": "28.2",
+          "text": "(b) bidentate ligand including as examples 1,2-diaminoethane, en, H2NCH2CH2NH2, and the ethanedioate ion, C2O4 2–"
+        },
+        {
+          "key": "9701:28.2.6",
+          "code": "28.2.6",
+          "subtopicCode": "28.2",
+          "text": "(c) polydentate ligand including as an example EDTA4–"
+        },
+        {
+          "key": "9701:28.2.7",
+          "code": "28.2.7",
+          "subtopicCode": "28.2",
+          "text": "define the term complex as a molecule or ion formed by a central metal atom / ion surrounded by one or more ligands"
+        },
+        {
+          "key": "9701:28.2.8",
+          "code": "28.2.8",
+          "subtopicCode": "28.2",
+          "text": "describe the geometry (shape and bond angles) of transition element complexes which are linear, square planar, tetrahedral or octahedral"
+        },
+        {
+          "key": "9701:28.2.9",
+          "code": "28.2.9",
+          "subtopicCode": "28.2",
+          "text": "(a) state what is meant by coordination number"
+        },
+        {
+          "key": "9701:28.2.10",
+          "code": "28.2.10",
+          "subtopicCode": "28.2",
+          "text": "(b) predict the formula and charge of a complex ion, given the metal ion, its charge or oxidation state, the ligand and its coordination number or geometry"
+        },
+        {
+          "key": "9701:28.2.11",
+          "code": "28.2.11",
+          "subtopicCode": "28.2",
+          "text": "explain qualitatively that ligand exchange can occur, including the complexes of copper(II) ions and cobalt(II) ions with water and ammonia molecules and hydroxide and chloride ions"
+        },
+        {
+          "key": "9701:28.3.1",
+          "code": "28.3.1",
+          "subtopicCode": "28.3",
+          "text": "define and use the terms degenerate and non-degenerate d orbitals"
+        },
+        {
+          "key": "9701:28.3.2",
+          "code": "28.3.2",
+          "subtopicCode": "28.3",
+          "text": "describe the splitting of degenerate d orbitals into two non-degenerate sets of d orbitals of higher energy, and use of Δ E in:"
+        },
+        {
+          "key": "9701:28.3.3",
+          "code": "28.3.3",
+          "subtopicCode": "28.3",
+          "text": "(a) octahedral complexes, two higher and three lower d orbitals"
+        },
+        {
+          "key": "9701:28.3.4",
+          "code": "28.3.4",
+          "subtopicCode": "28.3",
+          "text": "(b) tetrahedral complexes, three higher and two lower d orbitals"
+        },
+        {
+          "key": "9701:28.3.5",
+          "code": "28.3.5",
+          "subtopicCode": "28.3",
+          "text": "explain why transition elements form coloured compounds in terms of the frequency of light absorbed as an electron is promoted between two non-degenerate d orbitals hence the complementary colour that is observed"
+        },
+        {
+          "key": "9701:28.3.6",
+          "code": "28.3.6",
+          "subtopicCode": "28.3",
+          "text": "use the complexes of copper(II) ions and cobalt(II) ions with water and ammonia molecules and hydroxide and chloride ions as examples of ligand exchange affecting the colour observed"
+        },
+        {
+          "key": "9701:28.4.1",
+          "code": "28.4.1",
+          "subtopicCode": "28.4",
+          "text": "describe the types of stereoisomerism shown by complexes, including those associated with bidentate ligands:"
+        },
+        {
+          "key": "9701:28.4.2",
+          "code": "28.4.2",
+          "subtopicCode": "28.4",
+          "text": "(a) geometrical (cis/trans) isomerism, e.g. square planar such as [Pt(NH₃)₂Cl ₂] and octahedral such as [Co(NH3)4(H2O)2]2+ and [Ni(H2NCH2CH2NH2)2(H2O)2]2+"
+        },
+        {
+          "key": "9701:28.4.3",
+          "code": "28.4.3",
+          "subtopicCode": "28.4",
+          "text": "(b) optical isomerism, e.g. [Ni(H2NCH2CH2NH2)3]2+ and [Ni(H2NCH2CH2NH2)2(H2O)2]2+"
+        },
+        {
+          "key": "9701:28.4.4",
+          "code": "28.4.4",
+          "subtopicCode": "28.4",
+          "text": "deduce the overall polarity of complexes such as those described in 28.4.1(a) and 28.4.1(b)"
+        },
+        {
+          "key": "9701:28.5.1",
+          "code": "28.5.1",
+          "subtopicCode": "28.5",
+          "text": "define the stability constant, Kstab, of a complex as the equilibrium constant for the formation of the complex ion in a solvent (from its constituent ions or molecules)"
+        },
+        {
+          "key": "9701:28.5.2",
+          "code": "28.5.2",
+          "subtopicCode": "28.5",
+          "text": "write an expression for a Kstab of a complex ([H₂O] should not be included)"
+        },
+        {
+          "key": "9701:28.5.3",
+          "code": "28.5.3",
+          "subtopicCode": "28.5",
+          "text": "use Kstab expressions to perform calculations"
+        },
+        {
+          "key": "9701:28.5.4",
+          "code": "28.5.4",
+          "subtopicCode": "28.5",
+          "text": "describe and explain ligand exchanges in terms of Kstab values and understand that a large Kstab is due to the formation of a stable complex ion"
+        },
+        {
+          "key": "9701:29.1.1",
+          "code": "29.1.1",
+          "subtopicCode": "29.1",
+          "text": "understand that the compounds in the table on page 47 contain a functional group which dictates their physical and chemical properties"
+        },
+        {
+          "key": "9701:29.1.2",
+          "code": "29.1.2",
+          "subtopicCode": "29.1",
+          "text": "interpret and use the general, structural, displayed and skeletal formulas of the classes of compound stated in the table on page 47"
+        },
+        {
+          "key": "9701:29.1.3",
+          "code": "29.1.3",
+          "subtopicCode": "29.1",
+          "text": "understand and use systematic nomenclature of simple aliphatic organic molecules (including cyclic compounds containing a single ring of up to six carbon atoms) with functional groups detailed in the table on page 47, up to six carbon atoms (six plus six for esters and amides, straight chains only for esters and nitriles)"
+        },
+        {
+          "key": "9701:29.1.4",
+          "code": "29.1.4",
+          "subtopicCode": "29.1",
+          "text": "understand and use systematic nomenclature of simple aromatic molecules with one benzene ring and one or more simple substituents, for example 3-nitrobenzoic acid or 2,4,6-tribromophenol"
+        },
+        {
+          "key": "9701:29.2.1",
+          "code": "29.2.1",
+          "subtopicCode": "29.2",
+          "text": "understand and use the following terminology associated with types of organic mechanisms:"
+        },
+        {
+          "key": "9701:29.2.2",
+          "code": "29.2.2",
+          "subtopicCode": "29.2",
+          "text": "(a) electrophilic substitution"
+        },
+        {
+          "key": "9701:29.2.3",
+          "code": "29.2.3",
+          "subtopicCode": "29.2",
+          "text": "(b) addition–elimination"
+        },
+        {
+          "key": "9701:29.3.1",
+          "code": "29.3.1",
+          "subtopicCode": "29.3",
+          "text": "describe and explain the shape of benzene and other aromatic molecules, including sp² hybridisation, in terms of σ bonds and a delocalised π system"
+        },
+        {
+          "key": "9701:29.4.1",
+          "code": "29.4.1",
+          "subtopicCode": "29.4",
+          "text": "understand that enantiomers have identical physical and chemical properties apart from their ability to rotate plane polarised light and their potential biological activity"
+        },
+        {
+          "key": "9701:29.4.2",
+          "code": "29.4.2",
+          "subtopicCode": "29.4",
+          "text": "understand and use the terms optically active and racemic mixture"
+        },
+        {
+          "key": "9701:29.4.3",
+          "code": "29.4.3",
+          "subtopicCode": "29.4",
+          "text": "describe the effect on plane polarised light of the two optical isomers of a single substance"
+        },
+        {
+          "key": "9701:29.4.4",
+          "code": "29.4.4",
+          "subtopicCode": "29.4",
+          "text": "explain the relevance of chirality to the synthetic preparation of drug molecules including:"
+        },
+        {
+          "key": "9701:29.4.5",
+          "code": "29.4.5",
+          "subtopicCode": "29.4",
+          "text": "(a) the potential different biological activity of the two enantiomers"
+        },
+        {
+          "key": "9701:29.4.6",
+          "code": "29.4.6",
+          "subtopicCode": "29.4",
+          "text": "(b) the need to separate a racemic mixture into two pure enantiomers"
+        },
+        {
+          "key": "9701:29.4.7",
+          "code": "29.4.7",
+          "subtopicCode": "29.4",
+          "text": "(c) the use of chiral catalysts to produce a single pure optical isomer (Candidates should appreciate that compounds can contain more than one chiral centre, but knowledge of meso compounds and nomenclature such as diastereoisomers is not required.)"
+        },
+        {
+          "key": "9701:30.1.1",
+          "code": "30.1.1",
+          "subtopicCode": "30.1",
+          "text": "describe the chemistry of arenes as exemplified by the following reactions of benzene and methylbenzene:"
+        },
+        {
+          "key": "9701:30.1.2",
+          "code": "30.1.2",
+          "subtopicCode": "30.1",
+          "text": "(a) substitution reactions with Cl ₂ and with Br₂ in the presence of a catalyst, Al Cl ₃ or Al Br₃, to form halogenoarenes (aryl halides)"
+        },
+        {
+          "key": "9701:30.1.3",
+          "code": "30.1.3",
+          "subtopicCode": "30.1",
+          "text": "(b) nitration with a mixture of concentrated HNO₃ and concentrated H₂SO₄ at a temperature between"
+        },
+        {
+          "key": "9701:30.1.4",
+          "code": "30.1.4",
+          "subtopicCode": "30.1",
+          "text": "(c) Friedel–Crafts alkylation by CH₃Cl and Al Cl ₃ and heat"
+        },
+        {
+          "key": "9701:30.1.5",
+          "code": "30.1.5",
+          "subtopicCode": "30.1",
+          "text": "(d) Friedel–Crafts acylation by CH₃COCl and Al Cl ₃ and heat"
+        },
+        {
+          "key": "9701:30.1.6",
+          "code": "30.1.6",
+          "subtopicCode": "30.1",
+          "text": "(e) complete oxidation of the side-chain using hot alkaline KMnO₄ and then dilute acid to give a benzoic"
+        }
+      ]
+    }
+  ]
+}

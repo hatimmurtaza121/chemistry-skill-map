@@ -1,0 +1,13 @@
+{
+  "name": "chemistry-skill-map",
+  "version": "1.0.0",
+  "description": "Cambridge Chemistry prerequisite skill graph viewer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python pipeline/run.py",
+    "validate": "node scripts/validate.mjs",
+    "serve": "python scripts/serve.py",
+    "start": "python scripts/serve.py"
+  }
+}

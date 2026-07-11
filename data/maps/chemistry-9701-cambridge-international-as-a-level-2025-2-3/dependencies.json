@@ -1,0 +1,1535 @@
+{
+  "edgeCount": 255,
+  "dependencies": [
+    {
+      "topicId": "ms_1_1_2",
+      "prerequisiteId": "ms_1_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_1_3",
+      "prerequisiteId": "ms_1_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_1_4",
+      "prerequisiteId": "ms_1_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_1_5",
+      "prerequisiteId": "ms_1_1_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_1_6",
+      "prerequisiteId": "ms_1_1_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_1_7",
+      "prerequisiteId": "ms_1_1_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_2_2",
+      "prerequisiteId": "ms_1_2_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_2_3",
+      "prerequisiteId": "ms_1_2_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_2_4",
+      "prerequisiteId": "ms_1_2_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_3_2",
+      "prerequisiteId": "ms_1_3_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_3_3",
+      "prerequisiteId": "ms_1_3_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_3_4",
+      "prerequisiteId": "ms_1_3_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_3_5",
+      "prerequisiteId": "ms_1_3_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_3_7",
+      "prerequisiteId": "ms_1_3_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_3_8",
+      "prerequisiteId": "ms_1_3_7",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_3_9",
+      "prerequisiteId": "ms_1_3_8",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_4_2",
+      "prerequisiteId": "ms_1_4_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_1_4_3",
+      "prerequisiteId": "ms_1_4_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_2_1_2",
+      "prerequisiteId": "ms_2_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_2_4_2",
+      "prerequisiteId": "ms_2_4_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_2_4_3",
+      "prerequisiteId": "ms_2_4_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_2_4_4",
+      "prerequisiteId": "ms_2_4_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_2_4_5",
+      "prerequisiteId": "ms_2_4_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_1_2",
+      "prerequisiteId": "ms_3_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_2_2",
+      "prerequisiteId": "ms_3_2_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_4_2",
+      "prerequisiteId": "ms_3_4_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_4_3",
+      "prerequisiteId": "ms_3_4_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_4_4",
+      "prerequisiteId": "ms_3_4_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_4_5",
+      "prerequisiteId": "ms_3_4_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_4_6",
+      "prerequisiteId": "ms_3_4_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_4_7",
+      "prerequisiteId": "ms_3_4_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_4_8",
+      "prerequisiteId": "ms_3_4_7",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_4_9",
+      "prerequisiteId": "ms_3_4_8",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_5_2",
+      "prerequisiteId": "ms_3_5_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_6_2",
+      "prerequisiteId": "ms_3_6_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_6_3",
+      "prerequisiteId": "ms_3_6_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_6_4",
+      "prerequisiteId": "ms_3_6_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_6_5",
+      "prerequisiteId": "ms_3_6_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_6_6",
+      "prerequisiteId": "ms_3_6_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_3_6_7",
+      "prerequisiteId": "ms_3_6_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_4_1_2",
+      "prerequisiteId": "ms_4_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_4_1_3",
+      "prerequisiteId": "ms_4_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_4_2_2",
+      "prerequisiteId": "ms_4_2_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_4_2_3",
+      "prerequisiteId": "ms_4_2_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_4_2_4",
+      "prerequisiteId": "ms_4_2_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_5_2_2",
+      "prerequisiteId": "ms_5_2_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_5_2_3",
+      "prerequisiteId": "ms_5_2_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_6_1_2",
+      "prerequisiteId": "ms_6_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_6_1_3",
+      "prerequisiteId": "ms_6_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_6_1_4",
+      "prerequisiteId": "ms_6_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_6_1_5",
+      "prerequisiteId": "ms_6_1_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_7_1_2",
+      "prerequisiteId": "ms_7_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_7_1_3",
+      "prerequisiteId": "ms_7_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_7_1_4",
+      "prerequisiteId": "ms_7_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_7_1_5",
+      "prerequisiteId": "ms_7_1_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_7_1_6",
+      "prerequisiteId": "ms_7_1_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_7_1_7",
+      "prerequisiteId": "ms_7_1_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_7_1_8",
+      "prerequisiteId": "ms_7_1_7",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_7_1_9",
+      "prerequisiteId": "ms_7_1_8",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_7_1_10",
+      "prerequisiteId": "ms_7_1_9",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_7_1_11",
+      "prerequisiteId": "ms_7_1_10",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_7_1_12",
+      "prerequisiteId": "ms_7_1_11",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_7_2_2",
+      "prerequisiteId": "ms_7_2_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_7_2_3",
+      "prerequisiteId": "ms_7_2_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_7_2_4",
+      "prerequisiteId": "ms_7_2_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_8_1_2",
+      "prerequisiteId": "ms_8_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_8_1_3",
+      "prerequisiteId": "ms_8_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_8_3_3",
+      "prerequisiteId": "ms_8_3_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_8_3_4",
+      "prerequisiteId": "ms_8_3_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_9_1_2",
+      "prerequisiteId": "ms_9_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_11_1_2",
+      "prerequisiteId": "ms_11_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_11_1_3",
+      "prerequisiteId": "ms_11_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_11_2_2",
+      "prerequisiteId": "ms_11_2_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_11_3_3",
+      "prerequisiteId": "ms_11_3_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_11_3_4",
+      "prerequisiteId": "ms_11_3_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_12_1_3",
+      "prerequisiteId": "ms_12_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_12_1_4",
+      "prerequisiteId": "ms_12_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_12_1_5",
+      "prerequisiteId": "ms_12_1_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_12_1_6",
+      "prerequisiteId": "ms_12_1_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_12_1_7",
+      "prerequisiteId": "ms_12_1_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_12_1_8",
+      "prerequisiteId": "ms_12_1_7",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_1_2",
+      "prerequisiteId": "ms_13_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_1_3",
+      "prerequisiteId": "ms_13_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_1_4",
+      "prerequisiteId": "ms_13_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_1_6",
+      "prerequisiteId": "ms_13_1_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_2_3",
+      "prerequisiteId": "ms_13_2_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_2_4",
+      "prerequisiteId": "ms_13_2_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_2_5",
+      "prerequisiteId": "ms_13_2_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_2_6",
+      "prerequisiteId": "ms_13_2_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_2_7",
+      "prerequisiteId": "ms_13_2_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_2_8",
+      "prerequisiteId": "ms_13_2_7",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_2_10",
+      "prerequisiteId": "ms_13_2_8",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_2_11",
+      "prerequisiteId": "ms_13_2_10",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_2_12",
+      "prerequisiteId": "ms_13_2_11",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_2_13",
+      "prerequisiteId": "ms_13_2_12",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_3_2",
+      "prerequisiteId": "ms_13_3_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_4_2",
+      "prerequisiteId": "ms_13_4_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_4_3",
+      "prerequisiteId": "ms_13_4_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_4_4",
+      "prerequisiteId": "ms_13_4_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_4_5",
+      "prerequisiteId": "ms_13_4_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_13_4_6",
+      "prerequisiteId": "ms_13_4_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_1_2",
+      "prerequisiteId": "ms_14_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_1_3",
+      "prerequisiteId": "ms_14_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_1_4",
+      "prerequisiteId": "ms_14_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_1_5",
+      "prerequisiteId": "ms_14_1_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_1_6",
+      "prerequisiteId": "ms_14_1_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_1_7",
+      "prerequisiteId": "ms_14_1_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_1_8",
+      "prerequisiteId": "ms_14_1_7",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_2_2",
+      "prerequisiteId": "ms_14_2_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_2_3",
+      "prerequisiteId": "ms_14_2_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_2_5",
+      "prerequisiteId": "ms_14_2_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_2_6",
+      "prerequisiteId": "ms_14_2_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_2_7",
+      "prerequisiteId": "ms_14_2_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_2_8",
+      "prerequisiteId": "ms_14_2_7",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_2_9",
+      "prerequisiteId": "ms_14_2_8",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_2_10",
+      "prerequisiteId": "ms_14_2_9",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_2_11",
+      "prerequisiteId": "ms_14_2_10",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_14_2_12",
+      "prerequisiteId": "ms_14_2_11",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_15_1_2",
+      "prerequisiteId": "ms_15_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_15_1_3",
+      "prerequisiteId": "ms_15_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_15_1_4",
+      "prerequisiteId": "ms_15_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_15_1_6",
+      "prerequisiteId": "ms_15_1_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_15_1_7",
+      "prerequisiteId": "ms_15_1_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_15_1_8",
+      "prerequisiteId": "ms_15_1_7",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_15_1_9",
+      "prerequisiteId": "ms_15_1_8",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_15_1_10",
+      "prerequisiteId": "ms_15_1_9",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_15_1_11",
+      "prerequisiteId": "ms_15_1_10",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_15_1_12",
+      "prerequisiteId": "ms_15_1_11",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_2",
+      "prerequisiteId": "ms_16_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_3",
+      "prerequisiteId": "ms_16_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_4",
+      "prerequisiteId": "ms_16_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_5",
+      "prerequisiteId": "ms_16_1_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_6",
+      "prerequisiteId": "ms_16_1_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_7",
+      "prerequisiteId": "ms_16_1_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_8",
+      "prerequisiteId": "ms_16_1_7",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_9",
+      "prerequisiteId": "ms_16_1_8",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_10",
+      "prerequisiteId": "ms_16_1_9",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_11",
+      "prerequisiteId": "ms_16_1_10",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_12",
+      "prerequisiteId": "ms_16_1_11",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_13",
+      "prerequisiteId": "ms_16_1_12",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_14",
+      "prerequisiteId": "ms_16_1_13",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_15",
+      "prerequisiteId": "ms_16_1_14",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_16",
+      "prerequisiteId": "ms_16_1_15",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_16_1_17",
+      "prerequisiteId": "ms_16_1_16",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_17_1_2",
+      "prerequisiteId": "ms_17_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_17_1_3",
+      "prerequisiteId": "ms_17_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_17_1_4",
+      "prerequisiteId": "ms_17_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_17_1_5",
+      "prerequisiteId": "ms_17_1_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_17_1_6",
+      "prerequisiteId": "ms_17_1_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_18_1_2",
+      "prerequisiteId": "ms_18_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_18_1_3",
+      "prerequisiteId": "ms_18_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_18_2_2",
+      "prerequisiteId": "ms_18_2_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_19_2_2",
+      "prerequisiteId": "ms_19_2_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_19_2_3",
+      "prerequisiteId": "ms_19_2_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_20_1_2",
+      "prerequisiteId": "ms_20_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_20_1_3",
+      "prerequisiteId": "ms_20_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_20_1_4",
+      "prerequisiteId": "ms_20_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_21_1_2",
+      "prerequisiteId": "ms_21_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_21_1_3",
+      "prerequisiteId": "ms_21_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_21_1_4",
+      "prerequisiteId": "ms_21_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_22_2_2",
+      "prerequisiteId": "ms_22_2_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_22_2_3",
+      "prerequisiteId": "ms_22_2_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_22_2_4",
+      "prerequisiteId": "ms_22_2_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_22_2_5",
+      "prerequisiteId": "ms_22_2_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_22_2_6",
+      "prerequisiteId": "ms_22_2_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_23_1_3",
+      "prerequisiteId": "ms_23_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_23_1_4",
+      "prerequisiteId": "ms_23_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_23_1_5",
+      "prerequisiteId": "ms_23_1_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_23_1_6",
+      "prerequisiteId": "ms_23_1_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_23_1_7",
+      "prerequisiteId": "ms_23_1_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_23_2_2",
+      "prerequisiteId": "ms_23_2_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_23_3_3",
+      "prerequisiteId": "ms_23_3_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_23_3_4",
+      "prerequisiteId": "ms_23_3_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_23_3_5",
+      "prerequisiteId": "ms_23_3_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_23_3_6",
+      "prerequisiteId": "ms_23_3_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_23_4_2",
+      "prerequisiteId": "ms_23_4_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_23_4_3",
+      "prerequisiteId": "ms_23_4_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_24_1_2",
+      "prerequisiteId": "ms_24_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_24_1_3",
+      "prerequisiteId": "ms_24_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_24_1_4",
+      "prerequisiteId": "ms_24_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_24_1_5",
+      "prerequisiteId": "ms_24_1_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_24_2_3",
+      "prerequisiteId": "ms_24_2_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_24_2_4",
+      "prerequisiteId": "ms_24_2_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_2",
+      "prerequisiteId": "ms_25_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_3",
+      "prerequisiteId": "ms_25_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_5",
+      "prerequisiteId": "ms_25_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_6",
+      "prerequisiteId": "ms_25_1_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_7",
+      "prerequisiteId": "ms_25_1_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_8",
+      "prerequisiteId": "ms_25_1_7",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_9",
+      "prerequisiteId": "ms_25_1_8",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_10",
+      "prerequisiteId": "ms_25_1_9",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_11",
+      "prerequisiteId": "ms_25_1_10",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_12",
+      "prerequisiteId": "ms_25_1_11",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_13",
+      "prerequisiteId": "ms_25_1_12",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_14",
+      "prerequisiteId": "ms_25_1_13",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_15",
+      "prerequisiteId": "ms_25_1_14",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_16",
+      "prerequisiteId": "ms_25_1_15",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_1_17",
+      "prerequisiteId": "ms_25_1_16",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_2_2",
+      "prerequisiteId": "ms_25_2_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_25_2_3",
+      "prerequisiteId": "ms_25_2_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_1_2",
+      "prerequisiteId": "ms_26_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_1_3",
+      "prerequisiteId": "ms_26_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_1_4",
+      "prerequisiteId": "ms_26_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_1_5",
+      "prerequisiteId": "ms_26_1_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_1_6",
+      "prerequisiteId": "ms_26_1_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_1_7",
+      "prerequisiteId": "ms_26_1_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_1_8",
+      "prerequisiteId": "ms_26_1_7",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_1_10",
+      "prerequisiteId": "ms_26_1_8",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_1_11",
+      "prerequisiteId": "ms_26_1_10",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_1_12",
+      "prerequisiteId": "ms_26_1_11",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_1_13",
+      "prerequisiteId": "ms_26_1_12",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_1_14",
+      "prerequisiteId": "ms_26_1_13",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_2_3",
+      "prerequisiteId": "ms_26_2_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_2_4",
+      "prerequisiteId": "ms_26_2_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_2_6",
+      "prerequisiteId": "ms_26_2_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_26_2_7",
+      "prerequisiteId": "ms_26_2_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_27_1_2",
+      "prerequisiteId": "ms_27_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_1_3",
+      "prerequisiteId": "ms_28_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_1_4",
+      "prerequisiteId": "ms_28_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_1_5",
+      "prerequisiteId": "ms_28_1_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_1_6",
+      "prerequisiteId": "ms_28_1_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_1_7",
+      "prerequisiteId": "ms_28_1_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_1_8",
+      "prerequisiteId": "ms_28_1_7",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_1_9",
+      "prerequisiteId": "ms_28_1_8",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_2_2",
+      "prerequisiteId": "ms_28_2_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_2_4",
+      "prerequisiteId": "ms_28_2_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_2_5",
+      "prerequisiteId": "ms_28_2_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_2_6",
+      "prerequisiteId": "ms_28_2_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_2_7",
+      "prerequisiteId": "ms_28_2_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_2_8",
+      "prerequisiteId": "ms_28_2_7",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_2_9",
+      "prerequisiteId": "ms_28_2_8",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_2_10",
+      "prerequisiteId": "ms_28_2_9",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_2_11",
+      "prerequisiteId": "ms_28_2_10",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_3_3",
+      "prerequisiteId": "ms_28_3_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_3_4",
+      "prerequisiteId": "ms_28_3_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_3_5",
+      "prerequisiteId": "ms_28_3_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_3_6",
+      "prerequisiteId": "ms_28_3_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_4_3",
+      "prerequisiteId": "ms_28_4_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_4_4",
+      "prerequisiteId": "ms_28_4_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_5_2",
+      "prerequisiteId": "ms_28_5_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_5_3",
+      "prerequisiteId": "ms_28_5_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_28_5_4",
+      "prerequisiteId": "ms_28_5_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_29_1_2",
+      "prerequisiteId": "ms_29_1_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_29_1_3",
+      "prerequisiteId": "ms_29_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_29_1_4",
+      "prerequisiteId": "ms_29_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_29_2_3",
+      "prerequisiteId": "ms_29_2_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_29_4_2",
+      "prerequisiteId": "ms_29_4_1",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_29_4_3",
+      "prerequisiteId": "ms_29_4_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_29_4_5",
+      "prerequisiteId": "ms_29_4_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_29_4_6",
+      "prerequisiteId": "ms_29_4_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_29_4_7",
+      "prerequisiteId": "ms_29_4_6",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_30_1_3",
+      "prerequisiteId": "ms_30_1_2",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_30_1_4",
+      "prerequisiteId": "ms_30_1_3",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_30_1_5",
+      "prerequisiteId": "ms_30_1_4",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    },
+    {
+      "topicId": "ms_30_1_6",
+      "prerequisiteId": "ms_30_1_5",
+      "strength": "soft",
+      "reason": "Sequential skill progression within subtopic"
+    }
+  ]
+}

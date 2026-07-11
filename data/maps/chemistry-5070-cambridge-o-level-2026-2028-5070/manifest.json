@@ -1,0 +1,31 @@
+{
+  "mapId": "chemistry-5070-cambridge-o-level-2026-2028-5070",
+  "dataset": "Chemistry 5070 — Cambridge O Level (2026–2028) Skill Graph",
+  "taxonomyVersion": "v2-microskills",
+  "granularity": "microskills",
+  "spec": "5070",
+  "generatedAt": "2026-07-11T12:28:50.300309+00:00",
+  "source": "chemistry-5070-cambridge-o-level-2026-2028-5070.pdf",
+  "counts": {
+    "microskills": 288,
+    "subtopics": 49,
+    "dependencies": 282,
+    "objectives": 333,
+    "mainTopics": 12,
+    "entryPoint": "1.1.1"
+  },
+  "files": {
+    "topics.json": {
+      "bytes": 294123,
+      "sha256": "5fc754d307517b80bbdf594ae0816ec1a0b5c2deda076d3401de4328066a5382"
+    },
+    "dependencies.json": {
+      "bytes": 49009,
+      "sha256": "803ba07d4e76cd9ca56a7f1ba92bca507ec835000fd1ac97edc6e9c25072ccd9"
+    },
+    "curriculum-standards.json": {
+      "bytes": 71235,
+      "sha256": "afa0d71d3c01965e56984f400c40ca99d8368cda70c1b5aff988c786b36ed141"
+    }
+  }
+}

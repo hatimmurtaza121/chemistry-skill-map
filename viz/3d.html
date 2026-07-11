@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skill Graph — 3D</title>
+  <style>
+    :root {
+      --bg: #0a0e14;
+      --panel: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      overflow: hidden;
+    }
+    header {
+      padding: 0.85rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      z-index: 2;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 600; }
+    header p { font-size: 0.78rem; color: var(--muted); margin-top: 0.1rem; }
+    .stats { font-size: 0.78rem; color: var(--muted); text-align: right; }
+    .view-switch {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+    .view-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-right: 0.1rem;
+    }
+    .view-btn {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.32rem 0.65rem;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      text-decoration: none;
+    }
+    .view-btn:hover { border-color: var(--accent); }
+    .view-btn.active {
+      border-color: var(--accent);
+      background: rgba(88,166,255,0.12);
+      font-weight: 600;
+    }
+    .download-btn {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.32rem 0.65rem;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      text-decoration: none;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .download-btn:hover { border-color: var(--accent); }
+    .map-select-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+    .map-select {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.32rem 0.5rem;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      min-width: 12rem;
+    }
+    .map-select:focus { outline: none; border-color: var(--accent); }
+    main {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      min-height: 0;
+      height: 100%;
+      position: relative;
+    }
+    #graph {
+      width: 100%;
+      height: 100%;
+      min-width: 0;
+      position: relative;
+      overflow: hidden;
+      background: #000;
+    }
+    .graph-hint {
+      position: absolute;
+      left: 1rem;
+      bottom: 1rem;
+      font-size: 0.72rem;
+      color: var(--muted);
+      pointer-events: none;
+      z-index: 1;
+    }
+    aside {
+      border-right: 1px solid var(--border);
+      background: var(--panel);
+      overflow-y: auto;
+      padding: 0.85rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+      z-index: 10;
+      min-width: 300px;
+      max-width: 300px;
+    }
+    aside h2 {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.76rem;
+      padding: 0.2rem 0;
+      cursor: pointer;
+    }
+    .legend-item:hover { opacity: 0.85; }
+    .legend-item.dimmed { opacity: 0.3; }
+    .swatch {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .detail-card {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.75rem;
+    }
+    .detail-card h3 { font-size: 0.9rem; margin-bottom: 0.3rem; line-height: 1.3; }
+    .badge {
+      display: inline-block;
+      font-size: 0.68rem;
+      padding: 0.12rem 0.4rem;
+      border-radius: 4px;
+      background: rgba(88,166,255,0.15);
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+    .detail-card p, .objectives, .prereq-list { font-size: 0.75rem; color: var(--muted); line-height: 1.4; }
+    .objectives, .prereq-list { list-style: none; margin-top: 0.4rem; max-height: 160px; overflow-y: auto; }
+    .objectives li, .prereq-list li { padding: 0.3rem 0; border-bottom: 1px solid var(--border); }
+    .prereq-list li { cursor: pointer; }
+    .prereq-list li:hover { color: var(--accent); }
+    .hint { font-size: 0.72rem; color: var(--muted); line-height: 1.4; }
+    .layout-btns { display: flex; gap: 0.35rem; flex-wrap: wrap; margin-top: 0.35rem; }
+    button, .link-btn {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.32rem 0.55rem;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    button:hover, .link-btn:hover { border-color: var(--accent); }
+    button.active { border-color: var(--accent); background: rgba(88,166,255,0.1); }
+    .search-box {
+      width: 100%;
+      margin-top: 0.35rem;
+      padding: 0.4rem 0.55rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 0.78rem;
+    }
+    .start-badge { color: #f0c14b; cursor: pointer; }
+    .start-badge:hover { text-decoration: underline; }
+  </style>
+  <link rel="stylesheet" href="viewer.css" />
+</head>
+<body>
+  <header>
+    <div class="header-start">
+      <button type="button" class="menu-btn" id="menu-btn" aria-label="Open sidebar" aria-expanded="false" aria-controls="viewer-sidebar">
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <div class="header-title">
+        <h1 id="page-title">Skill Graph</h1>
+        <p id="page-subtitle" class="header-subtitle">Inverted pyramid · apex down · color = topic</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <div class="map-select-wrap">
+        <label class="view-label" for="map-select">Map</label>
+        <select id="map-select" class="map-select" aria-label="Select skill map"></select>
+      </div>
+      <nav class="view-switch" aria-label="Graph view">
+        <span class="view-label">View</span>
+        <a href="index.html" class="view-btn" id="link-2d">2D</a>
+        <a href="3d.html" class="view-btn active" id="link-3d">3D</a>
+      </nav>
+      <a id="map-download" class="download-btn" href="#">Download</a>
+      <div class="stats header-stats" id="stats"></div>
+    </div>
+  </header>
+  <button type="button" class="sidebar-backdrop" id="sidebar-backdrop" aria-label="Close sidebar" aria-hidden="true" tabindex="-1"></button>
+  <main>
+    <aside id="viewer-sidebar">
+      <div>
+        <h2>Controls</h2>
+        <div class="layout-btns">
+          <button id="btn-rotate" class="active">Auto-rotate</button>
+          <button id="btn-start">Go to start ★</button>
+        </div>
+      </div>
+      <div>
+        <h2>Search</h2>
+        <input class="search-box" id="search" type="search" placeholder="electrolysis, redox, mole…" />
+        <h2 style="margin-top:0.6rem">Topics — click to filter</h2>
+        <div id="legend"></div>
+      </div>
+      <div id="detail">
+        <p class="hint" id="intro-hint">Loading graph…</p>
+      </div>
+    </aside>
+    <div id="graph">
+      <div class="graph-hint">Drag to spin · scroll to zoom · click a dot</div>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/3d-force-graph@1.73.6/dist/3d-force-graph.min.js"></script>
+  <script type="module">
+    import {
+      loadMapsCatalog, getSelectedMapId, persistMapId, mapDataUrl,
+      setupMapSelector, applyMapHeader, viewHref, setupMapDownload,
+    } from './maps.js';
+    import { initViewerSidebar } from './viewer.js';
+
+    const sidebar = initViewerSidebar();
+
+    const catalog = await loadMapsCatalog();
+    const mapId = getSelectedMapId(catalog);
+    const map = catalog.maps.find(m => m.id === mapId) || catalog.maps.find(m => m.available);
+    persistMapId(map.id);
+
+    const [topicsDoc, depsDoc, manifest] = await Promise.all([
+      fetch(mapDataUrl(map, 'topics.json')).then(r => r.json()),
+      fetch(mapDataUrl(map, 'dependencies.json')).then(r => r.json()),
+      fetch(mapDataUrl(map, 'manifest.json')).then(r => r.json()),
+    ]);
+
+    applyMapHeader(map, null);
+    document.getElementById('link-2d').href = viewHref('index.html', map.id);
+    document.getElementById('link-3d').href = viewHref('3d.html', map.id);
+    setupMapSelector(catalog, map.id, (id) => {
+      location.href = viewHref('3d.html', id);
+    });
+    setupMapDownload(map);
+
+    const topics = topicsDoc.topics;
+    const deps = depsDoc.dependencies;
+    const byId = new Map(topics.map(t => [t.id, t]));
+
+    document.getElementById('stats').textContent =
+      `${manifest.counts.microskills ?? topics.length} micro-skills · ${manifest.counts.dependencies} threads · pyramid layout`;
+
+    const adj = new Map(topics.map(t => [t.id, []]));
+    for (const d of deps) adj.get(d.topicId).push(d.prerequisiteId);
+
+    function allPrerequisites(topicId, seen = new Set()) {
+      for (const pid of adj.get(topicId) ?? []) {
+        if (!seen.has(pid)) { seen.add(pid); allPrerequisites(pid, seen); }
+      }
+      return seen;
+    }
+
+    const depth = new Map(topics.map(t => [t.id, 0]));
+    for (let pass = 0; pass < topics.length; pass++) {
+      for (const d of deps) {
+        const next = (depth.get(d.prerequisiteId) ?? 0) + 1;
+        if (next > (depth.get(d.topicId) ?? 0)) depth.set(d.topicId, next);
+      }
+    }
+
+    const hasPrereq = new Set(deps.map(d => d.topicId));
+    const startNode = topics.find(t => t.entryPoint) ??
+      topics.find(t => t.code === '1.1.1') ??
+      topics.find(t => !hasPrereq.has(t.id) && t.mainTopicNumber === 1);
+
+    const maxDepth = Math.max(...depth.values(), 1);
+
+    // Inverted pyramid: apex at bottom, base square at top; nodes on the 4 edges.
+    const PYRAMID_HEIGHT = 140;
+    const BASE_HALF = 28;
+    const EDGE_COUNT = 4;
+
+    const apex = { x: 0, y: 0, z: 0 };
+    const baseCorners = [
+      { x: -BASE_HALF, y: PYRAMID_HEIGHT, z: -BASE_HALF },
+      { x: BASE_HALF, y: PYRAMID_HEIGHT, z: -BASE_HALF },
+      { x: BASE_HALF, y: PYRAMID_HEIGHT, z: BASE_HALF },
+      { x: -BASE_HALF, y: PYRAMID_HEIGHT, z: BASE_HALF },
+    ];
+
+    function hash01(id) {
+      let h = 0;
+      for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) >>> 0;
+      return (h % 1000) / 1000;
+    }
+
+    function pickRandomFrom(id, choices) {
+      if (!choices.length) return 0;
+      const idx = Math.floor(hash01(id + ':edge') * choices.length);
+      return choices[Math.min(idx, choices.length - 1)];
+    }
+
+    // Assign each node to a pyramid edge; prerequisites must use a different edge (random pick).
+    function assignPyramidEdges() {
+      const prereqsOf = new Map(topics.map(t => [t.id, []]));
+      for (const d of deps) prereqsOf.get(d.topicId).push(d.prerequisiteId);
+
+      const assignment = new Map();
+      const load = [0, 0, 0, 0];
+
+      const sorted = [...topics].sort((a, b) => {
+        const da = depth.get(a.id) ?? 0;
+        const db = depth.get(b.id) ?? 0;
+        if (da !== db) return da - db;
+        return (a.order ?? 0) - (b.order ?? 0);
+      });
+
+      for (const t of sorted) {
+        const blocked = new Set(
+          (prereqsOf.get(t.id) ?? [])
+            .map(pid => assignment.get(pid))
+            .filter(e => e !== undefined),
+        );
+        const available = [];
+        for (let e = 0; e < EDGE_COUNT; e++) {
+          if (!blocked.has(e)) available.push(e);
+        }
+        let pick;
+        if (available.length > 0) {
+          pick = pickRandomFrom(t.id, available);
+        } else {
+          const leastLoaded = [0, 1, 2, 3].sort((a, b) => load[a] - load[b]);
+          pick = pickRandomFrom(t.id + ':fallback', leastLoaded);
+        }
+        assignment.set(t.id, pick);
+        load[pick]++;
+      }
+      return assignment;
+    }
+
+    const edgeAssignment = assignPyramidEdges();
+
+    function pointOnEdge(edgeIdx, t) {
+      const c = baseCorners[edgeIdx];
+      return {
+        x: apex.x + (c.x - apex.x) * t,
+        y: apex.y + (c.y - apex.y) * t,
+        z: apex.z + (c.z - apex.z) * t,
+      };
+    }
+
+    // Random height along each pyramid edge (deterministic per node id).
+    const alongMap = new Map();
+    const edgeBuckets = Array.from({ length: EDGE_COUNT }, () => []);
+    for (const t of topics) edgeBuckets[edgeAssignment.get(t.id) ?? 0].push(t.id);
+    for (const ids of edgeBuckets) {
+      for (const id of ids) {
+        const depthBias = (depth.get(id) ?? 0) / maxDepth;
+        const randomT = hash01(id);
+        const t = 0.03 + (depthBias * 0.35 + randomT * 0.65) * 0.94;
+        alongMap.set(id, t);
+      }
+    }
+    if (startNode) alongMap.set(startNode.id, 0);
+
+    function scaffoldPosition(t) {
+      const ei = edgeAssignment.get(t.id) ?? 0;
+      const along = alongMap.get(t.id) ?? 0.5;
+      const spine = pointOnEdge(ei, along);
+      const jitter = 2.8;
+      return {
+        x: spine.x + (hash01(t.id) - 0.5) * jitter,
+        y: spine.y + (hash01(t.id + 'y') - 0.5) * jitter * 0.4,
+        z: spine.z + (hash01(t.id + 'z') - 0.5) * jitter,
+      };
+    }
+
+    const pyramidCenter = { x: 0, y: PYRAMID_HEIGHT * 0.45, z: 0 };
+
+    const graphNodes = topics.map(t => {
+      const d = depth.get(t.id) ?? 0;
+      const pos = scaffoldPosition(t);
+      return {
+        ...t,
+        depth: d,
+        x: pos.x,
+        y: pos.y,
+        z: pos.z,
+        fx: pos.x,
+        fy: pos.y,
+        fz: pos.z,
+      };
+    });
+
+    const graphLinks = deps.map(d => ({
+      source: d.prerequisiteId,
+      target: d.topicId,
+      strength: d.strength,
+    }));
+
+    let activeChain = null;
+    let hiddenTopics = new Set();
+    let autoRotate = true;
+    let userNavigated = false;
+    let initialFitDone = false;
+    let rotateAngle = 0;
+
+    const container = document.getElementById('graph');
+    const graph = ForceGraph3D()(container)
+      .backgroundColor('#000000')
+      .showNavInfo(false)
+      .nodeId('id')
+      .nodeLabel(n => `${n.code}\n${n.name}`)
+      .nodeRelSize(2.6)
+      .nodeVal(n => n.entryPoint ? 1.15 : 0.85)
+      .nodeColor(n => {
+        if (activeChain) return activeChain.has(n.id) ? (n.entryPoint ? '#FFD54F' : n.color) : '#141820';
+        if (n.entryPoint) return '#FFD54F';
+        return n.color;
+      })
+      .nodeOpacity(n => {
+        if (activeChain) return activeChain.has(n.id) ? 1 : 0.03;
+        if (hiddenTopics.has(n.mainTopicNumber)) return 0;
+        return 1;
+      })
+      .linkColor(l => {
+        if (!activeChain) return 'rgba(235,242,255,0.13)';
+        const s = typeof l.source === 'object' ? l.source.id : l.source;
+        const t = typeof l.target === 'object' ? l.target.id : l.target;
+        return activeChain.has(s) && activeChain.has(t) ? 'rgba(160,210,255,0.95)' : 'rgba(40,48,58,0.03)';
+      })
+      .linkWidth(l => {
+        if (!activeChain) return 0.18;
+        const s = typeof l.source === 'object' ? l.source.id : l.source;
+        const t = typeof l.target === 'object' ? l.target.id : l.target;
+        return activeChain.has(s) && activeChain.has(t) ? 1.4 : 0.06;
+      })
+      .linkDirectionalParticles(l => {
+        if (activeChain) {
+          const s = typeof l.source === 'object' ? l.source.id : l.source;
+          const t = typeof l.target === 'object' ? l.target.id : l.target;
+          return activeChain.has(s) && activeChain.has(t) ? 2 : 0;
+        }
+        return 0;
+      })
+      .linkOpacity(0.65)
+      .warmupTicks(40)
+      .cooldownTicks(0)
+      .d3AlphaDecay(0.09)
+      .d3VelocityDecay(0.5)
+      .graphData({ nodes: graphNodes, links: graphLinks });
+
+    graph.d3Force('charge').strength(0);
+    graph.d3Force('link').strength(0);
+    graph.d3Force('center').strength(0);
+
+    graph.nodeThreeObject(n => {
+      const isStart = n.entryPoint;
+      const size = isStart ? 1.8 : 0.9;
+      const col = new THREE.Color(isStart ? '#FFD54F' : n.color);
+      const group = new THREE.Group();
+
+      const core = new THREE.Mesh(
+        new THREE.SphereGeometry(size, 12, 12),
+        new THREE.MeshBasicMaterial({
+          color: col,
+          transparent: true,
+          opacity: 0.98,
+        })
+      );
+      group.add(core);
+
+      const glow = new THREE.Mesh(
+        new THREE.SphereGeometry(size * 1.25, 8, 8),
+        new THREE.MeshBasicMaterial({
+          color: col,
+          transparent: true,
+          opacity: isStart ? 0.22 : 0.11,
+          depthWrite: false,
+        })
+      );
+      group.add(glow);
+
+      if (isStart) {
+        const star = new THREE.Mesh(
+          new THREE.OctahedronGeometry(size * 1.15, 0),
+          new THREE.MeshBasicMaterial({ color: '#fff8dc', transparent: true, opacity: 0.85 })
+        );
+        group.add(star);
+      }
+
+      return group;
+    });
+    graph.nodeThreeObjectExtend(false);
+
+    const ambient = new THREE.AmbientLight(0xffffff, 0.15);
+    graph.scene().add(ambient);
+
+    function graphCenter() {
+      const nodes = graph.graphData().nodes;
+      let sx = 0, sy = 0, sz = 0;
+      for (const n of nodes) { sx += n.x || 0; sy += n.y || 0; sz += n.z || 0; }
+      const c = nodes.length || 1;
+      return { x: sx / c, y: sy / c, z: sz / c };
+    }
+
+    function setGraphHeight() {
+      const main = document.querySelector('main');
+      if (main) container.style.height = `${main.clientHeight}px`;
+    }
+
+    function truncate(s, n) {
+      return s.length > n ? s.slice(0, n - 1) + '…' : s;
+    }
+
+    function escapeHtml(s) {
+      return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    function showDetail(topic) {
+      const prereqs = [...allPrerequisites(topic.id)].map(id => byId.get(id)).filter(Boolean);
+      document.getElementById('detail').innerHTML = `
+        <div class="detail-card">
+          <span class="badge">${topic.code} · ${topic.type ?? 'SKILL'}</span>
+          <h3>${escapeHtml(topic.name)}</h3>
+          <p>${escapeHtml(truncate(topic.description, 220))}</p>
+          ${topic.evidence?.length ? `<ul class="objectives">${topic.evidence.slice(0,2).map(e =>
+            `<li>${escapeHtml(e)}</li>`).join('')}</ul>` : ''}
+        </div>
+        ${prereqs.length ? `<div><h2>Prerequisites (${prereqs.length})</h2><ul class="prereq-list">${
+          prereqs.slice(0, 12).map(p => `<li data-id="${p.id}">${p.code} — ${escapeHtml(truncate(p.name, 40))}</li>`).join('')
+        }${prereqs.length > 12 ? '<li>…and more</li>' : ''}</ul></div>` : ''}`;
+      document.querySelectorAll('.prereq-list li[data-id]').forEach(li => {
+        li.onclick = () => focusNode(li.dataset.id, true);
+      });
+    }
+
+    function focusNode(id, showPanel = false) {
+      const topic = byId.get(id);
+      if (!topic) return;
+      activeChain = allPrerequisites(id);
+      activeChain.add(id);
+      graph.nodeColor(graph.nodeColor()).nodeOpacity(graph.nodeOpacity());
+      graph.linkColor(graph.linkColor()).linkWidth(graph.linkWidth());
+      graph.linkDirectionalParticles(graph.linkDirectionalParticles());
+      const n = graph.graphData().nodes.find(x => x.id === id);
+      if (n) {
+        const dist = 82;
+        graph.cameraPosition(
+          { x: n.x + dist * 0.45, y: n.y + dist * 0.25, z: n.z + dist * 0.75 },
+          n,
+          1200
+        );
+      }
+      if (showPanel) {
+        showDetail(topic);
+        sidebar?.closeIfMobile();
+      }
+    }
+
+    function resetHighlight() {
+      activeChain = null;
+      graph.nodeColor(graph.nodeColor()).nodeOpacity(graph.nodeOpacity());
+      graph.linkColor(graph.linkColor()).linkWidth(graph.linkWidth());
+      graph.linkDirectionalParticles(graph.linkDirectionalParticles());
+    }
+
+    graph.onNodeClick(n => focusNode(n.id, true));
+
+    graph.onBackgroundClick(() => {
+      resetHighlight();
+      if (startNode) {
+        document.getElementById('detail').innerHTML =
+          `<p class="hint">★ <span class="start-badge" id="start-link">${startNode.code} — syllabus starts here</span> (gold star at pyramid tip). Tap any dot to trace prerequisites.</p>`;
+        document.getElementById('start-link').onclick = goToStart;
+      }
+    });
+
+    const mainTopics = [...new Set(topics.map(t => t.mainTopicNumber))].sort((a, b) => a - b);
+    function renderLegend() {
+      const el = document.getElementById('legend');
+      el.innerHTML = '';
+      for (const num of mainTopics) {
+        const sample = topics.find(t => t.mainTopicNumber === num);
+        const item = document.createElement('div');
+        item.className = 'legend-item' + (hiddenTopics.has(num) ? ' dimmed' : '');
+        item.innerHTML = `<span class="swatch" style="background:${sample.color}"></span>${num}. ${sample.domain}`;
+        item.onclick = () => {
+          hiddenTopics.has(num) ? hiddenTopics.delete(num) : hiddenTopics.add(num);
+          graph.nodeOpacity(graph.nodeOpacity());
+          renderLegend();
+        };
+        el.appendChild(item);
+      }
+    }
+
+    document.getElementById('search').oninput = (e) => {
+      const q = e.target.value.trim().toLowerCase();
+      if (!q) { resetHighlight(); graph.nodeOpacity(n => hiddenTopics.has(n.mainTopicNumber) ? 0 : 1); return; }
+      const matched = new Set(topics.filter(t =>
+        t.name.toLowerCase().includes(q) || t.code.includes(q) ||
+        (t.description && t.description.toLowerCase().includes(q))
+      ).map(t => t.id));
+      activeChain = matched;
+      graph.nodeOpacity(n => matched.has(n.id) ? 1 : 0.05);
+      graph.linkColor(graph.linkColor());
+      if (matched.size === 1) focusNode([...matched][0], false);
+    };
+
+    function goToStart() {
+      if (!startNode) return;
+      focusNode(startNode.id, true);
+    }
+
+    document.getElementById('btn-start').onclick = goToStart;
+    function stopAutoRotate() {
+      if (!userNavigated) {
+        userNavigated = true;
+        autoRotate = false;
+        document.getElementById('btn-rotate').classList.remove('active');
+      }
+    }
+
+    document.getElementById('btn-rotate').onclick = (e) => {
+      autoRotate = !autoRotate;
+      if (autoRotate) userNavigated = false;
+      e.target.classList.toggle('active', autoRotate);
+    };
+
+    if (startNode) {
+      document.getElementById('intro-hint').innerHTML =
+        `★ <span class="start-badge" id="start-link">${startNode.code} — syllabus starts here</span> (gold star at pyramid tip). Tap any dot to trace prerequisites.`;
+      document.getElementById('start-link').onclick = goToStart;
+    }
+
+    renderLegend();
+    setGraphHeight();
+    window.addEventListener('resize', setGraphHeight);
+
+    container.addEventListener('pointerdown', stopAutoRotate);
+    container.addEventListener('wheel', stopAutoRotate, { passive: true });
+
+    function animate() {
+      requestAnimationFrame(animate);
+      if (!autoRotate) return;
+      rotateAngle += 0.001;
+      const c = pyramidCenter;
+      const dist = 200;
+      graph.cameraPosition({
+        x: c.x + dist * 0.42,
+        y: c.y + dist * 0.35,
+        z: c.z + dist * Math.cos(rotateAngle),
+      }, c, 0);
+    }
+    animate();
+
+    function fitOnce() {
+      if (initialFitDone || userNavigated || typeof graph.zoomToFit !== 'function') return;
+      initialFitDone = true;
+      graph.zoomToFit(700, 42);
+    }
+    graph.onEngineStop(fitOnce);
+    setTimeout(fitOnce, 3000);
+  </script>
+</body>
+</html>

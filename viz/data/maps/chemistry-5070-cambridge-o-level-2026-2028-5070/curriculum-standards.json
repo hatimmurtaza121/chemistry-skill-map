@@ -1,0 +1,2012 @@
+{
+  "curriculumCount": 1,
+  "curricula": [
+    {
+      "slug": "5070",
+      "name": "Chemistry 5070 — Cambridge O Level (2026–2028)",
+      "version": "chemistry-5070-cambridge-o-level-2026-2028-5070.pdf",
+      "textIncluded": true,
+      "topicCount": 333,
+      "topics": [
+        {
+          "key": "5070:1.1.1",
+          "code": "1.1.1",
+          "subtopicCode": "1.1",
+          "text": "State the distinguishing properties of solids, liquids and gases"
+        },
+        {
+          "key": "5070:1.1.2",
+          "code": "1.1.2",
+          "subtopicCode": "1.1",
+          "text": "Describe the structures of solids, liquids and gases in terms of particle separation, arrangement and motion"
+        },
+        {
+          "key": "5070:1.1.3",
+          "code": "1.1.3",
+          "subtopicCode": "1.1",
+          "text": "Describe and explain changes of state (melting, boiling, evaporating, freezing and condensing) in terms of kinetic particle theory"
+        },
+        {
+          "key": "5070:1.1.4",
+          "code": "1.1.4",
+          "subtopicCode": "1.1",
+          "text": "Interpret and explain heating and cooling curves in terms of kinetic particle theory"
+        },
+        {
+          "key": "5070:1.1.5",
+          "code": "1.1.5",
+          "subtopicCode": "1.1",
+          "text": "Describe and explain, in terms of kinetic particle theory, the effects of temperature and pressure on the volume of a gas"
+        },
+        {
+          "key": "5070:1.2.1",
+          "code": "1.2.1",
+          "subtopicCode": "1.2",
+          "text": "Describe and explain diffusion in terms of kinetic particle theory"
+        },
+        {
+          "key": "5070:1.2.2",
+          "code": "1.2.2",
+          "subtopicCode": "1.2",
+          "text": "Describe and explain the effect of relative molecular mass on the rate of diffusion of gases"
+        },
+        {
+          "key": "5070:2.1.1",
+          "code": "2.1.1",
+          "subtopicCode": "2.1",
+          "text": "Describe the differences between elements, compounds and mixtures"
+        },
+        {
+          "key": "5070:2.2.1",
+          "code": "2.2.1",
+          "subtopicCode": "2.2",
+          "text": "Describe the structure of the atom as a central nucleus containing neutrons and protons surrounded by electrons in shells"
+        },
+        {
+          "key": "5070:2.2.2",
+          "code": "2.2.2",
+          "subtopicCode": "2.2",
+          "text": "State the relative charges and relative masses of a proton, a neutron and an electron"
+        },
+        {
+          "key": "5070:2.2.3",
+          "code": "2.2.3",
+          "subtopicCode": "2.2",
+          "text": "Define proton number / atomic number as the number of protons in the nucleus of an atom"
+        },
+        {
+          "key": "5070:2.2.4",
+          "code": "2.2.4",
+          "subtopicCode": "2.2",
+          "text": "Define mass number / nucleon number as the total number of protons and neutrons in the nucleus of an"
+        },
+        {
+          "key": "5070:2.3.1",
+          "code": "2.3.1",
+          "subtopicCode": "2.3",
+          "text": "Define isotopes as different atoms of the same element that have the same number of protons but different numbers of neutrons"
+        },
+        {
+          "key": "5070:2.3.2",
+          "code": "2.3.2",
+          "subtopicCode": "2.3",
+          "text": "State that isotopes of the same element have the same chemical properties because they have the same number of electrons and therefore the same electronic configuration"
+        },
+        {
+          "key": "5070:2.3.3",
+          "code": "2.3.3",
+          "subtopicCode": "2.3",
+          "text": "Interpret and use symbols for atoms, e.g. 12 6C, and ions, e.g. 35 17Cl –"
+        },
+        {
+          "key": "5070:2.3.4",
+          "code": "2.3.4",
+          "subtopicCode": "2.3",
+          "text": "Calculate the relative atomic mass of an element from the relative masses and abundances of its isotopes"
+        },
+        {
+          "key": "5070:2.4.1",
+          "code": "2.4.1",
+          "subtopicCode": "2.4",
+          "text": "Describe the formation of positive ions, known as cations, and negative ions, known as anions"
+        },
+        {
+          "key": "5070:2.4.2",
+          "code": "2.4.2",
+          "subtopicCode": "2.4",
+          "text": "Describe the giant lattice structure of ionic compounds as a regular arrangement of alternating positive and negative ions"
+        },
+        {
+          "key": "5070:2.4.3",
+          "code": "2.4.3",
+          "subtopicCode": "2.4",
+          "text": "State that an ionic bond is a strong electrostatic attraction between oppositely charged ions"
+        },
+        {
+          "key": "5070:2.4.4",
+          "code": "2.4.4",
+          "subtopicCode": "2.4",
+          "text": "Describe the formation of ionic bonds between ions of metallic and non-metallic elements, including the"
+        },
+        {
+          "key": "5070:2.4.5",
+          "code": "2.4.5",
+          "subtopicCode": "2.4",
+          "text": "use of dot-and-cross diagrams"
+        },
+        {
+          "key": "5070:2.4.6",
+          "code": "2.4.6",
+          "subtopicCode": "2.4",
+          "text": "Describe and explain in terms of structure and bonding the properties of ionic compounds:"
+        },
+        {
+          "key": "5070:2.4.7",
+          "code": "2.4.7",
+          "subtopicCode": "2.4",
+          "text": "(a) high melting points and boiling points"
+        },
+        {
+          "key": "5070:2.4.8",
+          "code": "2.4.8",
+          "subtopicCode": "2.4",
+          "text": "(b) good electrical conductivity when aqueous or molten and poor when solid"
+        },
+        {
+          "key": "5070:2.5.1",
+          "code": "2.5.1",
+          "subtopicCode": "2.5",
+          "text": "State that a covalent bond is formed when a pair of electrons is shared between two atoms leading to noble gas electronic configurations"
+        },
+        {
+          "key": "5070:2.5.2",
+          "code": "2.5.2",
+          "subtopicCode": "2.5",
+          "text": "Describe the formation of covalent bonds in simple molecules, including H2, Cl2, H2O, CH4, NH3, HCl, CH3OH, C2H4, O2, CO2 and N2. Use dot-and-cross diagrams to show the electronic configurations in these and similar molecules"
+        },
+        {
+          "key": "5070:2.5.3",
+          "code": "2.5.3",
+          "subtopicCode": "2.5",
+          "text": "Describe and explain in terms of structure and bonding the properties of simple molecular compounds:"
+        },
+        {
+          "key": "5070:2.5.4",
+          "code": "2.5.4",
+          "subtopicCode": "2.5",
+          "text": "(a) low melting points and boiling points in terms of weak intermolecular forces (specific types of intermolecular forces are not required)"
+        },
+        {
+          "key": "5070:2.5.5",
+          "code": "2.5.5",
+          "subtopicCode": "2.5",
+          "text": "(b) poor electrical conductivity"
+        },
+        {
+          "key": "5070:2.6.1",
+          "code": "2.6.1",
+          "subtopicCode": "2.6",
+          "text": "Describe the giant covalent structures of graphite, diamond and silicon(IV) oxide, SiO2"
+        },
+        {
+          "key": "5070:2.6.2",
+          "code": "2.6.2",
+          "subtopicCode": "2.6",
+          "text": "Relate the structures and bonding of graphite and diamond to their uses, limited to:"
+        },
+        {
+          "key": "5070:2.6.3",
+          "code": "2.6.3",
+          "subtopicCode": "2.6",
+          "text": "(a) graphite as a lubricant and as an electrode"
+        },
+        {
+          "key": "5070:2.6.4",
+          "code": "2.6.4",
+          "subtopicCode": "2.6",
+          "text": "(b) diamond in cutting tools"
+        },
+        {
+          "key": "5070:2.6.5",
+          "code": "2.6.5",
+          "subtopicCode": "2.6",
+          "text": "Describe the similarity in properties between diamond and silicon(IV) oxide, related to their structures"
+        },
+        {
+          "key": "5070:2.7.1",
+          "code": "2.7.1",
+          "subtopicCode": "2.7",
+          "text": "Describe metallic bonding as the electrostatic attraction between the positive ions in a giant metallic lattice and a ‘sea’ of delocalised electrons"
+        },
+        {
+          "key": "5070:3.1.1",
+          "code": "3.1.1",
+          "subtopicCode": "3.1",
+          "text": "State the formulae of the elements and compounds named in the subject content"
+        },
+        {
+          "key": "5070:3.1.2",
+          "code": "3.1.2",
+          "subtopicCode": "3.1",
+          "text": "Define the molecular formula of a compound as the number and type of different atoms in one molecule"
+        },
+        {
+          "key": "5070:3.1.3",
+          "code": "3.1.3",
+          "subtopicCode": "3.1",
+          "text": "Define the empirical formula of a compound as the simplest whole number ratio of the different atoms or ions in a compound"
+        },
+        {
+          "key": "5070:3.1.4",
+          "code": "3.1.4",
+          "subtopicCode": "3.1",
+          "text": "Deduce the formula of a simple compound from the relative numbers of atoms or ions present in a model or a diagrammatic representation"
+        },
+        {
+          "key": "5070:3.1.5",
+          "code": "3.1.5",
+          "subtopicCode": "3.1",
+          "text": "Deduce the formula of an ionic compound from the charges on the ions"
+        },
+        {
+          "key": "5070:3.1.6",
+          "code": "3.1.6",
+          "subtopicCode": "3.1",
+          "text": "Construct word equations, symbol equations and ionic equations to show how reactants form products, including state symbols"
+        },
+        {
+          "key": "5070:3.1.7",
+          "code": "3.1.7",
+          "subtopicCode": "3.1",
+          "text": "Deduce the symbol equation with state symbols for a chemical reaction, given relevant information"
+        },
+        {
+          "key": "5070:3.2.1",
+          "code": "3.2.1",
+          "subtopicCode": "3.2",
+          "text": "Describe relative atomic mass, Ar, as the average mass of the isotopes of an element compared to 1/12th of the mass of an atom of 12C"
+        },
+        {
+          "key": "5070:3.2.2",
+          "code": "3.2.2",
+          "subtopicCode": "3.2",
+          "text": "Define relative molecular mass, Mr, as the sum of the relative atomic masses. Relative formula mass, Mr, will be used for ionic compounds"
+        },
+        {
+          "key": "5070:3.3.1",
+          "code": "3.3.1",
+          "subtopicCode": "3.3",
+          "text": "State that the mole, mol, is the unit of amount of substance and that one mole contains 6.02 × 1023 particles, e.g. atoms, ions, molecules; this number is the Avogadro constant"
+        },
+        {
+          "key": "5070:3.3.2",
+          "code": "3.3.2",
+          "subtopicCode": "3.3",
+          "text": "Use the relationship amount of substance (mol) = mass (g) molar mass (g / mol) to calculate:"
+        },
+        {
+          "key": "5070:3.3.3",
+          "code": "3.3.3",
+          "subtopicCode": "3.3",
+          "text": "(a) amount of substance"
+        },
+        {
+          "key": "5070:3.3.4",
+          "code": "3.3.4",
+          "subtopicCode": "3.3",
+          "text": "(b) mass"
+        },
+        {
+          "key": "5070:3.3.5",
+          "code": "3.3.5",
+          "subtopicCode": "3.3",
+          "text": "(c) molar mass"
+        },
+        {
+          "key": "5070:3.3.6",
+          "code": "3.3.6",
+          "subtopicCode": "3.3",
+          "text": "(d) relative atomic mass or relative molecular / formula mass"
+        },
+        {
+          "key": "5070:3.3.7",
+          "code": "3.3.7",
+          "subtopicCode": "3.3",
+          "text": "(e) number of particles, using the value of the Avogadro constant"
+        },
+        {
+          "key": "5070:3.3.8",
+          "code": "3.3.8",
+          "subtopicCode": "3.3",
+          "text": "Use the molar gas volume, taken as 24 dm3 at room temperature and pressure, r.t.p., in calculations involving gases"
+        },
+        {
+          "key": "5070:3.3.9",
+          "code": "3.3.9",
+          "subtopicCode": "3.3",
+          "text": "State that concentration can be measured in g / dm3 or mol / dm3"
+        },
+        {
+          "key": "5070:3.3.10",
+          "code": "3.3.10",
+          "subtopicCode": "3.3",
+          "text": "Calculate stoichiometric reacting masses, limiting reactants, volumes of gases at r.t.p., volumes of solutions and concentrations of solutions expressed in g / dm3 and mol / dm3, including conversion between cm3 and dm3"
+        },
+        {
+          "key": "5070:3.3.11",
+          "code": "3.3.11",
+          "subtopicCode": "3.3",
+          "text": "Use experimental data to calculate the concentration of a solution in a titration"
+        },
+        {
+          "key": "5070:3.3.12",
+          "code": "3.3.12",
+          "subtopicCode": "3.3",
+          "text": "Calculate empirical formulae and molecular formulae, given appropriate data"
+        },
+        {
+          "key": "5070:3.3.13",
+          "code": "3.3.13",
+          "subtopicCode": "3.3",
+          "text": "Calculate percentage yield, percentage composition by mass and percentage purity, given appropriate data"
+        },
+        {
+          "key": "5070:4.1.1",
+          "code": "4.1.1",
+          "subtopicCode": "4.1",
+          "text": "Define electrolysis as the decomposition of an ionic compound, when molten or in aqueous solution, by the passage of an electric current"
+        },
+        {
+          "key": "5070:4.1.2",
+          "code": "4.1.2",
+          "subtopicCode": "4.1",
+          "text": "Identify in simple electrolytic cells:"
+        },
+        {
+          "key": "5070:4.1.3",
+          "code": "4.1.3",
+          "subtopicCode": "4.1",
+          "text": "(a) the anode as the positive electrode"
+        },
+        {
+          "key": "5070:4.1.4",
+          "code": "4.1.4",
+          "subtopicCode": "4.1",
+          "text": "(b) the cathode as the negative electrode"
+        },
+        {
+          "key": "5070:4.1.5",
+          "code": "4.1.5",
+          "subtopicCode": "4.1",
+          "text": "(c) the electrolyte as the molten or aqueous substance that undergoes electrolysis"
+        },
+        {
+          "key": "5070:4.1.6",
+          "code": "4.1.6",
+          "subtopicCode": "4.1",
+          "text": "Describe the transfer of charge during electrolysis to include:"
+        },
+        {
+          "key": "5070:4.1.7",
+          "code": "4.1.7",
+          "subtopicCode": "4.1",
+          "text": "(a) the movement of electrons in the external circuit"
+        },
+        {
+          "key": "5070:4.1.8",
+          "code": "4.1.8",
+          "subtopicCode": "4.1",
+          "text": "(b) the loss or gain of electrons at the electrodes"
+        },
+        {
+          "key": "5070:4.1.9",
+          "code": "4.1.9",
+          "subtopicCode": "4.1",
+          "text": "(c) the movement of ions in the electrolyte"
+        },
+        {
+          "key": "5070:4.1.10",
+          "code": "4.1.10",
+          "subtopicCode": "4.1",
+          "text": "Identify the products formed at the electrodes and describe the observations made during the electrolysis of:"
+        },
+        {
+          "key": "5070:4.1.11",
+          "code": "4.1.11",
+          "subtopicCode": "4.1",
+          "text": "(a) molten lead(II) bromide"
+        },
+        {
+          "key": "5070:4.1.12",
+          "code": "4.1.12",
+          "subtopicCode": "4.1",
+          "text": "(b) concentrated aqueous sodium chloride"
+        },
+        {
+          "key": "5070:4.1.13",
+          "code": "4.1.13",
+          "subtopicCode": "4.1",
+          "text": "(c) dilute sulfuric acid using inert electrodes made of platinum or carbon / graphite"
+        },
+        {
+          "key": "5070:4.1.14",
+          "code": "4.1.14",
+          "subtopicCode": "4.1",
+          "text": "Identify the products formed at the electrodes and describe the observations made during the electrolysis of aqueous copper(II) sulfate using inert carbon / graphite electrodes and when using copper electrodes"
+        },
+        {
+          "key": "5070:4.2.1",
+          "code": "4.2.1",
+          "subtopicCode": "4.2",
+          "text": "State that a hydrogen–oxygen fuel cell uses hydrogen and oxygen to produce electricity with water as the only chemical product"
+        },
+        {
+          "key": "5070:4.2.2",
+          "code": "4.2.2",
+          "subtopicCode": "4.2",
+          "text": "Describe the advantages and disadvantages of using hydrogen–oxygen fuel cells in comparison with gasoline / petrol engines in vehicles"
+        },
+        {
+          "key": "5070:5.1.1",
+          "code": "5.1.1",
+          "subtopicCode": "5.1",
+          "text": "State that an exothermic reaction transfers thermal energy to the surroundings leading to an increase in the temperature of the surroundings"
+        },
+        {
+          "key": "5070:5.1.2",
+          "code": "5.1.2",
+          "subtopicCode": "5.1",
+          "text": "State that an endothermic reaction takes in thermal energy from the surroundings leading to a decrease in the temperature of the surroundings"
+        },
+        {
+          "key": "5070:5.1.3",
+          "code": "5.1.3",
+          "subtopicCode": "5.1",
+          "text": "State that the transfer of thermal energy during a reaction is called the enthalpy change, ΔH, of the reaction. ΔH is negative for exothermic reactions and positive for endothermic reactions"
+        },
+        {
+          "key": "5070:5.1.4",
+          "code": "5.1.4",
+          "subtopicCode": "5.1",
+          "text": "Define activation energy, Ea, as the minimum energy that colliding particles must have to react"
+        },
+        {
+          "key": "5070:6.1.1",
+          "code": "6.1.1",
+          "subtopicCode": "6.1",
+          "text": "Identify physical and chemical changes, and describe the differences between them"
+        },
+        {
+          "key": "5070:6.2.1",
+          "code": "6.2.1",
+          "subtopicCode": "6.2",
+          "text": "Describe collision theory in terms of:"
+        },
+        {
+          "key": "5070:6.2.2",
+          "code": "6.2.2",
+          "subtopicCode": "6.2",
+          "text": "(a) number of particles per unit volume"
+        },
+        {
+          "key": "5070:6.2.3",
+          "code": "6.2.3",
+          "subtopicCode": "6.2",
+          "text": "(b) frequency of collisions between particles"
+        },
+        {
+          "key": "5070:6.2.4",
+          "code": "6.2.4",
+          "subtopicCode": "6.2",
+          "text": "(c) kinetic energy of particles"
+        },
+        {
+          "key": "5070:6.2.5",
+          "code": "6.2.5",
+          "subtopicCode": "6.2",
+          "text": "(d) activation energy, Ea"
+        },
+        {
+          "key": "5070:6.2.6",
+          "code": "6.2.6",
+          "subtopicCode": "6.2",
+          "text": "State that a catalyst increases the rate of a reaction, decreases the activation energy, Ea, of a reaction and is unchanged at the end of a reaction"
+        },
+        {
+          "key": "5070:6.2.7",
+          "code": "6.2.7",
+          "subtopicCode": "6.2",
+          "text": "Describe and explain the effect on the rate of reactions of:"
+        },
+        {
+          "key": "5070:6.2.8",
+          "code": "6.2.8",
+          "subtopicCode": "6.2",
+          "text": "(a) changing the concentration of solutions"
+        },
+        {
+          "key": "5070:6.2.9",
+          "code": "6.2.9",
+          "subtopicCode": "6.2",
+          "text": "(b) changing the pressure of gases"
+        },
+        {
+          "key": "5070:6.2.10",
+          "code": "6.2.10",
+          "subtopicCode": "6.2",
+          "text": "(c) changing the surface area of solids"
+        },
+        {
+          "key": "5070:6.2.11",
+          "code": "6.2.11",
+          "subtopicCode": "6.2",
+          "text": "(d) changing the temperature"
+        },
+        {
+          "key": "5070:6.2.12",
+          "code": "6.2.12",
+          "subtopicCode": "6.2",
+          "text": "(e) adding or removing a catalyst, including enzymes using collision theory"
+        },
+        {
+          "key": "5070:6.2.13",
+          "code": "6.2.13",
+          "subtopicCode": "6.2",
+          "text": "Describe and evaluate practical methods for investigating the rate of a reaction, including change in mass of a reactant or a product and the formation of a gas"
+        },
+        {
+          "key": "5070:6.2.14",
+          "code": "6.2.14",
+          "subtopicCode": "6.2",
+          "text": "Interpret data, including graphs, from rate of reaction experiments"
+        },
+        {
+          "key": "5070:6.4.1",
+          "code": "6.4.1",
+          "subtopicCode": "6.4",
+          "text": "Use a Roman numeral to indicate the oxidation number of an element in a compound"
+        },
+        {
+          "key": "5070:6.4.2",
+          "code": "6.4.2",
+          "subtopicCode": "6.4",
+          "text": "Define redox reactions as involving simultaneous reduction and oxidation"
+        },
+        {
+          "key": "5070:6.4.3",
+          "code": "6.4.3",
+          "subtopicCode": "6.4",
+          "text": "Define oxidation in terms of:"
+        },
+        {
+          "key": "5070:6.4.4",
+          "code": "6.4.4",
+          "subtopicCode": "6.4",
+          "text": "(a) gain of oxygen"
+        },
+        {
+          "key": "5070:6.4.5",
+          "code": "6.4.5",
+          "subtopicCode": "6.4",
+          "text": "(b) loss of electrons"
+        },
+        {
+          "key": "5070:6.4.6",
+          "code": "6.4.6",
+          "subtopicCode": "6.4",
+          "text": "(c) an increase in oxidation number"
+        },
+        {
+          "key": "5070:6.4.7",
+          "code": "6.4.7",
+          "subtopicCode": "6.4",
+          "text": "Define reduction in terms of:"
+        },
+        {
+          "key": "5070:6.4.8",
+          "code": "6.4.8",
+          "subtopicCode": "6.4",
+          "text": "(a) loss of oxygen"
+        },
+        {
+          "key": "5070:6.4.9",
+          "code": "6.4.9",
+          "subtopicCode": "6.4",
+          "text": "(b) gain of electrons"
+        },
+        {
+          "key": "5070:6.4.10",
+          "code": "6.4.10",
+          "subtopicCode": "6.4",
+          "text": "(c) a decrease in oxidation number"
+        },
+        {
+          "key": "5070:6.4.11",
+          "code": "6.4.11",
+          "subtopicCode": "6.4",
+          "text": "Identify redox reactions as reactions involving gain and loss of oxygen, or gain and loss of electrons"
+        },
+        {
+          "key": "5070:6.4.12",
+          "code": "6.4.12",
+          "subtopicCode": "6.4",
+          "text": "Identify redox reactions by changes in oxidation number using:"
+        },
+        {
+          "key": "5070:6.4.13",
+          "code": "6.4.13",
+          "subtopicCode": "6.4",
+          "text": "(a) the oxidation number of elements in their uncombined state is zero"
+        },
+        {
+          "key": "5070:6.4.14",
+          "code": "6.4.14",
+          "subtopicCode": "6.4",
+          "text": "(b) the oxidation number of a monatomic ion is the same as the charge on the ion"
+        },
+        {
+          "key": "5070:6.4.15",
+          "code": "6.4.15",
+          "subtopicCode": "6.4",
+          "text": "(c) the sum of the oxidation numbers in a compound is zero"
+        },
+        {
+          "key": "5070:6.4.16",
+          "code": "6.4.16",
+          "subtopicCode": "6.4",
+          "text": "(d) the sum of the oxidation numbers in an ion is equal to the charge on the ion"
+        },
+        {
+          "key": "5070:6.4.17",
+          "code": "6.4.17",
+          "subtopicCode": "6.4",
+          "text": "Identify redox reactions by the colour changes involved when using acidified aqueous potassium manganate(VII) or aqueous potassium iodide"
+        },
+        {
+          "key": "5070:6.4.18",
+          "code": "6.4.18",
+          "subtopicCode": "6.4",
+          "text": "Define an oxidising agent as a substance that oxidises another substance and is itself reduced"
+        },
+        {
+          "key": "5070:6.4.19",
+          "code": "6.4.19",
+          "subtopicCode": "6.4",
+          "text": "Define a reducing agent as a substance that reduces another substance and is itself oxidised"
+        },
+        {
+          "key": "5070:6.4.20",
+          "code": "6.4.20",
+          "subtopicCode": "6.4",
+          "text": "Identify oxidation, oxidising agents, reduction and reducing agents in redox reactions"
+        },
+        {
+          "key": "5070:7.1.1",
+          "code": "7.1.1",
+          "subtopicCode": "7.1",
+          "text": "State that aqueous solutions of acids contain H+ ions and aqueous solutions of alkalis contain OH– ions"
+        },
+        {
+          "key": "5070:7.1.2",
+          "code": "7.1.2",
+          "subtopicCode": "7.1",
+          "text": "Define acids as proton donors and bases as proton acceptors"
+        },
+        {
+          "key": "5070:7.2.1",
+          "code": "7.2.1",
+          "subtopicCode": "7.2",
+          "text": "Describe amphoteric oxides as oxides that react with acids and bases to produce a salt and water"
+        },
+        {
+          "key": "5070:7.2.2",
+          "code": "7.2.2",
+          "subtopicCode": "7.2",
+          "text": "Classify oxides as acidic, including SO2 and CO2, basic, including CuO and CaO, or amphoteric, limited to Al2O3 and ZnO, related to metallic and non-metallic character"
+        },
+        {
+          "key": "5070:7.3.1",
+          "code": "7.3.1",
+          "subtopicCode": "7.3",
+          "text": "Describe the preparation, separation and purification of soluble salts by reaction of an acid with:"
+        },
+        {
+          "key": "5070:7.3.2",
+          "code": "7.3.2",
+          "subtopicCode": "7.3",
+          "text": "(a) an alkali by titration"
+        },
+        {
+          "key": "5070:7.3.3",
+          "code": "7.3.3",
+          "subtopicCode": "7.3",
+          "text": "(b) excess metal"
+        },
+        {
+          "key": "5070:7.3.4",
+          "code": "7.3.4",
+          "subtopicCode": "7.3",
+          "text": "(c) excess insoluble base"
+        },
+        {
+          "key": "5070:7.3.5",
+          "code": "7.3.5",
+          "subtopicCode": "7.3",
+          "text": "(d) excess insoluble carbonate"
+        },
+        {
+          "key": "5070:7.3.6",
+          "code": "7.3.6",
+          "subtopicCode": "7.3",
+          "text": "Describe the preparation of insoluble salts by precipitation"
+        },
+        {
+          "key": "5070:7.3.7",
+          "code": "7.3.7",
+          "subtopicCode": "7.3",
+          "text": "Describe the general solubility rule for salts:"
+        },
+        {
+          "key": "5070:7.3.8",
+          "code": "7.3.8",
+          "subtopicCode": "7.3",
+          "text": "(a) sodium, potassium and ammonium salts are soluble"
+        },
+        {
+          "key": "5070:7.3.9",
+          "code": "7.3.9",
+          "subtopicCode": "7.3",
+          "text": "(b) nitrates are soluble"
+        },
+        {
+          "key": "5070:7.3.10",
+          "code": "7.3.10",
+          "subtopicCode": "7.3",
+          "text": "(c) chlorides are soluble, except lead and silver"
+        },
+        {
+          "key": "5070:7.3.11",
+          "code": "7.3.11",
+          "subtopicCode": "7.3",
+          "text": "(d) sulfates are soluble, except barium, calcium and lead"
+        },
+        {
+          "key": "5070:7.3.12",
+          "code": "7.3.12",
+          "subtopicCode": "7.3",
+          "text": "(e) carbonates are insoluble, except sodium, potassium and ammonium"
+        },
+        {
+          "key": "5070:7.3.13",
+          "code": "7.3.13",
+          "subtopicCode": "7.3",
+          "text": "(f) hydroxides are insoluble, except sodium, potassium, ammonium and calcium (partially)"
+        },
+        {
+          "key": "5070:7.3.14",
+          "code": "7.3.14",
+          "subtopicCode": "7.3",
+          "text": "Define a hydrated substance as a substance that is chemically combined with water and an anhydrous substance as a substance containing no water"
+        },
+        {
+          "key": "5070:7.3.15",
+          "code": "7.3.15",
+          "subtopicCode": "7.3",
+          "text": "Define the term water of crystallisation as the water molecules present in hydrated crystals, including CuSO4•5H2O and CoCl 2•6H2O"
+        },
+        {
+          "key": "5070:8.5.1",
+          "code": "8.5.1",
+          "subtopicCode": "8.5",
+          "text": "Describe the Group VIII noble gases as unreactive, monatomic gases and explain this in terms of electronic configuration"
+        },
+        {
+          "key": "5070:9.3.1",
+          "code": "9.3.1",
+          "subtopicCode": "9.3",
+          "text": "Describe an alloy as a mixture of a metal with other elements, including:"
+        },
+        {
+          "key": "5070:9.3.2",
+          "code": "9.3.2",
+          "subtopicCode": "9.3",
+          "text": "(a) brass as a mixture of copper and zinc"
+        },
+        {
+          "key": "5070:9.3.3",
+          "code": "9.3.3",
+          "subtopicCode": "9.3",
+          "text": "(b) stainless steel as a mixture of iron and other elements such as chromium, nickel and carbon"
+        },
+        {
+          "key": "5070:9.4.1",
+          "code": "9.4.1",
+          "subtopicCode": "9.4",
+          "text": "State the order of the reactivity series as: potassium, sodium, calcium, magnesium, aluminium, carbon, zinc, iron, hydrogen, copper, silver, gold"
+        },
+        {
+          "key": "5070:9.5.1",
+          "code": "9.5.1",
+          "subtopicCode": "9.5",
+          "text": "State the conditions required for the rusting of iron and steel to form hydrated iron(III) oxide"
+        },
+        {
+          "key": "5070:9.5.2",
+          "code": "9.5.2",
+          "subtopicCode": "9.5",
+          "text": "Describe how barrier methods prevent rusting by excluding oxygen or water"
+        },
+        {
+          "key": "5070:9.5.3",
+          "code": "9.5.3",
+          "subtopicCode": "9.5",
+          "text": "State some common barrier methods, including painting, greasing and coating with plastic"
+        },
+        {
+          "key": "5070:9.5.4",
+          "code": "9.5.4",
+          "subtopicCode": "9.5",
+          "text": "Explain sacrificial protection in terms of the reactivity series and in terms of electron loss"
+        },
+        {
+          "key": "5070:9.5.5",
+          "code": "9.5.5",
+          "subtopicCode": "9.5",
+          "text": "Describe the use of zinc in galvanising as an example of a barrier method and sacrificial protection"
+        },
+        {
+          "key": "5070:10.1.1",
+          "code": "10.1.1",
+          "subtopicCode": "10.1",
+          "text": "Describe chemical tests for the presence of water using anhydrous cobalt(II) chloride and anhydrous copper(II) sulfate"
+        },
+        {
+          "key": "5070:10.1.2",
+          "code": "10.1.2",
+          "subtopicCode": "10.1",
+          "text": "Describe how to test for the purity of water using melting point and boiling point"
+        },
+        {
+          "key": "5070:10.1.3",
+          "code": "10.1.3",
+          "subtopicCode": "10.1",
+          "text": "Explain that distilled water is used in practical chemistry rather than tap water because it contains fewer chemical impurities"
+        },
+        {
+          "key": "5070:10.1.4",
+          "code": "10.1.4",
+          "subtopicCode": "10.1",
+          "text": "State that water from natural sources may contain substances, including:"
+        },
+        {
+          "key": "5070:10.1.5",
+          "code": "10.1.5",
+          "subtopicCode": "10.1",
+          "text": "(a) dissolved oxygen"
+        },
+        {
+          "key": "5070:10.1.6",
+          "code": "10.1.6",
+          "subtopicCode": "10.1",
+          "text": "(b) metal compounds"
+        },
+        {
+          "key": "5070:10.1.7",
+          "code": "10.1.7",
+          "subtopicCode": "10.1",
+          "text": "(c) plastics"
+        },
+        {
+          "key": "5070:10.1.8",
+          "code": "10.1.8",
+          "subtopicCode": "10.1",
+          "text": "(d) sewage"
+        },
+        {
+          "key": "5070:10.1.9",
+          "code": "10.1.9",
+          "subtopicCode": "10.1",
+          "text": "(e) harmful microbes"
+        },
+        {
+          "key": "5070:10.1.10",
+          "code": "10.1.10",
+          "subtopicCode": "10.1",
+          "text": "(f) nitrates from fertilisers"
+        },
+        {
+          "key": "5070:10.1.11",
+          "code": "10.1.11",
+          "subtopicCode": "10.1",
+          "text": "(g) phosphates from fertilisers and detergents"
+        },
+        {
+          "key": "5070:10.1.12",
+          "code": "10.1.12",
+          "subtopicCode": "10.1",
+          "text": "State that some of these substances are beneficial, including:"
+        },
+        {
+          "key": "5070:10.1.13",
+          "code": "10.1.13",
+          "subtopicCode": "10.1",
+          "text": "(a) dissolved oxygen for aquatic life"
+        },
+        {
+          "key": "5070:10.1.14",
+          "code": "10.1.14",
+          "subtopicCode": "10.1",
+          "text": "(b) some metal compounds provide essential minerals for life"
+        },
+        {
+          "key": "5070:10.1.15",
+          "code": "10.1.15",
+          "subtopicCode": "10.1",
+          "text": "State that some of these substances are potentially harmful, including:"
+        },
+        {
+          "key": "5070:10.1.16",
+          "code": "10.1.16",
+          "subtopicCode": "10.1",
+          "text": "(a) some metal compounds are toxic"
+        },
+        {
+          "key": "5070:10.1.17",
+          "code": "10.1.17",
+          "subtopicCode": "10.1",
+          "text": "(b) some plastics harm aquatic life"
+        },
+        {
+          "key": "5070:10.1.18",
+          "code": "10.1.18",
+          "subtopicCode": "10.1",
+          "text": "(c) sewage contains harmful microbes which cause disease"
+        },
+        {
+          "key": "5070:10.1.19",
+          "code": "10.1.19",
+          "subtopicCode": "10.1",
+          "text": "(d) nitrates and phosphates lead to deoxygenation of water and damage to aquatic life Details of the eutrophication process are not required"
+        },
+        {
+          "key": "5070:10.1.20",
+          "code": "10.1.20",
+          "subtopicCode": "10.1",
+          "text": "Describe the treatment of the domestic water supply in terms of:"
+        },
+        {
+          "key": "5070:10.1.21",
+          "code": "10.1.21",
+          "subtopicCode": "10.1",
+          "text": "(a) sedimentation and filtration to remove solids"
+        },
+        {
+          "key": "5070:10.1.23",
+          "code": "10.1.23",
+          "subtopicCode": "10.1",
+          "text": "use of carbon to remove tastes and odours"
+        },
+        {
+          "key": "5070:10.1.24",
+          "code": "10.1.24",
+          "subtopicCode": "10.1",
+          "text": "(c) chlorination to kill microbes"
+        },
+        {
+          "key": "5070:10.2.1",
+          "code": "10.2.1",
+          "subtopicCode": "10.2",
+          "text": "State that ammonium salts and nitrates are used as fertilisers"
+        },
+        {
+          "key": "5070:10.2.2",
+          "code": "10.2.2",
+          "subtopicCode": "10.2",
+          "text": "Describe the use of NPK fertilisers to provide the elements nitrogen, phosphorus and potassium for improved plant growth"
+        },
+        {
+          "key": "5070:10.3.1",
+          "code": "10.3.1",
+          "subtopicCode": "10.3",
+          "text": "State the composition of clean, dry air as approximately 78% nitrogen, N2, 21% oxygen, O2, and the remainder as a mixture of noble gases and carbon dioxide, CO2"
+        },
+        {
+          "key": "5070:10.3.2",
+          "code": "10.3.2",
+          "subtopicCode": "10.3",
+          "text": "State the source of each of these air pollutants:"
+        },
+        {
+          "key": "5070:10.3.3",
+          "code": "10.3.3",
+          "subtopicCode": "10.3",
+          "text": "(a) carbon dioxide from the complete combustion of carbon-containing fuels"
+        },
+        {
+          "key": "5070:10.3.4",
+          "code": "10.3.4",
+          "subtopicCode": "10.3",
+          "text": "(b) carbon monoxide and particulates from the incomplete combustion of carbon-containing fuels"
+        },
+        {
+          "key": "5070:10.3.5",
+          "code": "10.3.5",
+          "subtopicCode": "10.3",
+          "text": "(c) methane from the decomposition of vegetation and waste gases from digestion in animals"
+        },
+        {
+          "key": "5070:10.3.6",
+          "code": "10.3.6",
+          "subtopicCode": "10.3",
+          "text": "(d) oxides of nitrogen from car engines"
+        },
+        {
+          "key": "5070:10.3.7",
+          "code": "10.3.7",
+          "subtopicCode": "10.3",
+          "text": "(e) sulfur dioxide from the combustion of fossil fuels which contain sulfur compounds"
+        },
+        {
+          "key": "5070:10.3.8",
+          "code": "10.3.8",
+          "subtopicCode": "10.3",
+          "text": "State the adverse effects of these air pollutants:"
+        },
+        {
+          "key": "5070:10.3.9",
+          "code": "10.3.9",
+          "subtopicCode": "10.3",
+          "text": "(a) carbon dioxide: higher levels of carbon dioxide leading to increased global warming, which leads to climate change"
+        },
+        {
+          "key": "5070:10.3.10",
+          "code": "10.3.10",
+          "subtopicCode": "10.3",
+          "text": "(b) carbon monoxide: toxic gas"
+        },
+        {
+          "key": "5070:10.3.11",
+          "code": "10.3.11",
+          "subtopicCode": "10.3",
+          "text": "(c) particulates: increased risk of respiratory problems and cancer"
+        },
+        {
+          "key": "5070:10.3.12",
+          "code": "10.3.12",
+          "subtopicCode": "10.3",
+          "text": "(d) methane: higher levels of methane leading to increased global warming, which leads to climate change"
+        },
+        {
+          "key": "5070:10.3.13",
+          "code": "10.3.13",
+          "subtopicCode": "10.3",
+          "text": "(e) oxides of nitrogen: acid rain, photochemical smog and respiratory problems"
+        },
+        {
+          "key": "5070:10.3.14",
+          "code": "10.3.14",
+          "subtopicCode": "10.3",
+          "text": "(f) sulfur dioxide: acid rain"
+        },
+        {
+          "key": "5070:10.3.15",
+          "code": "10.3.15",
+          "subtopicCode": "10.3",
+          "text": "Describe how the greenhouse gases carbon dioxide and methane cause global warming, limited to:"
+        },
+        {
+          "key": "5070:10.3.16",
+          "code": "10.3.16",
+          "subtopicCode": "10.3",
+          "text": "(a) the absorption, reflection and emission of thermal energy"
+        },
+        {
+          "key": "5070:10.3.17",
+          "code": "10.3.17",
+          "subtopicCode": "10.3",
+          "text": "(b) reducing thermal energy loss to space"
+        },
+        {
+          "key": "5070:10.3.18",
+          "code": "10.3.18",
+          "subtopicCode": "10.3",
+          "text": "State and explain strategies to reduce the effects of these environmental issues, limited to:"
+        },
+        {
+          "key": "5070:10.3.19",
+          "code": "10.3.19",
+          "subtopicCode": "10.3",
+          "text": "(a) climate change: planting trees, reduction in livestock farming, decreasing use of fossil fuels, increasing use of hydrogen and renewable energy, e.g. wind, solar"
+        },
+        {
+          "key": "5070:10.3.20",
+          "code": "10.3.20",
+          "subtopicCode": "10.3",
+          "text": "(b) acid rain: use of catalytic converters in vehicles, reducing emissions of sulfur dioxide by using low‑sulfur fuels and flue gas desulfurisation with calcium oxide"
+        },
+        {
+          "key": "5070:10.3.21",
+          "code": "10.3.21",
+          "subtopicCode": "10.3",
+          "text": "Explain how oxides of nitrogen form in car engines and describe their removal by catalytic converters,"
+        },
+        {
+          "key": "5070:10.3.22",
+          "code": "10.3.22",
+          "subtopicCode": "10.3",
+          "text": "Describe photosynthesis as the reaction between carbon dioxide and water to produce glucose and oxygen in the presence of chlorophyll and using energy from light"
+        },
+        {
+          "key": "5070:10.3.23",
+          "code": "10.3.23",
+          "subtopicCode": "10.3",
+          "text": "State the word equation and symbol equation for photosynthesis"
+        },
+        {
+          "key": "5070:11.1.1",
+          "code": "11.1.1",
+          "subtopicCode": "11.1",
+          "text": "State that a structural formula is an unambiguous description of the way the atoms in a molecule are arranged, including CH2=CH2, CH3CH2OH, CH3COOCH3"
+        },
+        {
+          "key": "5070:11.1.2",
+          "code": "11.1.2",
+          "subtopicCode": "11.1",
+          "text": "Draw and interpret the displayed formula of a molecule to show all the atoms and all the bonds"
+        },
+        {
+          "key": "5070:11.1.3",
+          "code": "11.1.3",
+          "subtopicCode": "11.1",
+          "text": "Write and interpret general formulae of compounds in the same homologous series, limited to:"
+        },
+        {
+          "key": "5070:11.1.4",
+          "code": "11.1.4",
+          "subtopicCode": "11.1",
+          "text": "(a) alkanes, CnH2n+2"
+        },
+        {
+          "key": "5070:11.1.5",
+          "code": "11.1.5",
+          "subtopicCode": "11.1",
+          "text": "(b) alkenes, CnH2n"
+        },
+        {
+          "key": "5070:11.1.6",
+          "code": "11.1.6",
+          "subtopicCode": "11.1",
+          "text": "(c) alcohols, CnH2n+1OH"
+        },
+        {
+          "key": "5070:11.1.7",
+          "code": "11.1.7",
+          "subtopicCode": "11.1",
+          "text": "(d) carboxylic acids, CnH2n+1COOH"
+        },
+        {
+          "key": "5070:11.1.8",
+          "code": "11.1.8",
+          "subtopicCode": "11.1",
+          "text": "Define structural isomers as compounds with the same molecular formula, but different structural formulae, including C4H10 as CH3CH2CH2CH3 and CH3CH(CH3)CH3 and C4H8 as CH3CH2CH=CH2 and CH3CH=CHCH3"
+        },
+        {
+          "key": "5070:11.1.9",
+          "code": "11.1.9",
+          "subtopicCode": "11.1",
+          "text": "Identify a functional group as an atom or group of atoms that determine the chemical properties of a homologous series"
+        },
+        {
+          "key": "5070:11.1.10",
+          "code": "11.1.10",
+          "subtopicCode": "11.1",
+          "text": "Describe the general characteristics of a homologous series as:"
+        },
+        {
+          "key": "5070:11.1.11",
+          "code": "11.1.11",
+          "subtopicCode": "11.1",
+          "text": "(a) having the same functional group"
+        },
+        {
+          "key": "5070:11.1.12",
+          "code": "11.1.12",
+          "subtopicCode": "11.1",
+          "text": "(b) having the same general formula"
+        },
+        {
+          "key": "5070:11.1.13",
+          "code": "11.1.13",
+          "subtopicCode": "11.1",
+          "text": "(c) differing from one member to the next by a –CH2– unit"
+        },
+        {
+          "key": "5070:11.1.14",
+          "code": "11.1.14",
+          "subtopicCode": "11.1",
+          "text": "(d) displaying a trend in physical properties"
+        },
+        {
+          "key": "5070:11.1.15",
+          "code": "11.1.15",
+          "subtopicCode": "11.1",
+          "text": "(e) sharing similar chemical properties"
+        },
+        {
+          "key": "5070:11.1.16",
+          "code": "11.1.16",
+          "subtopicCode": "11.1",
+          "text": "State that a saturated compound has molecules in which all carbon–carbon bonds are single bonds"
+        },
+        {
+          "key": "5070:11.1.17",
+          "code": "11.1.17",
+          "subtopicCode": "11.1",
+          "text": "State that an unsaturated compound has molecules in which one or more carbon–carbon bonds are not single bonds"
+        },
+        {
+          "key": "5070:11.2.1",
+          "code": "11.2.1",
+          "subtopicCode": "11.2",
+          "text": "Name and draw the structural and displayed formulae of unbranched:"
+        },
+        {
+          "key": "5070:11.2.2",
+          "code": "11.2.2",
+          "subtopicCode": "11.2",
+          "text": "(a) alkanes"
+        },
+        {
+          "key": "5070:11.2.3",
+          "code": "11.2.3",
+          "subtopicCode": "11.2",
+          "text": "(b) alkenes, including but-1-ene and but-2-ene"
+        },
+        {
+          "key": "5070:11.2.4",
+          "code": "11.2.4",
+          "subtopicCode": "11.2",
+          "text": "(c) alcohols, including propan-1-ol, propan-2-ol, butan-1-ol and butan-2-ol"
+        },
+        {
+          "key": "5070:11.2.5",
+          "code": "11.2.5",
+          "subtopicCode": "11.2",
+          "text": "(d) carboxylic acids"
+        },
+        {
+          "key": "5070:11.2.6",
+          "code": "11.2.6",
+          "subtopicCode": "11.2",
+          "text": "(e) the products of the reactions stated in sections 11.4–11.7 containing up to four carbon atoms per molecule"
+        },
+        {
+          "key": "5070:11.2.7",
+          "code": "11.2.7",
+          "subtopicCode": "11.2",
+          "text": "State the type of compound present given the chemical name ending in -ane, -ene, -ol, or -oic acid or from a molecular, structural or displayed formula"
+        },
+        {
+          "key": "5070:11.2.8",
+          "code": "11.2.8",
+          "subtopicCode": "11.2",
+          "text": "Name and draw the displayed formulae of the unbranched esters which can be made from unbranched alcohols and carboxylic acids, each containing up to four carbon atoms"
+        },
+        {
+          "key": "5070:11.3.1",
+          "code": "11.3.1",
+          "subtopicCode": "11.3",
+          "text": "Name the fossil fuels: coal, natural gas and petroleum"
+        },
+        {
+          "key": "5070:11.3.2",
+          "code": "11.3.2",
+          "subtopicCode": "11.3",
+          "text": "Name methane as the main constituent of natural gas"
+        },
+        {
+          "key": "5070:11.3.3",
+          "code": "11.3.3",
+          "subtopicCode": "11.3",
+          "text": "State that hydrocarbons are compounds that contain hydrogen and carbon only"
+        },
+        {
+          "key": "5070:11.3.4",
+          "code": "11.3.4",
+          "subtopicCode": "11.3",
+          "text": "State that petroleum is a mixture of hydrocarbons"
+        },
+        {
+          "key": "5070:11.3.5",
+          "code": "11.3.5",
+          "subtopicCode": "11.3",
+          "text": "Describe the separation of petroleum into useful fractions by fractional distillation"
+        },
+        {
+          "key": "5070:11.3.6",
+          "code": "11.3.6",
+          "subtopicCode": "11.3",
+          "text": "Describe how the properties of fractions obtained from petroleum change from the bottom to the top of the fractionating column, limited to:"
+        },
+        {
+          "key": "5070:11.3.7",
+          "code": "11.3.7",
+          "subtopicCode": "11.3",
+          "text": "(a) decreasing chain length"
+        },
+        {
+          "key": "5070:11.3.8",
+          "code": "11.3.8",
+          "subtopicCode": "11.3",
+          "text": "(b) higher volatility"
+        },
+        {
+          "key": "5070:11.3.9",
+          "code": "11.3.9",
+          "subtopicCode": "11.3",
+          "text": "(c) lower boiling points"
+        },
+        {
+          "key": "5070:11.3.10",
+          "code": "11.3.10",
+          "subtopicCode": "11.3",
+          "text": "(d) lower viscosity"
+        },
+        {
+          "key": "5070:11.3.11",
+          "code": "11.3.11",
+          "subtopicCode": "11.3",
+          "text": "Name the uses of the fractions as:"
+        },
+        {
+          "key": "5070:11.3.12",
+          "code": "11.3.12",
+          "subtopicCode": "11.3",
+          "text": "(a) refinery gas fraction for gas used in heating and cooking"
+        },
+        {
+          "key": "5070:11.3.13",
+          "code": "11.3.13",
+          "subtopicCode": "11.3",
+          "text": "(b) gasoline / petrol fraction for fuel used in cars"
+        },
+        {
+          "key": "5070:11.3.14",
+          "code": "11.3.14",
+          "subtopicCode": "11.3",
+          "text": "(c) naphtha fraction as a chemical feedstock"
+        },
+        {
+          "key": "5070:11.3.15",
+          "code": "11.3.15",
+          "subtopicCode": "11.3",
+          "text": "(d) kerosene / paraffin fraction for jet fuel"
+        },
+        {
+          "key": "5070:11.3.16",
+          "code": "11.3.16",
+          "subtopicCode": "11.3",
+          "text": "(e) diesel oil / gas oil fraction for fuel used in diesel engines"
+        },
+        {
+          "key": "5070:11.3.17",
+          "code": "11.3.17",
+          "subtopicCode": "11.3",
+          "text": "(f) fuel oil fraction for fuel used in ships and home heating systems"
+        },
+        {
+          "key": "5070:11.3.18",
+          "code": "11.3.18",
+          "subtopicCode": "11.3",
+          "text": "(g) lubricating oil fraction for lubricants, waxes and polishes"
+        },
+        {
+          "key": "5070:11.3.19",
+          "code": "11.3.19",
+          "subtopicCode": "11.3",
+          "text": "(h) bitumen fraction for making roads"
+        },
+        {
+          "key": "5070:11.4.1",
+          "code": "11.4.1",
+          "subtopicCode": "11.4",
+          "text": "State that the bonding in alkanes is single covalent and that alkanes are saturated hydrocarbons"
+        },
+        {
+          "key": "5070:11.4.2",
+          "code": "11.4.2",
+          "subtopicCode": "11.4",
+          "text": "Describe the properties of alkanes as being generally unreactive, except in terms of combustion and substitution by chlorine"
+        },
+        {
+          "key": "5070:11.4.3",
+          "code": "11.4.3",
+          "subtopicCode": "11.4",
+          "text": "State that in a substitution reaction one atom or group of atoms is replaced by another atom or group of atoms"
+        },
+        {
+          "key": "5070:11.4.4",
+          "code": "11.4.4",
+          "subtopicCode": "11.4",
+          "text": "Describe the substitution reaction of alkanes with chlorine as a photochemical reaction, with ultraviolet light providing the activation energy, Ea, and draw the structural or displayed formulae of the products, limited to monosubstitution"
+        },
+        {
+          "key": "5070:11.5.1",
+          "code": "11.5.1",
+          "subtopicCode": "11.5",
+          "text": "State that the bonding in alkenes includes a double carbon–carbon covalent bond and that alkenes are unsaturated hydrocarbons"
+        },
+        {
+          "key": "5070:11.5.2",
+          "code": "11.5.2",
+          "subtopicCode": "11.5",
+          "text": "Describe the manufacture of alkenes and hydrogen by the cracking of larger alkane molecules using a high temperature and a catalyst"
+        },
+        {
+          "key": "5070:11.5.3",
+          "code": "11.5.3",
+          "subtopicCode": "11.5",
+          "text": "Describe the reasons for the cracking of larger alkane molecules"
+        },
+        {
+          "key": "5070:11.5.4",
+          "code": "11.5.4",
+          "subtopicCode": "11.5",
+          "text": "Describe the test to distinguish between saturated and unsaturated hydrocarbons by their reaction with aqueous bromine"
+        },
+        {
+          "key": "5070:11.5.5",
+          "code": "11.5.5",
+          "subtopicCode": "11.5",
+          "text": "State that in an addition reaction only one product is formed"
+        },
+        {
+          "key": "5070:11.5.6",
+          "code": "11.5.6",
+          "subtopicCode": "11.5",
+          "text": "Describe the properties of alkenes in terms of addition reactions with:"
+        },
+        {
+          "key": "5070:11.5.7",
+          "code": "11.5.7",
+          "subtopicCode": "11.5",
+          "text": "(a) bromine or aqueous bromine"
+        },
+        {
+          "key": "5070:11.5.8",
+          "code": "11.5.8",
+          "subtopicCode": "11.5",
+          "text": "(b) hydrogen in the presence of a nickel catalyst"
+        },
+        {
+          "key": "5070:11.5.9",
+          "code": "11.5.9",
+          "subtopicCode": "11.5",
+          "text": "(c) steam in the presence of an acid catalyst and draw the structural or displayed formulae of the products"
+        },
+        {
+          "key": "5070:11.6.1",
+          "code": "11.6.1",
+          "subtopicCode": "11.6",
+          "text": "Describe the manufacture of ethanol by:"
+        },
+        {
+          "key": "5070:11.6.2",
+          "code": "11.6.2",
+          "subtopicCode": "11.6",
+          "text": "(a) fermentation of aqueous glucose at 25–35 °C in the presence of yeast and in the absence of oxygen"
+        },
+        {
+          "key": "5070:11.6.3",
+          "code": "11.6.3",
+          "subtopicCode": "11.6",
+          "text": "(b) catalytic addition of steam to ethene at 300 °C and 6000 kPa / 60 atm in the presence of an acid catalyst including a comparison of the advantages and disadvantages of the two methods"
+        },
+        {
+          "key": "5070:11.6.4",
+          "code": "11.6.4",
+          "subtopicCode": "11.6",
+          "text": "Describe the combustion of alcohols"
+        },
+        {
+          "key": "5070:11.6.5",
+          "code": "11.6.5",
+          "subtopicCode": "11.6",
+          "text": "State the uses of ethanol as:"
+        },
+        {
+          "key": "5070:11.6.6",
+          "code": "11.6.6",
+          "subtopicCode": "11.6",
+          "text": "(a) a solvent"
+        },
+        {
+          "key": "5070:11.6.7",
+          "code": "11.6.7",
+          "subtopicCode": "11.6",
+          "text": "(b) a fuel"
+        },
+        {
+          "key": "5070:11.7.1",
+          "code": "11.7.1",
+          "subtopicCode": "11.7",
+          "text": "Describe the reactions of carboxylic acids with:"
+        },
+        {
+          "key": "5070:11.8.1",
+          "code": "11.8.1",
+          "subtopicCode": "11.8",
+          "text": "Define polymers as large molecules built up from many smaller molecules called monomers"
+        },
+        {
+          "key": "5070:11.8.2",
+          "code": "11.8.2",
+          "subtopicCode": "11.8",
+          "text": "Identify the repeat units and / or linkages in addition polymers and in condensation polymers"
+        },
+        {
+          "key": "5070:11.8.3",
+          "code": "11.8.3",
+          "subtopicCode": "11.8",
+          "text": "Deduce the structure or repeat unit of an addition polymer from a given alkene and vice versa"
+        },
+        {
+          "key": "5070:11.8.4",
+          "code": "11.8.4",
+          "subtopicCode": "11.8",
+          "text": "Deduce the structure or repeat unit of a condensation polymer from given monomers and vice versa, limited to:"
+        },
+        {
+          "key": "5070:11.8.5",
+          "code": "11.8.5",
+          "subtopicCode": "11.8",
+          "text": "(a) polyamides from a dicarboxylic acid and a diamine"
+        },
+        {
+          "key": "5070:11.8.6",
+          "code": "11.8.6",
+          "subtopicCode": "11.8",
+          "text": "(b) polyesters from a dicarboxylic acid and a diol"
+        },
+        {
+          "key": "5070:11.8.7",
+          "code": "11.8.7",
+          "subtopicCode": "11.8",
+          "text": "Describe the differences between addition and condensation polymerisation"
+        },
+        {
+          "key": "5070:11.8.8",
+          "code": "11.8.8",
+          "subtopicCode": "11.8",
+          "text": "State that plastics are made from polymers"
+        },
+        {
+          "key": "5070:11.8.9",
+          "code": "11.8.9",
+          "subtopicCode": "11.8",
+          "text": "Describe how the properties of plastics have implications for their disposal"
+        },
+        {
+          "key": "5070:11.8.10",
+          "code": "11.8.10",
+          "subtopicCode": "11.8",
+          "text": "Describe the environmental challenges caused by plastics, limited to:"
+        },
+        {
+          "key": "5070:11.8.11",
+          "code": "11.8.11",
+          "subtopicCode": "11.8",
+          "text": "(a) disposal in land fill sites"
+        },
+        {
+          "key": "5070:11.8.12",
+          "code": "11.8.12",
+          "subtopicCode": "11.8",
+          "text": "(b) accumulation in oceans"
+        },
+        {
+          "key": "5070:11.8.13",
+          "code": "11.8.13",
+          "subtopicCode": "11.8",
+          "text": "(c) formation of toxic gases from burning"
+        },
+        {
+          "key": "5070:11.8.14",
+          "code": "11.8.14",
+          "subtopicCode": "11.8",
+          "text": "Describe and draw the structure of:"
+        },
+        {
+          "key": "5070:11.8.15",
+          "code": "11.8.15",
+          "subtopicCode": "11.8",
+          "text": "(a) nylon, a polyamide"
+        },
+        {
+          "key": "5070:12.1.1",
+          "code": "12.1.1",
+          "subtopicCode": "12.1",
+          "text": "Name appropriate apparatus for the measurement of time, temperature, mass and volume, including:"
+        },
+        {
+          "key": "5070:12.1.2",
+          "code": "12.1.2",
+          "subtopicCode": "12.1",
+          "text": "(a) stop-watches"
+        },
+        {
+          "key": "5070:12.1.3",
+          "code": "12.1.3",
+          "subtopicCode": "12.1",
+          "text": "(b) thermometers"
+        },
+        {
+          "key": "5070:12.1.4",
+          "code": "12.1.4",
+          "subtopicCode": "12.1",
+          "text": "(c) balances"
+        },
+        {
+          "key": "5070:12.1.5",
+          "code": "12.1.5",
+          "subtopicCode": "12.1",
+          "text": "(d) burettes"
+        },
+        {
+          "key": "5070:12.1.6",
+          "code": "12.1.6",
+          "subtopicCode": "12.1",
+          "text": "(e) volumetric pipettes"
+        },
+        {
+          "key": "5070:12.1.7",
+          "code": "12.1.7",
+          "subtopicCode": "12.1",
+          "text": "(f) measuring cylinders"
+        },
+        {
+          "key": "5070:12.1.8",
+          "code": "12.1.8",
+          "subtopicCode": "12.1",
+          "text": "(g) gas syringes"
+        },
+        {
+          "key": "5070:12.1.9",
+          "code": "12.1.9",
+          "subtopicCode": "12.1",
+          "text": "Suggest advantages and disadvantages of experimental methods and apparatus"
+        },
+        {
+          "key": "5070:12.1.10",
+          "code": "12.1.10",
+          "subtopicCode": "12.1",
+          "text": "Describe a:"
+        },
+        {
+          "key": "5070:12.1.11",
+          "code": "12.1.11",
+          "subtopicCode": "12.1",
+          "text": "(a) solvent as a substance that dissolves a solute"
+        },
+        {
+          "key": "5070:12.1.12",
+          "code": "12.1.12",
+          "subtopicCode": "12.1",
+          "text": "(b) solute as a substance that is dissolved in a solvent"
+        },
+        {
+          "key": "5070:12.1.13",
+          "code": "12.1.13",
+          "subtopicCode": "12.1",
+          "text": "(c) solution as a mixture of one or more solutes dissolved in a solvent"
+        },
+        {
+          "key": "5070:12.1.14",
+          "code": "12.1.14",
+          "subtopicCode": "12.1",
+          "text": "(d) saturated solution as a solution containing the maximum concentration of a solute dissolved in the solvent at a specified temperature"
+        },
+        {
+          "key": "5070:12.1.15",
+          "code": "12.1.15",
+          "subtopicCode": "12.1",
+          "text": "(e) residue as a substance that remains after evaporation, distillation, filtration or any similar process"
+        },
+        {
+          "key": "5070:12.1.16",
+          "code": "12.1.16",
+          "subtopicCode": "12.1",
+          "text": "(f) filtrate as a liquid or solution that has passed through a filter"
+        },
+        {
+          "key": "5070:12.2.1",
+          "code": "12.2.1",
+          "subtopicCode": "12.2",
+          "text": "Describe an acid–base titration to include the use of a:"
+        },
+        {
+          "key": "5070:12.2.2",
+          "code": "12.2.2",
+          "subtopicCode": "12.2",
+          "text": "(a) burette"
+        },
+        {
+          "key": "5070:12.2.3",
+          "code": "12.2.3",
+          "subtopicCode": "12.2",
+          "text": "(b) volumetric pipette"
+        },
+        {
+          "key": "5070:12.2.4",
+          "code": "12.2.4",
+          "subtopicCode": "12.2",
+          "text": "(c) suitable indicator"
+        },
+        {
+          "key": "5070:12.2.5",
+          "code": "12.2.5",
+          "subtopicCode": "12.2",
+          "text": "Describe how to identify the end-point of a titration using an indicator"
+        },
+        {
+          "key": "5070:12.3.1",
+          "code": "12.3.1",
+          "subtopicCode": "12.3",
+          "text": "Describe how paper chromatography is used to separate mixtures of soluble substances, using a suitable solvent"
+        },
+        {
+          "key": "5070:12.3.2",
+          "code": "12.3.2",
+          "subtopicCode": "12.3",
+          "text": "Describe the use of locating agents when separating mixtures containing colourless substances. Knowledge of specific locating agents is not required"
+        },
+        {
+          "key": "5070:12.3.3",
+          "code": "12.3.3",
+          "subtopicCode": "12.3",
+          "text": "Interpret simple chromatograms to identify:"
+        },
+        {
+          "key": "5070:12.3.4",
+          "code": "12.3.4",
+          "subtopicCode": "12.3",
+          "text": "(a) unknown substances by comparison with known substances"
+        },
+        {
+          "key": "5070:12.3.5",
+          "code": "12.3.5",
+          "subtopicCode": "12.3",
+          "text": "(b) pure and impure substances"
+        },
+        {
+          "key": "5070:12.3.6",
+          "code": "12.3.6",
+          "subtopicCode": "12.3",
+          "text": "State and use the equation for Rf: Rf = distance travelled by substance distance travelled by solvent"
+        },
+        {
+          "key": "5070:12.4.1",
+          "code": "12.4.1",
+          "subtopicCode": "12.4",
+          "text": "Describe and explain methods of separation and purification using:"
+        },
+        {
+          "key": "5070:12.4.2",
+          "code": "12.4.2",
+          "subtopicCode": "12.4",
+          "text": "(a) a suitable solvent"
+        },
+        {
+          "key": "5070:12.4.3",
+          "code": "12.4.3",
+          "subtopicCode": "12.4",
+          "text": "(b) filtration"
+        },
+        {
+          "key": "5070:12.4.4",
+          "code": "12.4.4",
+          "subtopicCode": "12.4",
+          "text": "(c) crystallisation"
+        },
+        {
+          "key": "5070:12.4.5",
+          "code": "12.4.5",
+          "subtopicCode": "12.4",
+          "text": "(d) simple distillation"
+        },
+        {
+          "key": "5070:12.4.6",
+          "code": "12.4.6",
+          "subtopicCode": "12.4",
+          "text": "(e) fractional distillation"
+        },
+        {
+          "key": "5070:12.4.7",
+          "code": "12.4.7",
+          "subtopicCode": "12.4",
+          "text": "Suggest suitable separation and purification techniques, given information about the substances involved"
+        },
+        {
+          "key": "5070:12.4.8",
+          "code": "12.4.8",
+          "subtopicCode": "12.4",
+          "text": "Identify substances and assess their purity using melting point and boiling point information"
+        },
+        {
+          "key": "5070:12.5.1",
+          "code": "12.5.1",
+          "subtopicCode": "12.5",
+          "text": "Describe tests to identify the anions:"
+        },
+        {
+          "key": "5070:12.5.2",
+          "code": "12.5.2",
+          "subtopicCode": "12.5",
+          "text": "(a) carbonate, CO3 2–, by reaction with dilute acid and then testing for carbon dioxide gas"
+        },
+        {
+          "key": "5070:12.5.3",
+          "code": "12.5.3",
+          "subtopicCode": "12.5",
+          "text": "(b) chloride, Cl –, bromide, Br –, and iodide, I–, by acidifying with dilute nitric acid then adding aqueous silver nitrate"
+        },
+        {
+          "key": "5070:12.5.4",
+          "code": "12.5.4",
+          "subtopicCode": "12.5",
+          "text": "(c) nitrate, NO3 –, by reduction with aluminium foil and aqueous sodium hydroxide and then testing for ammonia gas"
+        },
+        {
+          "key": "5070:12.5.5",
+          "code": "12.5.5",
+          "subtopicCode": "12.5",
+          "text": "(d) sulfate, SO4 2–, by acidifying with dilute nitric acid then adding aqueous barium nitrate"
+        },
+        {
+          "key": "5070:12.5.6",
+          "code": "12.5.6",
+          "subtopicCode": "12.5",
+          "text": "(e) sulfite, SO3 2–, by reaction with acidified aqueous potassium manganate(VII)"
+        },
+        {
+          "key": "5070:12.5.7",
+          "code": "12.5.7",
+          "subtopicCode": "12.5",
+          "text": "Describe tests using aqueous sodium hydroxide and aqueous ammonia to identify the aqueous cations:"
+        },
+        {
+          "key": "5070:12.5.8",
+          "code": "12.5.8",
+          "subtopicCode": "12.5",
+          "text": "(a) aluminium, Al 3+"
+        },
+        {
+          "key": "5070:12.5.9",
+          "code": "12.5.9",
+          "subtopicCode": "12.5",
+          "text": "(b) ammonium, NH4 +"
+        },
+        {
+          "key": "5070:12.5.10",
+          "code": "12.5.10",
+          "subtopicCode": "12.5",
+          "text": "(c) calcium, Ca2+"
+        },
+        {
+          "key": "5070:12.5.11",
+          "code": "12.5.11",
+          "subtopicCode": "12.5",
+          "text": "(d) chromium(III), Cr3+"
+        },
+        {
+          "key": "5070:12.5.12",
+          "code": "12.5.12",
+          "subtopicCode": "12.5",
+          "text": "(e) copper(II), Cu2+"
+        },
+        {
+          "key": "5070:12.5.13",
+          "code": "12.5.13",
+          "subtopicCode": "12.5",
+          "text": "(f) iron(II), Fe2+"
+        },
+        {
+          "key": "5070:12.5.14",
+          "code": "12.5.14",
+          "subtopicCode": "12.5",
+          "text": "(g) iron(III), Fe3+"
+        },
+        {
+          "key": "5070:12.5.15",
+          "code": "12.5.15",
+          "subtopicCode": "12.5",
+          "text": "(h) zinc, Zn2+"
+        },
+        {
+          "key": "5070:12.5.16",
+          "code": "12.5.16",
+          "subtopicCode": "12.5",
+          "text": "Describe tests to identify the gases:"
+        },
+        {
+          "key": "5070:12.5.17",
+          "code": "12.5.17",
+          "subtopicCode": "12.5",
+          "text": "(a) ammonia, NH3, using damp red litmus paper"
+        },
+        {
+          "key": "5070:12.5.18",
+          "code": "12.5.18",
+          "subtopicCode": "12.5",
+          "text": "(b) carbon dioxide, CO2, using limewater"
+        },
+        {
+          "key": "5070:12.5.19",
+          "code": "12.5.19",
+          "subtopicCode": "12.5",
+          "text": "(c) chlorine, Cl 2, using damp litmus paper"
+        },
+        {
+          "key": "5070:12.5.20",
+          "code": "12.5.20",
+          "subtopicCode": "12.5",
+          "text": "(d) hydrogen, H2, using a lighted splint"
+        },
+        {
+          "key": "5070:12.5.21",
+          "code": "12.5.21",
+          "subtopicCode": "12.5",
+          "text": "(e) oxygen, O2, using a glowing splint"
+        },
+        {
+          "key": "5070:12.5.22",
+          "code": "12.5.22",
+          "subtopicCode": "12.5",
+          "text": "(f) sulfur dioxide, SO2, using acidified aqueous potassium manganate(VII)"
+        },
+        {
+          "key": "5070:12.5.23",
+          "code": "12.5.23",
+          "subtopicCode": "12.5",
+          "text": "Describe the use of a flame test to identify the cations:"
+        },
+        {
+          "key": "5070:12.5.24",
+          "code": "12.5.24",
+          "subtopicCode": "12.5",
+          "text": "(a) lithium, Li+"
+        },
+        {
+          "key": "5070:12.5.25",
+          "code": "12.5.25",
+          "subtopicCode": "12.5",
+          "text": "(b) sodium, Na+"
+        },
+        {
+          "key": "5070:12.5.26",
+          "code": "12.5.26",
+          "subtopicCode": "12.5",
+          "text": "(c) potassium, K+"
+        },
+        {
+          "key": "5070:12.5.27",
+          "code": "12.5.27",
+          "subtopicCode": "12.5",
+          "text": "(d) calcium, Ca2+"
+        },
+        {
+          "key": "5070:12.5.28",
+          "code": "12.5.28",
+          "subtopicCode": "12.5",
+          "text": "(e) barium, Ba2+"
+        },
+        {
+          "key": "5070:12.5.29",
+          "code": "12.5.29",
+          "subtopicCode": "12.5",
+          "text": "(f) copper(II), Cu2+"
+        }
+      ]
+    }
+  ]
+}

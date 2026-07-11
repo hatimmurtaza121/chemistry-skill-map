@@ -1,0 +1,64 @@
+{
+  "description": "Curated cross-topic prerequisite edges between subtopics (hard = required, soft = helpful).",
+  "edges": [
+    { "from": "1.1", "to": "1.2", "strength": "hard", "reason": "Particle theory underpins diffusion" },
+    { "from": "1.1", "to": "6.2", "strength": "soft", "reason": "Collision theory builds on particle motion" },
+
+    { "from": "2.1", "to": "2.2", "strength": "hard", "reason": "Need elements/compounds before atomic structure" },
+    { "from": "2.2", "to": "2.3", "strength": "hard", "reason": "Isotopes extend atomic structure" },
+    { "from": "2.2", "to": "2.4", "strength": "hard", "reason": "Ions and electronic structure" },
+    { "from": "2.2", "to": "8.1", "strength": "hard", "reason": "Periodic table arrangement uses electron shells" },
+    { "from": "2.4", "to": "2.5", "strength": "soft", "reason": "Contrast ionic and covalent bonding" },
+    { "from": "2.5", "to": "2.6", "strength": "soft", "reason": "Giant covalent vs simple molecular" },
+    { "from": "2.4", "to": "4.1", "strength": "hard", "reason": "Electrolysis requires understanding ions" },
+    { "from": "2.5", "to": "11.1", "strength": "soft", "reason": "Organic structures use covalent bonding" },
+
+    { "from": "2.2", "to": "3.1", "strength": "hard", "reason": "Formulae need atomic symbols" },
+    { "from": "3.1", "to": "3.2", "strength": "hard", "reason": "Relative masses use formulae" },
+    { "from": "3.2", "to": "3.3", "strength": "hard", "reason": "The mole builds on relative masses" },
+    { "from": "3.3", "to": "7.3", "strength": "hard", "reason": "Salt preparation uses moles and equations" },
+    { "from": "3.3", "to": "12.2", "strength": "hard", "reason": "Titrations are mole calculations" },
+
+    { "from": "3.1", "to": "4.1", "strength": "soft", "reason": "Predicting electrolysis products uses formulae" },
+    { "from": "6.4", "to": "4.1", "strength": "hard", "reason": "Half-equations require redox understanding" },
+
+    { "from": "5.1", "to": "6.2", "strength": "hard", "reason": "Activation energy links energetics and rates" },
+    { "from": "6.2", "to": "6.3", "strength": "hard", "reason": "Equilibrium follows rate concepts" },
+
+    { "from": "2.4", "to": "7.1", "strength": "hard", "reason": "Acids produce H+ ions" },
+    { "from": "3.1", "to": "7.1", "strength": "soft", "reason": "Acid formulae and equations" },
+    { "from": "7.1", "to": "7.2", "strength": "hard", "reason": "Oxides classification follows acid-base theory" },
+    { "from": "7.1", "to": "7.3", "strength": "hard", "reason": "Salt preparation uses acid-base reactions" },
+    { "from": "3.3", "to": "7.3", "strength": "hard", "reason": "Stoichiometry for salt yields" },
+
+    { "from": "2.2", "to": "8.2", "strength": "hard", "reason": "Group properties from outer electrons" },
+    { "from": "8.1", "to": "8.2", "strength": "hard", "reason": "Group I trends need periodic arrangement" },
+    { "from": "8.1", "to": "8.3", "strength": "hard", "reason": "Group VII trends need periodic arrangement" },
+    { "from": "8.1", "to": "8.4", "strength": "hard", "reason": "Transition elements in the table" },
+    { "from": "8.1", "to": "8.5", "strength": "hard", "reason": "Noble gases in the table" },
+
+    { "from": "2.7", "to": "9.1", "strength": "hard", "reason": "Metal properties from metallic bonding" },
+    { "from": "9.1", "to": "9.4", "strength": "hard", "reason": "Reactivity series explains metal behaviour" },
+    { "from": "9.4", "to": "9.5", "strength": "hard", "reason": "Corrosion and reactivity" },
+    { "from": "9.4", "to": "9.6", "strength": "hard", "reason": "Extraction uses reactivity series" },
+    { "from": "4.1", "to": "9.6", "strength": "hard", "reason": "Electrolysis extracts reactive metals" },
+
+    { "from": "7.1", "to": "10.1", "strength": "soft", "reason": "Water treatment uses acid-base chemistry" },
+    { "from": "3.3", "to": "10.2", "strength": "soft", "reason": "Fertiliser formulae and stoichiometry" },
+    { "from": "6.3", "to": "10.3", "strength": "soft", "reason": "Air quality and equilibrium processes" },
+
+    { "from": "2.5", "to": "11.1", "strength": "hard", "reason": "Organic chemistry is covalent" },
+    { "from": "11.1", "to": "11.2", "strength": "hard", "reason": "Naming follows structural ideas" },
+    { "from": "11.2", "to": "11.4", "strength": "hard", "reason": "Alkane naming and structures" },
+    { "from": "11.4", "to": "11.5", "strength": "hard", "reason": "Alkenes contrast with alkanes" },
+    { "from": "11.1", "to": "11.6", "strength": "hard", "reason": "Alcohol functional group" },
+    { "from": "11.6", "to": "11.7", "strength": "hard", "reason": "Carboxylic acids oxidised from alcohols" },
+    { "from": "11.5", "to": "11.8", "strength": "hard", "reason": "Addition polymers from alkenes" },
+
+    { "from": "1.1", "to": "12.1", "strength": "soft", "reason": "Experimental work assumes particle ideas" },
+    { "from": "7.1", "to": "12.2", "strength": "hard", "reason": "Titrations are acid-base" },
+    { "from": "2.1", "to": "12.4", "strength": "soft", "reason": "Separation techniques for mixtures" },
+    { "from": "2.4", "to": "12.5", "strength": "hard", "reason": "Ion tests require ion chemistry" },
+    { "from": "6.4", "to": "12.5", "strength": "soft", "reason": "Redox tests for gases and ions" }
+  ]
+}
