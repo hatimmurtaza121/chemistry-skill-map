@@ -16,16 +16,16 @@
   },
   "files": {
     "topics.json": {
-      "bytes": 294123,
-      "sha256": "5fc754d307517b80bbdf594ae0816ec1a0b5c2deda076d3401de4328066a5382"
+      "bytes": 286463,
+      "sha256": "55454c7174106b023ce2fcdbf6d7111135adade0a1f1de1e5096db4d6d528db2"
     },
     "dependencies.json": {
-      "bytes": 49009,
-      "sha256": "803ba07d4e76cd9ca56a7f1ba92bca507ec835000fd1ac97edc6e9c25072ccd9"
+      "bytes": 47312,
+      "sha256": "624f165bddd4cd18704154d8a38a10fe2d8058ce216dc02056b89f089d5aa26e"
     },
     "curriculum-standards.json": {
-      "bytes": 71235,
-      "sha256": "afa0d71d3c01965e56984f400c40ca99d8368cda70c1b5aff988c786b36ed141"
+      "bytes": 69223,
+      "sha256": "5ad8f0171d15c1b673fb592d933a27473efc434290026c451f5bbd23f3c6b3e0"
     }
   }
 }
