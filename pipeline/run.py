@@ -19,7 +19,7 @@ def main() -> int:
     run("build.py")
     print("\nDone. View the graph:")
     print("  python scripts/serve.py")
-    print("  Then open http://localhost:8080/")
+    print("  Then open http://localhost:5000/")
     return 0
 
 

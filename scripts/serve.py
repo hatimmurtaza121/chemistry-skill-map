@@ -21,7 +21,7 @@ PIPELINE = ROOT / "pipeline"
 UPLOADS = ROOT / "sources" / "uploads"
 VIZ_DATA = ROOT / "viz" / "data"
 DATA = ROOT / "data"
-PORT = int(os.environ.get("PORT", "8080"))
+PORT = int(os.environ.get("PORT", "5000"))
 MAX_UPLOAD_BYTES = 50 * 1024 * 1024
 MAP_ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,80}$")
 EXPORT_FILES = (
@@ -62,7 +62,15 @@ class Handler(SimpleHTTPRequestHandler):
 
     def end_headers(self) -> None:
         self.send_header("Cache-Control", "no-cache")
+        self._cors()
         super().end_headers()
+
+    def guess_type(self, path: str) -> str:
+        if path.endswith(".json"):
+            return "application/json"
+        if path.endswith(".js"):
+            return "application/javascript"
+        return super().guess_type(path)
 
     def do_OPTIONS(self) -> None:
         self.send_response(204)

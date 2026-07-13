@@ -4,6 +4,46 @@ export function mapExportUrl(mapId) {
 
 let apiProbePromise = null;
 
+async function fetchJson(url, options = {}) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 15000);
+  try {
+    const res = await fetch(url, {
+      credentials: 'same-origin',
+      cache: 'no-store',
+      signal: controller.signal,
+      ...options,
+    });
+    if (!res.ok) {
+      throw new Error(`${url} → HTTP ${res.status}`);
+    }
+    const type = (res.headers.get('content-type') || '').toLowerCase();
+    if (type.includes('text/html')) {
+      throw new Error(
+        'Tunnel returned HTML instead of JSON. Open /data/maps.json in a new tab, click Continue, then reload this page.',
+      );
+    }
+    return res.json();
+  } catch (err) {
+    if (err.name === 'AbortError') {
+      throw new Error(`${url} timed out. Dev tunnel may be blocking data requests — try http://localhost:5000/ locally.`);
+    }
+    throw err;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+/** Load catalog via module import when possible (works better through dev tunnels). */
+async function loadCatalog() {
+  try {
+    const mod = await import('./data/maps.json', { with: { type: 'json' } });
+    return mod.default;
+  } catch {
+    return fetchJson('data/maps.json');
+  }
+}
+
 /** True when the Python map API is reachable (local server, Lightsail, etc.). */
 export function probeMapApi() {
   if (!apiProbePromise) {
@@ -29,9 +69,7 @@ export function setupMapDownload(map) {
 }
 
 export async function loadMapsCatalog() {
-  const res = await fetch('data/maps.json');
-  if (!res.ok) throw new Error('Could not load maps catalog');
-  return res.json();
+  return loadCatalog();
 }
 
 export function getSelectedMapId(catalog) {
@@ -50,6 +88,8 @@ export function persistMapId(mapId) {
 export function mapDataUrl(map, file) {
   return `data/${map.dataPath}/${file}`;
 }
+
+export { fetchJson };
 
 export function viewHref(page, mapId) {
   const base = page.includes('?') ? page : page;

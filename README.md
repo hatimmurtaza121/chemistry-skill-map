@@ -9,9 +9,9 @@ Inspired by [Marble's os-taxonomy](https://github.com/withmarbleapp/os-taxonomy)
 ```bash
 python -m pip install -r pipeline/requirements.txt
 npm run serve
-# http://localhost:8080/       — 2D graph
-# http://localhost:8080/3d.html — 3D pyramid view
-# http://localhost:8080/create.html — upload PDF (needs Python server)
+# http://localhost:5000/       — 2D graph
+# http://localhost:5000/3d.html — 3D pyramid view
+# http://localhost:5000/create.html — upload PDF (needs Python server)
 ```
 
 Regenerate map data from a syllabus PDF:
@@ -37,10 +37,32 @@ Run on a VPS / Lightsail / Oracle Always Free:
 
 ```bash
 pip install -r pipeline/requirements.txt
-PORT=8080 npm start
+PORT=5000 npm start
 ```
 
 Use systemd or similar to keep it running.
+
+## Share locally with Cloudflare Tunnel (free)
+
+Expose your running dev server to the internet without VS Code dev-tunnel limits.
+
+**One-time:** install cloudflared
+
+```bash
+winget install Cloudflare.cloudflared
+```
+
+**Two terminals:**
+
+```bash
+# Terminal 1 — app server
+npm run serve
+
+# Terminal 2 — public HTTPS URL (trycloudflare.com)
+npm run tunnel
+```
+
+Copy the `https://….trycloudflare.com` URL from the tunnel terminal and open it in a browser. PDF upload and export work through the tunnel (unlike Vercel static deploy).
 
 ## Project layout
 

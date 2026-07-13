@@ -253,11 +253,12 @@
   <script src="https://unpkg.com/3d-force-graph@1.73.6/dist/3d-force-graph.min.js"></script>
   <script type="module">
     import {
-      loadMapsCatalog, getSelectedMapId, persistMapId, mapDataUrl,
+      loadMapsCatalog, getSelectedMapId, persistMapId, mapDataUrl, fetchJson,
       setupMapSelector, applyMapHeader, viewHref, setupMapDownload,
     } from './maps.js';
     import { initViewerSidebar } from './viewer.js';
 
+    async function main() {
     const sidebar = initViewerSidebar();
 
     const catalog = await loadMapsCatalog();
@@ -265,10 +266,10 @@
     const map = catalog.maps.find(m => m.id === mapId) || catalog.maps.find(m => m.available);
     persistMapId(map.id);
 
-    const [topicsDoc, depsDoc, manifest] = await Promise.all([
-      fetch(mapDataUrl(map, 'topics.json')).then(r => r.json()),
-      fetch(mapDataUrl(map, 'dependencies.json')).then(r => r.json()),
-      fetch(mapDataUrl(map, 'manifest.json')).then(r => r.json()),
+    const topicsDoc = await fetchJson(mapDataUrl(map, 'topics.json'));
+    const [depsDoc, manifest] = await Promise.all([
+      fetchJson(mapDataUrl(map, 'dependencies.json')),
+      fetchJson(mapDataUrl(map, 'manifest.json')),
     ]);
 
     applyMapHeader(map, null);
@@ -697,6 +698,17 @@
     }
     graph.onEngineStop(fitOnce);
     setTimeout(fitOnce, 3000);
+    }
+
+    main().catch((err) => {
+      console.error(err);
+      const sub = document.getElementById('page-subtitle');
+      if (sub) sub.textContent = `Load failed: ${err.message}`;
+      const detail = document.getElementById('detail');
+      if (detail) {
+        detail.innerHTML = `<p class="hint" style="color:#f85149">${err.message}</p>`;
+      }
+    });
   </script>
 </body>
 </html>

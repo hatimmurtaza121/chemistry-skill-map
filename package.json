@@ -8,6 +8,7 @@
     "build": "python pipeline/run.py",
     "validate": "node scripts/validate.mjs",
     "serve": "python scripts/serve.py",
-    "start": "python scripts/serve.py"
+    "start": "python scripts/serve.py",
+    "tunnel": "powershell -ExecutionPolicy Bypass -File scripts/tunnel.ps1"
   }
 }
